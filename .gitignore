@@ -16,8 +16,11 @@
 /wp-content/cache/supercache/*
 
 # sitemap data
-sitemap.xml
-sitemap.xml.gz
+/sitemap.xml
+/sitemap.xml.gz
 
 # config file
-wp-config.php
+/wp-config.php
+
+# htaccess file
+/.htaccess
