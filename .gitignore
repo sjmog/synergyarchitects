@@ -1,0 +1,23 @@
+# Uploads directory
+/wp-content/uploads/*
+
+# Various cache plugins, updated and and other bits
+/wp-content/w3tc/*
+/wp-content/advanced-cache.php
+/wp-content/db.php
+/wp-content/object-cache.php
+/wp-content/w3-total-cache-config.php
+/wp-content/blogs.dir/
+/wp-content/upgrade/*
+/wp-content/backup-db/*
+/wp-content/advanced-cache.php
+/wp-content/wp-cache-config.php
+/wp-content/cache/*
+/wp-content/cache/supercache/*
+
+# sitemap data
+sitemap.xml
+sitemap.xml.gz
+
+# config file
+wp-config.php
