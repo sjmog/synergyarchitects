@@ -14,6 +14,7 @@
 /wp-content/wp-cache-config.php
 /wp-content/cache/*
 /wp-content/cache/supercache/*
+/wp-content/wppa-depot/*
 
 # sitemap data
 /sitemap.xml
