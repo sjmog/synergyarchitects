@@ -14,12 +14,12 @@
  * @package WordPress
  */
 
-$siteUrl = $_SERVER['SERVER_NAME'];
+$siteDomain = $_SERVER['SERVER_NAME'];
 
-define('WP_SITEURL', 'http://' . $siteUrl . '/wordpress');
-define('WP_HOME',    'http://' . $siteUrl);
+define('WP_SITEURL', 'http://' . $siteDomain . '/wordpress');
+define('WP_HOME',    'http://' . $siteDomain);
 define('WP_CONTENT_DIR', $_SERVER['DOCUMENT_ROOT'] . '/wp-content');
-define('WP_CONTENT_URL', 'http://' . $siteUrl . '/wp-content');
+define('WP_CONTENT_URL', 'http://' . $siteDomain . '/wp-content');
 define('WP_DEFAULT_THEME', 'set_your_theme_here');
 
 // ** MySQL settings - You can get this info from your web host ** //
