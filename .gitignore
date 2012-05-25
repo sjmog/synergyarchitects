@@ -1,27 +1,42 @@
 # Uploads directory
-/wp-content/uploads/*
+/htdocs/wp-content/uploads/*
 
 # Various cache plugins, updated and and other bits
-/wp-content/w3tc/*
-/wp-content/advanced-cache.php
-/wp-content/db.php
-/wp-content/object-cache.php
-/wp-content/w3-total-cache-config.php
-/wp-content/blogs.dir/
-/wp-content/upgrade/*
-/wp-content/backup-db/*
-/wp-content/advanced-cache.php
-/wp-content/wp-cache-config.php
-/wp-content/cache/*
-/wp-content/cache/supercache/*
-/wp-content/wppa-depot/*
+/htdocs/wp-content/w3tc/*
+/htdocs/wp-content/advanced-cache.php
+/htdocs/wp-content/db.php
+/htdocs/wp-content/object-cache.php
+/htdocs/wp-content/w3-total-cache-config.php
+/htdocs/wp-content/blogs.dir/
+/htdocs/wp-content/upgrade/*
+/htdocs/wp-content/backup-db/*
+/htdocs/wp-content/advanced-cache.php
+/htdocs/wp-content/wp-cache-config.php
+/htdocs/wp-content/cache/*
+/htdocs/wp-content/cache/supercache/*
+/htdocs/wp-content/wppa-depot/*
 
 # sitemap data
-/sitemap.xml
-/sitemap.xml.gz
+/htdocs/sitemap.xml
+/htdocs/sitemap.xml.gz
 
 # config file
-/wp-config.php
+/htdocs/wp-config.php
 
 # htaccess file
-/.htaccess
+/htdocs/.htaccess
+
+# apache log files
+/logs/*
+
+# netbeans
+/nbproject/*
+
+# metadata and other crap
+*~
+*.lock
+.DS_Store
+*.swp
+*.out
+Thumbs.db
+*.svn*
