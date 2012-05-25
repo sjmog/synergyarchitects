@@ -14,7 +14,8 @@
  * @package WordPress
  */
 
-$siteDomain = $_SERVER['SERVER_NAME'];
+$siteDomain = 'domain.tld';
+//$siteDomain = $_SERVER['SERVER_NAME'];
 
 define('WP_SITEURL', 'http://' . $siteDomain . '/wordpress');
 define('WP_HOME',    'http://' . $siteDomain);
