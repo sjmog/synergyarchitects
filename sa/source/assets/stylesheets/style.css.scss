@@ -26,11 +26,6 @@
 
 /* Global
    ========================================================================== */
-html
-{
-  @include adjust-leading-to(4);
-}
-
 h1, h2, h3, h4, h5, h6
 {
 	font-family: $title-font-family;
@@ -102,8 +97,8 @@ span.highlight
 	@extend .clearfix;
 	background: $grey;
 	color: $white;
-	@include padding-leader(3);
-	@include padding-trailer(3);
+	@include padding-leader(1);
+	@include padding-trailer(1);
 
 	a
 	{
@@ -141,6 +136,7 @@ span.highlight
 		a
 		{
 			display: block;
+			text-decoration: none;
 		}
 
 		@include at-breakpoint($desktop-size $desktop-columns)
@@ -148,7 +144,7 @@ span.highlight
 			li
 			{
 				@include span-columns(2, 8);
-				line-height: 3;
+				line-height: 4;
 
 				&:last-child
 				{
@@ -197,13 +193,15 @@ span.highlight
 		}
 
 		h1 + p,
-		p + p
+		h1 + p.lede,
+		p.lede + p
 		{
 			margin-top: 30px;
 		}
 
 		p
 		{
+			margin-top: 0;
 			margin-bottom: 0;
 		}
 
@@ -211,6 +209,7 @@ span.highlight
 		{
 			font-family: $title-font-family;
 			@include adjust-font-size-to($lede-font-size / 1.5);
+			line-height: 1.5;
 
 			@include at-breakpoint($desktop-size $desktop-columns)
 			{
@@ -224,8 +223,8 @@ span.highlight
 		@extend .clearfix;
 		background: $light-grey;
 		color: $white;
-		@include padding-leader(3);
-		@include padding-trailer(3);
+		@include padding-leader(0);
+		@include padding-trailer(0);
 
 		a
 		{
@@ -238,7 +237,7 @@ span.highlight
 .footer
 {
 	@extend .clearfix;
-	@include padding-trailer(6);
+	@include padding-trailer(2);
 }
 
 	.footer-telephone
@@ -253,12 +252,12 @@ span.highlight
 
 			text-align: center;
 			font-family: $title-font-family;
-			@include padding-leader(4);
+			@include padding-leader(1);
 			@include adjust-font-size-to($h2-font-size);
 
 			@include at-breakpoint($desktop-size $desktop-columns)
 			{
-				@include padding-leader(10);
+				@include padding-leader(3);
 				text-align: right;
 			}
 		}
@@ -295,11 +294,6 @@ span.highlight
 	font-family: $title-font-family;
 	@include adjust-font-size-to($h2-font-size);
 
-	li
-	{
-		@include trailer(2);
-	}
-
 	a
 	{
 		text-decoration: none;
@@ -308,6 +302,43 @@ span.highlight
 	img
 	{
 		border-radius: 50%; // this smooths the outline of the circles
+	}
+}
+
+/* Blog
+   ========================================================================== */
+.blog-main
+{
+
+	@include at-breakpoint($desktop-size $desktop-columns)
+	{
+		@include span-columns(8, $desktop-columns);
+	}
+
+	.loop
+	{
+		h2,
+		p
+		{
+			margin: 0;
+		}
+
+		.meta
+		{
+			font-style: italic;
+			text-align: right;
+		}
+	}
+}
+
+.blog-sidebar
+{
+	padding: $gutter-width /2;
+	background: $grey;
+
+	@include at-breakpoint($desktop-size $desktop-columns)
+	{
+		@include span-columns(4 omega, $desktop-columns, $gutter-width /2);
 	}
 }
 

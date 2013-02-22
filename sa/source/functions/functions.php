@@ -38,7 +38,18 @@ if (!function_exists('sa_setup'))
 	}
 	add_action('init', 'sa_register_nav_menus');
 
+	register_sidebar(array(
+		'name' => 'Blog sidebar',
+		'id' => 'blog',
+		'before_widget' => '<div class="widget">',
+		'after_widget' => '</div>',
+		'before_title' => '<h3 class="title">',
+		'after_title' => '</h3>',
+	));
+
 	require( get_template_directory() . '/includes/short-codes.php' );
 
 } // sa_setup
 add_action( 'after_setup_theme', 'sa_setup' );
+
+require( get_template_directory() . '/includes/sa_functions.php' );

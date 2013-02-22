@@ -4,7 +4,7 @@
 // mobile first
 $total-columns:		6;
 $column-width:		50px;
-$gutter-width:		10px;
+$gutter-width:		20px;
 $grid-padding:		$gutter-width;
 
 // desktop breakpoint
@@ -29,7 +29,7 @@ $orange:				#ff8800;
    ========================================================================== */
 $qs-base-font-size:		14;
 $base-font-size:		$qs-base-font-size * 1px;
-$qs-base-line-height:	6; //Make sure to update .baseline() in main.js if you change this value
+$qs-base-line-height:	22; //Make sure to update .baseline() in main.js if you change this value
 $base-line-height:		$qs-base-line-height * 1px;
 
 $h1-font-size:			1.9		* $base-font-size;
