@@ -26,5 +26,5 @@
 		<?php endwhile; /* rewind or continue if all posts have been fetched */ ?>
 		<?php comments_template( '', true ); ?>
 	<?php endif; ?>
-<?php get_sidebar(); ?>
+<?php //get_sidebar(); ?>
 <?php get_footer(); ?>

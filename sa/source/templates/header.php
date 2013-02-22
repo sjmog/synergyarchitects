@@ -5,13 +5,9 @@
 <!--[if gt IE 8]><!--> <html class="no-js" <?php language_attributes( 'html' ) ?>> <!--<![endif]-->
 <head>
 	<title><?php wp_title(); ?></title>
-	<!-- Basic Meta Data -->
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
-
 	<meta name="viewport" content="width=device-width" />
 	<link rel="author" href="/humans.txt" />
-
-	<!-- WordPress -->
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 	<?php wp_head(); ?>
 </head>
@@ -31,19 +27,14 @@
 				</div><!-- .header-title -->
 
 				<nav role="navigation" class="header-navigation">
-					<ul class="header-links">
-						<li><a href="#">Portfolio</a></li>
-						<li><a href="#">About</a></li>
-						<li><a href="#">Contact</a></li>
-						<li><a href="#">News</a></li>
-					</ul><!-- .header-links -->
 					<?php
 					wp_nav_menu(
 						array(
-							'theme_location'  => 'nav-1',
-							'container'       => false,
-							'menu_class'      => 'nav',
-							'depth'           => '1'
+							'theme_location' => 'top-menu',
+							'container' => false,
+							'menu_class' => 'header-links',
+							'depth' => '1',
+							'fallback_cb' => false
 						)
 					);
 					?>

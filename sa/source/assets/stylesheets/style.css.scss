@@ -90,7 +90,7 @@ span.highlight
 			content: '';
 			height: 400px;
 			width: 100%;
-			background: url(/img/standout-top.png) no-repeat center bottom;
+			background: url(./images/standout-top.png) no-repeat center bottom;
 		}
 	}
 }
@@ -186,26 +186,36 @@ span.highlight
 				content: '';
 				height: 100px;
 				width: 100%;
-				background: url(/img/standout-bottom.png) no-repeat center top;
+				background: url(./images/standout-bottom.png) no-repeat center top;
 			}
 		}
 
 		h1
 		{
-			@include trailer(3);
+			margin-top: 0;
+			margin-bottom: 0;
 		}
-	}
 
-	p.lede
-	{
-		font-family: $title-font-family;
-		@include adjust-font-size-to($lede-font-size / 1.5);
-		@include adjust-leading-to(3);
-
-		@include at-breakpoint($desktop-size $desktop-columns)
+		h1 + p,
+		p + p
 		{
-			@include trailer(3);
-			@include adjust-font-size-to($lede-font-size);
+			margin-top: 30px;
+		}
+
+		p
+		{
+			margin-bottom: 0;
+		}
+
+		p.lede
+		{
+			font-family: $title-font-family;
+			@include adjust-font-size-to($lede-font-size / 1.5);
+
+			@include at-breakpoint($desktop-size $desktop-columns)
+			{
+				@include adjust-font-size-to($lede-font-size);
+			}
 		}
 	}
 
@@ -238,7 +248,7 @@ span.highlight
 
 		> .wrap
 		{
-			background: url(/img/footer-logo.png) no-repeat bottom center;
+			background: url(./images/footer-logo.png) no-repeat bottom center;
 			@include background-size(100%);
 
 			text-align: center;
