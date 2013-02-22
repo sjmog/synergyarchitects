@@ -1,0 +1,351 @@
+	/* __     _    ___    __      ____    __     _    _
+		/    | |  |   |  | (_    _)  /  __) \   | )  /
+	   (     | |  |   |  |   |  |   |  /     |  |/  /            Created by:
+		\__  | |  |   |  |   |  |   | |      |     (             Daniel Hollands
+		   | | |   \_/   |  _|  |_  |  \__   |  |\  \            http://danielhollands.co.uk/
+	   ____| |__\       /__(      )__\    )_/   |_)  \_
+	   _       ___        ______  _____     ____        __
+		)  ____) (__    __)    /  \    |    \  (__    __)
+	   (  (___      |  |      /    \   |     )    |  |           For:
+		\___  \     |  |     /  ()  \  |    /     |  |           Lime Blast
+		____)  )    |  |    |   __   | | |\ \     |  |           http://limeblast.co.uk/
+	   (      (_____|  |____|  (__)  |_| |_\ \____|  |____ */
+
+/* ==========================================================================
+   Initial imports
+   ========================================================================== */
+@import "header";
+@import "base";
+@import "mixins";
+@import "h5bp";
+@import "fonts";
+
+/* ==========================================================================
+   Author's custom styles (Here be dragons)
+   ========================================================================== */
+
+/* Global
+   ========================================================================== */
+html
+{
+  @include adjust-leading-to(4);
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	font-family: $title-font-family;
+	font-weight: normal;
+}
+
+span.highlight
+{
+	color: $orange;
+	&.grey
+	{
+		color: $light-grey
+	}
+}
+
+/* Chrome frame
+   ========================================================================== */
+.chromeframe
+{
+	@extend .wrap;
+}
+
+
+/* Page wrapper
+   ========================================================================== */
+.wrap
+{
+	// http://stackoverflow.com/a/13522469/1049688
+	@include container ($total-columns, $desktop-size $desktop-columns);
+	@if ($qs-debug)
+	{
+		@include susy-grid-background;
+	}
+
+	@include at-breakpoint($desktop-size $desktop-columns)
+	{
+		@if ($qs-debug)
+		{
+			@include susy-grid-background;
+		}
+	}
+}
+
+/* Background
+   ========================================================================== */
+.background
+{
+	@include at-breakpoint($desktop-size $desktop-columns)
+	{
+		background: url(http://lorempixel.com/1600/600/city) no-repeat center top;
+		padding: 30px 0 400px 0;
+
+		&:after
+		{
+			position: absolute;
+			z-index: 99;
+			content: '';
+			height: 400px;
+			width: 100%;
+			background: url(/img/standout-top.png) no-repeat center bottom;
+		}
+	}
+}
+
+/* Header
+   ========================================================================= */
+.header
+{
+	@extend .clearfix;
+	background: $grey;
+	color: $white;
+	@include padding-leader(3);
+	@include padding-trailer(3);
+
+	a
+	{
+		@include link-colors($orange, darken($orange, 10%), darken($orange, 10%), $orange);
+	}
+}
+
+	.header-title
+	{
+		@include padding-trailer(3);
+
+		@include at-breakpoint($desktop-size $desktop-columns)
+		{
+			@include span-columns(4, $desktop-columns);
+			@include padding-trailer(0);
+		}
+	}
+
+	.header-navigation
+	{
+		@include at-breakpoint($desktop-size $desktop-columns)
+		{
+			@include span-columns(8 omega, $desktop-columns);
+		}
+	}
+
+	.header-links
+	{
+		@include no-bullets;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+		font-family: $title-font-family;
+
+		a
+		{
+			display: block;
+		}
+
+		@include at-breakpoint($desktop-size $desktop-columns)
+		{
+			li
+			{
+				@include span-columns(2, 8);
+				line-height: 3;
+
+				&:last-child
+				{
+					margin-right: 0;
+				}
+			}
+		}
+	}
+
+/* Main
+   ========================================================================== */
+.main
+{
+	@extend .clearfix;
+}
+
+	.main-standout
+	{
+		@extend .clearfix;
+		background: $dark-grey;
+		color: $white;
+		text-align: center;
+
+		a
+		{
+			@include link-colors($orange, darken($orange, 10%), darken($orange, 10%), $orange);
+		}
+
+		@include at-breakpoint($desktop-size $desktop-columns)
+		{
+			&:after
+			{
+				position: relative;
+				z-index: 99;
+				content: '';
+				height: 100px;
+				width: 100%;
+				background: url(/img/standout-bottom.png) no-repeat center top;
+			}
+		}
+
+		h1
+		{
+			@include trailer(3);
+		}
+	}
+
+	p.lede
+	{
+		font-family: $title-font-family;
+		@include adjust-font-size-to($lede-font-size / 1.5);
+		@include adjust-leading-to(3);
+
+		@include at-breakpoint($desktop-size $desktop-columns)
+		{
+			@include trailer(3);
+			@include adjust-font-size-to($lede-font-size);
+		}
+	}
+
+	.main-content
+	{
+		@extend .clearfix;
+		background: $light-grey;
+		color: $white;
+		@include padding-leader(3);
+		@include padding-trailer(3);
+
+		a
+		{
+			@include link-colors($white, darken($white, 10%), darken($white, 10%), $white);
+		}
+	}
+
+/* Footer
+   ========================================================================== */
+.footer
+{
+	@extend .clearfix;
+	@include padding-trailer(6);
+}
+
+	.footer-telephone
+	{
+		background: $orange;
+		color: $white;
+
+		> .wrap
+		{
+			background: url(/img/footer-logo.png) no-repeat bottom center;
+			@include background-size(100%);
+
+			text-align: center;
+			font-family: $title-font-family;
+			@include padding-leader(4);
+			@include adjust-font-size-to($h2-font-size);
+
+			@include at-breakpoint($desktop-size $desktop-columns)
+			{
+				@include padding-leader(10);
+				text-align: right;
+			}
+		}
+	}
+
+	.footer-copyright
+	{
+		text-align: center;
+
+		@include at-breakpoint($desktop-size $desktop-columns)
+		{
+			text-align: left;
+			@include span-columns(4, $desktop-columns);
+		}
+	}
+
+	.footer-accreditations
+	{
+		text-align: center;
+
+		@include at-breakpoint($desktop-size $desktop-columns)
+		{
+			text-align: right;
+			@include span-columns(8 omega, $desktop-columns);
+		}
+	}
+
+/* Icon List
+   ========================================================================== */
+.home-icons
+{
+	@include tile-list(3, $total-columns, 3, $desktop-columns);
+	text-align: center;
+	font-family: $title-font-family;
+	@include adjust-font-size-to($h2-font-size);
+
+	li
+	{
+		@include trailer(2);
+	}
+
+	a
+	{
+		text-decoration: none;
+	}
+
+	img
+	{
+		border-radius: 50%; // this smooths the outline of the circles
+	}
+}
+
+/* ==========================================================================
+   Final imports
+   ========================================================================== */
+@import "helpers";
+@import "print";
+
+/*                      /\
+                        ||
+                        ||
+                        ||
+                        ||                                               ~-----~
+                        ||                                            /===--  ---~~~
+                        ||                   ;'                 /==~- --   -    ---~~~
+                        ||                (/ ('              /=----         ~~_  --(  '
+                        ||             ' / ;'             /=----               \__~
+     '                ~==_=~          '('             ~-~~      ~~~~        ~~~--\~'
+     \\                (c_\_        .i.             /~--    ~~~--   -~     (     '
+      `\               (}| /       / : \           / ~~------~     ~~\   (
+      \ '               ||/ \      |===|          /~/             ~~~ \ \(
+      ``~\              ~~\  )~.~_ >._.< _~-~     |`_          ~~-~     )\
+       '-~                 {  /  ) \___/ (   \   |` ` _       ~~         '
+       \ -~\                -<__/  -   -  L~ -;   \\    \ _ _/
+       `` ~~=\                  {    :    }\ ,\    ||   _ :(
+        \  ~~=\__                \ _/ \_ /  )  } _//   ( `|'
+        ``    , ~\--~=\           \     /  / _/ / '    (   '
+         \`    } ~ ~~ -~=\   _~_  / \ / \ )^ ( // :_  / '
+         |    ,          _~-'   '~~__-_  / - |/     \ (
+          \  ,_--_     _/              \_'---', -~ .   \
+           )/      /\ / /\   ,~,         \__ _}     \_  "~_
+           ,      { ( _ )'} ~ - \_    ~\  (-:-)       "\   ~
+                  /'' ''  )~ \~_ ~\   )->  \ :|    _,       "
+                 (\  _/)''} | \~_ ~  /~(   | :)   /          }
+                <``  >;,,/  )= \~__ {{{ '  \ =(  ,   ,       ;
+               {o_o }_/     |v  '~__  _    )-v|  "  :       ,"
+               {/"\_)       {_/'  \~__ ~\_ \\_} '  {        /~\
+               ,/!          '_/    '~__ _-~ \_' :  '      ,"  ~
+              (''`                  /,'~___~    | /     ,"  \ ~'
+             '/, )                 (-)  '~____~";     ,"     , }
+           /,')                    / \         /  ,~-"       '~'
+       (  ''/                     / ( '       /  /          '~'
+    ~ ~  ,, /) ,                 (/( \)      ( -)          /~'
+  (  ~~ )`  ~}                   '  \)'     _/ /           ~'
+ { |) /`,--.(  }'                    '     (  /          /~'
+(` ~ ( c|~~| `}   )                        '/:\         ,'
+ ~ )/``) )) '|),                          (/ | \)                 -sjm
+  (` (-~(( `~`'  )                        ' (/ '
+   `~'    )'`')                              '
+     ` ``*/

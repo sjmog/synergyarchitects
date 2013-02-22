@@ -1,3 +1,7 @@
+# Forge
+.forge
+.sass-cache
+
 # Uploads directory
 /wp-content/uploads/*
 

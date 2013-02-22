@@ -1,0 +1,44 @@
+/* ==========================================================================
+   Mixins
+   ========================================================================== */
+
+/* Responsive tile-list (This requires susy to work)
+   ========================================================================== */
+@mixin tile-list(
+	$mobile-span-cols: 3, // number of columns the element is meant to span on the mobile breakpoint
+	$mobile-total-cols: $total-columns, // total number of columns available on mobile breakpoint
+	$desktop-span-cols: 3, // number of columns the element is meant to span on the desktop breakpoint
+	$desktop-total-cols: $desktop-columns // total number of columns available on desktop breakpoint
+) {
+	// calculate how many items per row
+	$mobile-nth-child: $mobile-total-cols / $mobile-span-cols;
+	$desktop-nth-child: $desktop-total-cols / $desktop-span-cols;
+
+	@extend .clearfix;
+	@include no-bullets;
+	clear: both;
+	padding: 0;
+
+	li {
+		@include span-columns($mobile-span-cols, $mobile-total-cols);
+		@include nth-omega(#{$mobile-nth-child}n);
+
+		&:nth-child(#{$mobile-nth-child}n+1) {
+			clear: both;
+		}
+
+		@include at-breakpoint($desktop-size $desktop-columns) {
+			@include span-columns($desktop-span-cols, $desktop-total-cols);
+
+			@include remove-nth-omega(#{$mobile-nth-child}n, child, $desktop-total-cols);
+			&:nth-child(#{$mobile-nth-child}n+1) {
+				clear: none;
+			}
+
+			@include nth-omega(#{$desktop-nth-child}n);
+			&:nth-child(#{$desktop-nth-child}n+1) {
+				clear: both;
+			}
+		}
+	}
+}
