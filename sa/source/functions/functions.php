@@ -23,7 +23,7 @@ if (!function_exists('sa_setup'))
 
 	function sa_setup()
 	{
-		//add_theme_support('post-thumbnails');
+		add_theme_support('post-thumbnails');
 		add_theme_support('menus');
 	}
 
@@ -55,6 +55,12 @@ if (!function_exists('sa_setup'))
 		'before_title' => '<h3 class="title">',
 		'after_title' => '</h3>',
 	));
+
+	if (function_exists('add_image_size'))
+	{
+		add_image_size('portfolio-main', 540, 340, true);
+		add_image_size('portfolio-thumb', 135, 85, true);
+	}
 
 	require( get_template_directory() . '/includes/short-codes.php' );
 
