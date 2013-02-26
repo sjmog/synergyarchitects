@@ -47,6 +47,15 @@ if (!function_exists('sa_setup'))
 		'after_title' => '</h3>',
 	));
 
+	register_sidebar(array(
+		'name' => 'Portfolio sidebar',
+		'id' => 'portfolio',
+		'before_widget' => '<div class="widget">',
+		'after_widget' => '</div>',
+		'before_title' => '<h3 class="title">',
+		'after_title' => '</h3>',
+	));
+
 	require( get_template_directory() . '/includes/short-codes.php' );
 
 } // sa_setup

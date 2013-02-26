@@ -26,6 +26,8 @@
 
 /* Global
    ========================================================================== */
+@include border-box-sizing;
+
 h1, h2, h3, h4, h5, h6
 {
 	font-family: $title-font-family;
@@ -190,6 +192,7 @@ span.highlight
 		{
 			margin-top: 0;
 			margin-bottom: 0;
+			color: $orange;
 		}
 
 		h1 + p,
@@ -331,15 +334,33 @@ span.highlight
 	}
 }
 
-.blog-sidebar
+/* Sidebar
+   ========================================================================== */
+.sidebar
 {
-	padding: $gutter-width /2;
+	padding: 0 $gutter-width / 2;
 	background: $grey;
+	border: 1px solid $grey;
 
 	@include at-breakpoint($desktop-size $desktop-columns)
 	{
-		@include span-columns(4 omega, $desktop-columns, $gutter-width /2);
+		@include span-columns(4 omega, $desktop-columns);
 	}
+
+	h3
+	{
+		color: $orange;
+	}
+}
+
+.blog-sidebar
+{
+	@extend .sidebar;
+}
+
+.portfolio-sidebar
+{
+	@extend .sidebar;
 }
 
 /* ==========================================================================

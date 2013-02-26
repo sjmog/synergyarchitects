@@ -4,7 +4,7 @@
 <!--[if IE 8]> <html class="no-js lt-ie9" <?php language_attributes( 'html' ) ?>> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" <?php language_attributes( 'html' ) ?>> <!--<![endif]-->
 <head>
-	<title><?php wp_title(); ?></title>
+	<title><?php bloginfo( 'name' ); ?><?php wp_title(); ?></title>
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<meta name="viewport" content="width=device-width" />
 	<link rel="author" href="/humans.txt" />
