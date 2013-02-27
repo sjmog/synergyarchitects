@@ -290,16 +290,18 @@ span.highlight
 
 /* Icon List
    ========================================================================== */
-.home-icons
+%icon-list
 {
-	@include tile-list(3, $total-columns, 3, $desktop-columns);
 	text-align: center;
 	font-family: $title-font-family;
-	@include adjust-font-size-to($h2-font-size);
+	@include adjust-font-size-to(1.1 * $base-font-size);
+	line-height: 1.2;
 
 	a
 	{
 		text-decoration: none;
+		display: block;
+		padding-top: 100%;
 	}
 
 	img
@@ -308,9 +310,39 @@ span.highlight
 	}
 }
 
-/* Blog
+.home-icons
+{
+	@include tile-list(3, $total-columns, 3, $desktop-columns);
+	@extend %icon-list;
+}
+
+.portfolio-home
+{
+	.menu-sectors-container
+	{
+		ul
+		{
+			@include tile-list(3, $total-columns, 3, $desktop-columns);
+			@extend %icon-list;
+		}
+	}
+}
+
+.sidebar
+{
+	.menu-sectors-container
+	{
+		ul
+		{
+			@include tile-list(1, $total-columns, 1, $desktop-columns);
+			@extend %icon-list;
+		}
+	}
+}
+
+/* Content
    ========================================================================== */
-.blog-main
+.content
 {
 
 	@include at-breakpoint($desktop-size $desktop-columns)
@@ -351,16 +383,6 @@ span.highlight
 	{
 		color: $orange;
 	}
-}
-
-.blog-sidebar
-{
-	@extend .sidebar;
-}
-
-.portfolio-sidebar
-{
-	@extend .sidebar;
 }
 
 /* ==========================================================================

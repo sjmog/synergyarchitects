@@ -15,6 +15,8 @@
 #   compass.output_style = :expanded # use :compressed for minified version
 # end
 
+relative_assets = true
+
 # You can also include additional Compass frameworks by requiring them:
 # require 'stitch'
 require 'susy' #gem install susy

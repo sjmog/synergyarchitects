@@ -4,7 +4,7 @@
 		<div class="main-standout">
 			<div class="wrap">
 
-				<h1>News Archive</h1>
+				<h1><?php single_tag_title(); ?></h1>
 
 			</div><!-- .wrap -->
 		</div><!-- .main-standout -->
@@ -14,13 +14,13 @@
 
 				<div class="content">
 					<?php if ( have_posts() ) : ?>
-						<?php get_template_part( 'loop' ); ?>
+						<?php get_template_part( 'loop-portfolio' ); ?>
 					<?php else : ?>
 						<p><?php _e( 'No posts found.', 'sa' ); ?></p>
 					<?php endif; ?>
 				</div>
 
-				<?php get_sidebar(); ?>
+				<?php get_sidebar('portfolio'); ?>
 
 			</div><!-- .wrap -->
 		</div><!-- .main-content -->
