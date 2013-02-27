@@ -53,7 +53,7 @@
 /**
  * Correct `block` display not defined in IE 8/9.
  */
-/* line 63, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_normalize.scss */
+/* line 63, scss/_normalize.scss */
 article,
 aside,
 details,
@@ -72,7 +72,7 @@ summary {
 /**
  * Correct `inline-block` display not defined in IE 8/9.
  */
-/* line 73, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_normalize.scss */
+/* line 73, scss/_normalize.scss */
 audio,
 canvas,
 video {
@@ -83,7 +83,7 @@ video {
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
-/* line 86, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_normalize.scss */
+/* line 86, scss/_normalize.scss */
 audio:not([controls]) {
   display: none;
   height: 0;
@@ -93,7 +93,7 @@ audio:not([controls]) {
  * Address styling not present in IE 7/8/9.
  * Known issue: no IE 6 support.
  */
-/* line 96, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_normalize.scss */
+/* line 96, scss/_normalize.scss */
 [hidden] {
   display: none;
 }
@@ -108,7 +108,7 @@ audio:not([controls]) {
  * 3. Correct text resizing oddly in IE 6/7 when body `font-size` is set using
  *    `em` units.
  */
-/* line 112, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_normalize.scss */
+/* line 112, scss/_normalize.scss */
 html {
   font-family: "PT Sans", sans-serif;
   /* 1 */
@@ -125,7 +125,7 @@ html {
 /**
  * Remove default margin.
  */
-/* line 139, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_normalize.scss */
+/* line 139, scss/_normalize.scss */
 body {
   margin: 0;
 }
@@ -136,7 +136,7 @@ body {
 /**
  * Address `outline` inconsistency between Chrome and other browsers.
  */
-/* line 151, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_normalize.scss */
+/* line 151, scss/_normalize.scss */
 a:focus {
   outline: thin dotted;
 }
@@ -144,7 +144,7 @@ a:focus {
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
-/* line 160, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_normalize.scss */
+/* line 160, scss/_normalize.scss */
 a:active,
 a:hover {
   outline: 0;
@@ -156,13 +156,13 @@ a:hover {
 /**
  * Set 1 unit of vertical rhythm on the top and bottom margin.
  */
-/* line 173, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_normalize.scss */
+/* line 173, scss/_normalize.scss */
 p,
 pre {
   margin: 1.57143em 0;
 }
 
-/* line 177, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_normalize.scss */
+/* line 177, scss/_normalize.scss */
 blockquote {
   /* Set 1 unit of vertical rhythm on the top and bottom margin. */
   margin: 1.57143em 40px;
@@ -172,7 +172,7 @@ blockquote {
  * Address variable `h1` font-size and margin within `section` and `article`
  * contexts in Firefox 4+, Safari 5, and Chrome.
  */
-/* line 187, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_normalize.scss */
+/* line 187, scss/_normalize.scss */
 h1 {
   /* Set the font-size and line-height while keeping a proper vertical rhythm. */
   font-size: 1.9em;
@@ -182,7 +182,7 @@ h1 {
   margin-bottom: 0.82707em;
 }
 
-/* line 196, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_normalize.scss */
+/* line 196, scss/_normalize.scss */
 h2 {
   font-size: 1.4em;
   line-height: 2.2449em;
@@ -190,7 +190,7 @@ h2 {
   margin-bottom: 1.12245em;
 }
 
-/* line 202, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_normalize.scss */
+/* line 202, scss/_normalize.scss */
 h3 {
   font-size: 1.17em;
   line-height: 1.3431em;
@@ -198,7 +198,7 @@ h3 {
   margin-bottom: 1.3431em;
 }
 
-/* line 208, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_normalize.scss */
+/* line 208, scss/_normalize.scss */
 h4 {
   font-size: 1em;
   line-height: 1.57143em;
@@ -206,7 +206,7 @@ h4 {
   margin-bottom: 1.57143em;
 }
 
-/* line 214, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_normalize.scss */
+/* line 214, scss/_normalize.scss */
 h5 {
   font-size: 0.83em;
   line-height: 1.89329em;
@@ -214,7 +214,7 @@ h5 {
   margin-bottom: 1.89329em;
 }
 
-/* line 220, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_normalize.scss */
+/* line 220, scss/_normalize.scss */
 h6 {
   font-size: 0.67em;
   line-height: 2.34542em;
@@ -225,7 +225,7 @@ h6 {
 /**
  * Address styling not present in IE 8/9, Safari 5, and Chrome.
  */
-/* line 230, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_normalize.scss */
+/* line 230, scss/_normalize.scss */
 abbr[title] {
   border-bottom: 1px dotted;
 }
@@ -233,7 +233,7 @@ abbr[title] {
 /**
  * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
  */
-/* line 239, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_normalize.scss */
+/* line 239, scss/_normalize.scss */
 b,
 strong {
   font-weight: bold;
@@ -242,7 +242,7 @@ strong {
 /**
  * Address styling not present in Safari 5 and Chrome.
  */
-/* line 247, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_normalize.scss */
+/* line 247, scss/_normalize.scss */
 dfn {
   font-style: italic;
 }
@@ -251,7 +251,7 @@ dfn {
  * Address differences between Firefox and other browsers.
  * Known issue: no IE 6/7 normalization.
  */
-/* line 256, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_normalize.scss */
+/* line 256, scss/_normalize.scss */
 hr {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -262,7 +262,7 @@ hr {
 /**
  * Address styling not present in IE 8/9.
  */
-/* line 265, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_normalize.scss */
+/* line 265, scss/_normalize.scss */
 mark {
   background: #ff0;
   color: #000;
@@ -271,7 +271,7 @@ mark {
 /**
  * Correct font family set oddly in Safari 5 and Chrome.
  */
-/* line 277, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_normalize.scss */
+/* line 277, scss/_normalize.scss */
 code,
 kbd,
 pre,
@@ -284,7 +284,7 @@ samp {
 /**
  * Improve readability of pre-formatted text in all browsers.
  */
-/* line 289, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_normalize.scss */
+/* line 289, scss/_normalize.scss */
 pre {
   white-space: pre-wrap;
 }
@@ -292,7 +292,7 @@ pre {
 /**
  * Set consistent quote types.
  */
-/* line 297, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_normalize.scss */
+/* line 297, scss/_normalize.scss */
 q {
   quotes: "\201C" "\201D" "\2018" "\2019";
 }
@@ -300,7 +300,7 @@ q {
 /**
  * Address inconsistent and variable font size in all browsers.
  */
-/* line 305, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_normalize.scss */
+/* line 305, scss/_normalize.scss */
 small {
   font-size: 0.8em;
   line-height: 1.30952em;
@@ -309,7 +309,7 @@ small {
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 314, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_normalize.scss */
+/* line 314, scss/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -318,12 +318,12 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 321, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_normalize.scss */
+/* line 321, scss/_normalize.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 325, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_normalize.scss */
+/* line 325, scss/_normalize.scss */
 sub {
   bottom: -0.25em;
 }
@@ -334,7 +334,7 @@ sub {
 /**
  * Set 1 unit of vertical rhythm and a consistent indentation.
  */
-/* line 340, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_normalize.scss */
+/* line 340, scss/_normalize.scss */
 dl,
 menu,
 ol,
@@ -343,12 +343,12 @@ ul {
   padding: 0 0 0 40px;
 }
 
-/* line 345, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_normalize.scss */
+/* line 345, scss/_normalize.scss */
 dl {
   padding: 0;
 }
 
-/* line 349, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_normalize.scss */
+/* line 349, scss/_normalize.scss */
 dd {
   margin: 0 0 0 40px;
 }
@@ -359,7 +359,7 @@ dd {
 /**
  * Remove border when inside `a` element in IE 8/9.
  */
-/* line 373, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_normalize.scss */
+/* line 373, scss/_normalize.scss */
 img {
   border: 0;
 }
@@ -367,7 +367,7 @@ img {
 /**
  * Correct overflow displayed oddly in IE 9.
  */
-/* line 385, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_normalize.scss */
+/* line 385, scss/_normalize.scss */
 svg:not(:root) {
   overflow: hidden;
 }
@@ -378,7 +378,7 @@ svg:not(:root) {
 /**
  * Address margin not present in IE 8/9 and Safari 5.
  */
-/* line 397, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_normalize.scss */
+/* line 397, scss/_normalize.scss */
 figure {
   margin: 0;
 }
@@ -389,7 +389,7 @@ figure {
 /**
  * Define consistent border, margin, and padding.
  */
-/* line 419, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_normalize.scss */
+/* line 419, scss/_normalize.scss */
 fieldset {
   border-color: #c0c0c0;
   margin: 0 2px;
@@ -413,7 +413,7 @@ fieldset {
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  * 3. Correct alignment displayed oddly in IE 6/7.
  */
-/* line 435, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_normalize.scss */
+/* line 435, scss/_normalize.scss */
 legend {
   border: 0;
   /* 1 */
@@ -427,7 +427,7 @@ legend {
  * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
  * 4. Improve appearance and consistency with IE 6/7.
  */
-/* line 453, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_normalize.scss */
+/* line 453, scss/_normalize.scss */
 button,
 input,
 select,
@@ -444,7 +444,7 @@ textarea {
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-/* line 469, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_normalize.scss */
+/* line 469, scss/_normalize.scss */
 button,
 input {
   line-height: normal;
@@ -456,7 +456,7 @@ input {
  * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
  * Correct `select` style inheritance in Firefox 4+ and Opera.
  */
-/* line 481, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_normalize.scss */
+/* line 481, scss/_normalize.scss */
 button,
 select {
   text-transform: none;
@@ -471,7 +471,7 @@ select {
  * 4. Remove inner spacing in IE 7 without affecting normal text inputs.
  *    Known issue: inner spacing remains in IE 6.
  */
-/* line 498, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_normalize.scss */
+/* line 498, scss/_normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -485,7 +485,7 @@ input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-/* line 511, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_normalize.scss */
+/* line 511, scss/_normalize.scss */
 button[disabled],
 html input[disabled] {
   cursor: default;
@@ -497,7 +497,7 @@ html input[disabled] {
  * 3. Remove excess padding in IE 7.
  *    Known issue: excess padding remains in IE 6.
  */
-/* line 523, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_normalize.scss */
+/* line 523, scss/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   -webkit-box-sizing: border-box;
@@ -513,7 +513,7 @@ input[type="radio"] {
  * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
  *    (include `-moz` to future-proof).
  */
-/* line 538, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_normalize.scss */
+/* line 538, scss/_normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -527,7 +527,7 @@ input[type="search"] {
  * Remove inner padding and search cancel button in Safari 5 and Chrome
  * on OS X.
  */
-/* line 549, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_normalize.scss */
+/* line 549, scss/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -536,7 +536,7 @@ input[type="search"]::-webkit-search-decoration {
 /**
  * Remove inner padding and border in Firefox 4+.
  */
-/* line 558, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_normalize.scss */
+/* line 558, scss/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -547,7 +547,7 @@ input::-moz-focus-inner {
  * 1. Remove default vertical scrollbar in IE 8/9.
  * 2. Improve readability and alignment in all browsers.
  */
-/* line 568, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_normalize.scss */
+/* line 568, scss/_normalize.scss */
 textarea {
   overflow: auto;
   /* 1 */
@@ -561,7 +561,7 @@ textarea {
 /**
  * Remove most spacing between table cells.
  */
-/* line 581, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_normalize.scss */
+/* line 581, scss/_normalize.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -576,7 +576,7 @@ table {
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-/* line 10, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_h5bp.scss */
+/* line 9, scss/_h5bp.scss */
 html,
 button,
 input,
@@ -595,13 +595,13 @@ body {
  * These selection declarations have to be separate.
  * Customize the background color to match your design.
  */
-/* line 26, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_h5bp.scss */
+/* line 25, scss/_h5bp.scss */
 ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none;
 }
 
-/* line 31, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_h5bp.scss */
+/* line 30, scss/_h5bp.scss */
 ::selection {
   background: #b3d4fc;
   text-shadow: none;
@@ -610,7 +610,7 @@ body {
 /*
  * A better looking default horizontal rule
  */
-/* line 40, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_h5bp.scss */
+/* line 39, scss/_h5bp.scss */
 hr {
   display: block;
   height: 1px;
@@ -623,7 +623,7 @@ hr {
 /*
  * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
  */
-/* line 53, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_h5bp.scss */
+/* line 52, scss/_h5bp.scss */
 img {
   vertical-align: middle;
   max-width: 100%;
@@ -633,7 +633,7 @@ img {
 /*
  * Remove default fieldset styles.
  */
-/* line 64, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_h5bp.scss */
+/* line 63, scss/_h5bp.scss */
 fieldset {
   border: 0;
   margin: 0;
@@ -643,7 +643,7 @@ fieldset {
 /*
  * Allow only vertical resizing of textareas.
  */
-/* line 74, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_h5bp.scss */
+/* line 73, scss/_h5bp.scss */
 textarea {
   resize: vertical;
 }
@@ -651,7 +651,7 @@ textarea {
 /* ==========================================================================
    Chrome Frame prompt
    ========================================================================== */
-/* line 82, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_h5bp.scss */
+/* line 81, scss/_h5bp.scss */
 .chromeframe {
   margin: 0.2em 0;
   background: #ccc;
@@ -661,8 +661,8 @@ textarea {
 
 @font-face {
   font-family: "Michroma";
-  src: url(/fonts/Michroma-webfont.eot);
-  src: url(/fonts/Michroma-webfont.eot?#iefix) format('eot'), url(/fonts/Michroma-webfont.woff) format('woff'), url(/fonts/Michroma-webfont.ttf) format('truetype'), url(/fonts/Michroma-webfont.svg) format('svg');
+  src: url('fonts/Michroma-webfont.eot');
+  src: url('fonts/Michroma-webfont.eot?#iefix') format('eot'), url('fonts/Michroma-webfont.woff') format('woff'), url('fonts/Michroma-webfont.ttf') format('truetype'), url('fonts/Michroma-webfont.svg') format('svg');
 }
 
 /* ==========================================================================
@@ -670,24 +670,24 @@ textarea {
    ========================================================================== */
 /* Global
    ========================================================================== */
-/* line 14, /home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/susy-1.0.5/sass/susy/_grid.scss */
+/* line 14, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/susy-1.0.5/sass/susy/_grid.scss */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 33, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/style.css.scss */
+/* line 32, scss/style.css.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Michroma", sans-serif;
   font-weight: normal;
 }
 
-/* line 39, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/style.css.scss */
+/* line 38, scss/style.css.scss */
 span.highlight {
   color: #ff8800;
 }
-/* line 42, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/style.css.scss */
+/* line 41, scss/style.css.scss */
 span.highlight.grey {
   color: gray;
 }
@@ -696,7 +696,7 @@ span.highlight.grey {
    ========================================================================== */
 /* Page wrapper
    ========================================================================== */
-/* line 58, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/style.css.scss */
+/* line 57, scss/style.css.scss */
 .wrap, .chromeframe {
   max-width: 440px;
   padding-left: 20px;
@@ -704,14 +704,14 @@ span.highlight.grey {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 38, /home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .wrap:after, .chromeframe:after {
   content: "";
   display: table;
   clear: both;
 }
 @media (min-width: 35em) {
-  /* line 58, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/style.css.scss */
+  /* line 57, scss/style.css.scss */
   .wrap, .chromeframe {
     max-width: 860px;
   }
@@ -720,12 +720,12 @@ span.highlight.grey {
 /* Background
    ========================================================================== */
 @media (min-width: 35em) {
-  /* line 78, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/style.css.scss */
+  /* line 77, scss/style.css.scss */
   .background {
     background: url(http://lorempixel.com/1600/600/city) no-repeat center top;
     padding: 30px 0 400px 0;
   }
-  /* line 85, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/style.css.scss */
+  /* line 84, scss/style.css.scss */
   .background:after {
     position: absolute;
     z-index: 99;
@@ -738,36 +738,36 @@ span.highlight.grey {
 
 /* Header
    ========================================================================= */
-/* line 99, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/style.css.scss */
+/* line 98, scss/style.css.scss */
 .header {
   background: #585858;
   color: white;
   padding-top: 1.57143em;
   padding-bottom: 1.57143em;
 }
-/* line 107, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/style.css.scss */
+/* line 106, scss/style.css.scss */
 .header a {
   color: #ff8800;
 }
-/* line 18, /home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 18, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .header a:visited {
   color: #ff8800;
 }
-/* line 24, /home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 24, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .header a:hover {
   color: #cc6d00;
 }
-/* line 27, /home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 27, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .header a:active {
   color: #cc6d00;
 }
 
-/* line 113, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/style.css.scss */
+/* line 112, scss/style.css.scss */
 .header-title {
   padding-bottom: 4.71429em;
 }
 @media (min-width: 35em) {
-  /* line 113, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/style.css.scss */
+  /* line 112, scss/style.css.scss */
   .header-title {
     width: 31.70732%;
     float: left;
@@ -777,7 +777,7 @@ span.highlight.grey {
 }
 
 @media (min-width: 35em) {
-  /* line 124, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/style.css.scss */
+  /* line 123, scss/style.css.scss */
   .header-navigation {
     width: 65.85366%;
     float: right;
@@ -785,7 +785,7 @@ span.highlight.grey {
   }
 }
 
-/* line 132, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/style.css.scss */
+/* line 131, scss/style.css.scss */
 .header-links {
   list-style: none;
   margin: 0;
@@ -793,26 +793,26 @@ span.highlight.grey {
   text-align: center;
   font-family: "Michroma", sans-serif;
 }
-/* line 11, /home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
+/* line 11, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
 .header-links li {
   list-style-image: none;
   list-style-type: none;
   margin-left: 0;
 }
-/* line 140, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/style.css.scss */
+/* line 139, scss/style.css.scss */
 .header-links a {
   display: block;
   text-decoration: none;
 }
 @media (min-width: 35em) {
-  /* line 148, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/style.css.scss */
+  /* line 147, scss/style.css.scss */
   .header-links li {
     width: 22.22222%;
     float: left;
     margin-right: 3.7037%;
     line-height: 4;
   }
-  /* line 153, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/style.css.scss */
+  /* line 152, scss/style.css.scss */
   .header-links li:last-child {
     margin-right: 0;
   }
@@ -820,30 +820,30 @@ span.highlight.grey {
 
 /* Main
    ========================================================================== */
-/* line 168, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/style.css.scss */
+/* line 167, scss/style.css.scss */
 .main-standout {
   background: #414141;
   color: white;
   text-align: center;
 }
-/* line 175, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/style.css.scss */
+/* line 174, scss/style.css.scss */
 .main-standout a {
   color: #ff8800;
 }
-/* line 18, /home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 18, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .main-standout a:visited {
   color: #ff8800;
 }
-/* line 24, /home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 24, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .main-standout a:hover {
   color: #cc6d00;
 }
-/* line 27, /home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 27, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .main-standout a:active {
   color: #cc6d00;
 }
 @media (min-width: 35em) {
-  /* line 182, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/style.css.scss */
+  /* line 181, scss/style.css.scss */
   .main-standout:after {
     position: relative;
     z-index: 99;
@@ -853,24 +853,24 @@ span.highlight.grey {
     background: url(./images/standout-bottom.png) no-repeat center top;
   }
 }
-/* line 193, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/style.css.scss */
+/* line 192, scss/style.css.scss */
 .main-standout h1 {
   margin-top: 0;
   margin-bottom: 0;
   color: #ff8800;
 }
-/* line 202, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/style.css.scss */
+/* line 201, scss/style.css.scss */
 .main-standout h1 + p,
 .main-standout h1 + p.lede,
 .main-standout p.lede + p {
   margin-top: 30px;
 }
-/* line 207, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/style.css.scss */
+/* line 206, scss/style.css.scss */
 .main-standout p {
   margin-top: 0;
   margin-bottom: 0;
 }
-/* line 213, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/style.css.scss */
+/* line 212, scss/style.css.scss */
 .main-standout p.lede {
   font-family: "Michroma", sans-serif;
   font-size: 1.33333em;
@@ -878,50 +878,50 @@ span.highlight.grey {
   line-height: 1.5;
 }
 @media (min-width: 35em) {
-  /* line 213, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/style.css.scss */
+  /* line 212, scss/style.css.scss */
   .main-standout p.lede {
     font-size: 2em;
     line-height: 1.57143em;
   }
 }
 
-/* line 226, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/style.css.scss */
+/* line 225, scss/style.css.scss */
 .main-content {
   background: gray;
   color: white;
   padding-top: 0em;
   padding-bottom: 0em;
 }
-/* line 234, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/style.css.scss */
+/* line 233, scss/style.css.scss */
 .main-content a {
   color: white;
 }
-/* line 18, /home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 18, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .main-content a:visited {
   color: white;
 }
-/* line 24, /home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 24, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .main-content a:hover {
   color: #e6e6e6;
 }
-/* line 27, /home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 27, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .main-content a:active {
   color: #e6e6e6;
 }
 
 /* Footer
    ========================================================================== */
-/* line 242, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/style.css.scss */
+/* line 241, scss/style.css.scss */
 .footer {
   padding-bottom: 3.14286em;
 }
 
-/* line 248, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/style.css.scss */
+/* line 247, scss/style.css.scss */
 .footer-telephone {
   background: #ff8800;
   color: white;
 }
-/* line 253, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/style.css.scss */
+/* line 252, scss/style.css.scss */
 .footer-telephone > .wrap, .footer-telephone > .chromeframe {
   background: url(./images/footer-logo.png) no-repeat bottom center;
   -webkit-background-size: 100%;
@@ -935,19 +935,19 @@ span.highlight.grey {
   line-height: 2.2449em;
 }
 @media (min-width: 35em) {
-  /* line 253, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/style.css.scss */
+  /* line 252, scss/style.css.scss */
   .footer-telephone > .wrap, .footer-telephone > .chromeframe {
     padding-top: 4.71429em;
     text-align: right;
   }
 }
 
-/* line 271, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/style.css.scss */
+/* line 270, scss/style.css.scss */
 .footer-copyright {
   text-align: center;
 }
 @media (min-width: 35em) {
-  /* line 271, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/style.css.scss */
+  /* line 270, scss/style.css.scss */
   .footer-copyright {
     text-align: left;
     width: 31.70732%;
@@ -956,12 +956,12 @@ span.highlight.grey {
   }
 }
 
-/* line 282, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/style.css.scss */
+/* line 281, scss/style.css.scss */
 .footer-accreditations {
   text-align: center;
 }
 @media (min-width: 35em) {
-  /* line 282, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/style.css.scss */
+  /* line 281, scss/style.css.scss */
   .footer-accreditations {
     text-align: right;
     width: 65.85366%;
@@ -972,7 +972,7 @@ span.highlight.grey {
 
 /* Icon List
    ========================================================================== */
-/* line 295, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/style.css.scss */
+/* line 294, scss/style.css.scss */
 .home-icons, .portfolio-home .menu-sectors-container ul, .sidebar .menu-sectors-container ul {
   text-align: center;
   font-family: "Michroma", sans-serif;
@@ -980,174 +980,174 @@ span.highlight.grey {
   line-height: 1.42857em;
   line-height: 1.2;
 }
-/* line 302, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/style.css.scss */
+/* line 301, scss/style.css.scss */
 .home-icons a, .portfolio-home .menu-sectors-container ul a, .sidebar .menu-sectors-container ul a {
   text-decoration: none;
   display: block;
   padding-top: 100%;
 }
-/* line 309, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/style.css.scss */
+/* line 308, scss/style.css.scss */
 .home-icons img, .portfolio-home .menu-sectors-container ul img, .sidebar .menu-sectors-container ul img {
   border-radius: 50%;
 }
 
-/* line 315, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/style.css.scss */
+/* line 314, scss/style.css.scss */
 .home-icons {
   list-style: none;
   clear: both;
   padding: 0;
 }
-/* line 11, /home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
+/* line 11, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
 .home-icons li {
   list-style-image: none;
   list-style-type: none;
   margin-left: 0;
 }
-/* line 23, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_mixins.scss */
+/* line 22, scss/_mixins.scss */
 .home-icons li {
   width: 47.5%;
   float: left;
   margin-right: 5%;
 }
-/* line 185, /home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/susy-1.0.5/sass/susy/_grid.scss */
+/* line 185, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/susy-1.0.5/sass/susy/_grid.scss */
 .home-icons li:nth-child(2n) {
   float: right;
   margin-right: 0;
 }
-/* line 27, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_mixins.scss */
+/* line 26, scss/_mixins.scss */
 .home-icons li:nth-child(2n+1) {
   clear: both;
 }
 @media (min-width: 35em) {
-  /* line 23, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_mixins.scss */
+  /* line 22, scss/_mixins.scss */
   .home-icons li {
     width: 23.17073%;
     float: left;
     margin-right: 2.43902%;
   }
-  /* line 248, /home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/susy-1.0.5/sass/susy/_grid.scss */
+  /* line 248, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/susy-1.0.5/sass/susy/_grid.scss */
   .home-icons li:nth-child(2n) {
     float: left;
     margin-right: 2.43902%;
   }
-  /* line 35, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_mixins.scss */
+  /* line 34, scss/_mixins.scss */
   .home-icons li:nth-child(2n+1) {
     clear: none;
   }
-  /* line 185, /home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/susy-1.0.5/sass/susy/_grid.scss */
+  /* line 185, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/susy-1.0.5/sass/susy/_grid.scss */
   .home-icons li:nth-child(4n) {
     float: right;
     margin-right: 0;
   }
-  /* line 40, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_mixins.scss */
+  /* line 39, scss/_mixins.scss */
   .home-icons li:nth-child(4n+1) {
     clear: both;
   }
 }
 
-/* line 325, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/style.css.scss */
+/* line 324, scss/style.css.scss */
 .portfolio-home .menu-sectors-container ul {
   list-style: none;
   clear: both;
   padding: 0;
 }
-/* line 11, /home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
+/* line 11, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
 .portfolio-home .menu-sectors-container ul li {
   list-style-image: none;
   list-style-type: none;
   margin-left: 0;
 }
-/* line 23, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_mixins.scss */
+/* line 22, scss/_mixins.scss */
 .portfolio-home .menu-sectors-container ul li {
   width: 47.5%;
   float: left;
   margin-right: 5%;
 }
-/* line 185, /home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/susy-1.0.5/sass/susy/_grid.scss */
+/* line 185, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/susy-1.0.5/sass/susy/_grid.scss */
 .portfolio-home .menu-sectors-container ul li:nth-child(2n) {
   float: right;
   margin-right: 0;
 }
-/* line 27, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_mixins.scss */
+/* line 26, scss/_mixins.scss */
 .portfolio-home .menu-sectors-container ul li:nth-child(2n+1) {
   clear: both;
 }
 @media (min-width: 35em) {
-  /* line 23, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_mixins.scss */
+  /* line 22, scss/_mixins.scss */
   .portfolio-home .menu-sectors-container ul li {
     width: 23.17073%;
     float: left;
     margin-right: 2.43902%;
   }
-  /* line 248, /home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/susy-1.0.5/sass/susy/_grid.scss */
+  /* line 248, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/susy-1.0.5/sass/susy/_grid.scss */
   .portfolio-home .menu-sectors-container ul li:nth-child(2n) {
     float: left;
     margin-right: 2.43902%;
   }
-  /* line 35, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_mixins.scss */
+  /* line 34, scss/_mixins.scss */
   .portfolio-home .menu-sectors-container ul li:nth-child(2n+1) {
     clear: none;
   }
-  /* line 185, /home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/susy-1.0.5/sass/susy/_grid.scss */
+  /* line 185, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/susy-1.0.5/sass/susy/_grid.scss */
   .portfolio-home .menu-sectors-container ul li:nth-child(4n) {
     float: right;
     margin-right: 0;
   }
-  /* line 40, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_mixins.scss */
+  /* line 39, scss/_mixins.scss */
   .portfolio-home .menu-sectors-container ul li:nth-child(4n+1) {
     clear: both;
   }
 }
 
-/* line 337, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/style.css.scss */
+/* line 336, scss/style.css.scss */
 .sidebar .menu-sectors-container ul {
   list-style: none;
   clear: both;
   padding: 0;
 }
-/* line 11, /home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
+/* line 11, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
 .sidebar .menu-sectors-container ul li {
   list-style-image: none;
   list-style-type: none;
   margin-left: 0;
 }
-/* line 23, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_mixins.scss */
+/* line 22, scss/_mixins.scss */
 .sidebar .menu-sectors-container ul li {
   width: 12.5%;
   float: left;
   margin-right: 5%;
 }
-/* line 185, /home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/susy-1.0.5/sass/susy/_grid.scss */
+/* line 185, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/susy-1.0.5/sass/susy/_grid.scss */
 .sidebar .menu-sectors-container ul li:nth-child(6n) {
   float: right;
   margin-right: 0;
 }
-/* line 27, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_mixins.scss */
+/* line 26, scss/_mixins.scss */
 .sidebar .menu-sectors-container ul li:nth-child(6n+1) {
   clear: both;
 }
 @media (min-width: 35em) {
-  /* line 23, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_mixins.scss */
+  /* line 22, scss/_mixins.scss */
   .sidebar .menu-sectors-container ul li {
     width: 6.09756%;
     float: left;
     margin-right: 2.43902%;
   }
-  /* line 248, /home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/susy-1.0.5/sass/susy/_grid.scss */
+  /* line 248, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/susy-1.0.5/sass/susy/_grid.scss */
   .sidebar .menu-sectors-container ul li:nth-child(6n) {
     float: left;
     margin-right: 2.43902%;
   }
-  /* line 35, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_mixins.scss */
+  /* line 34, scss/_mixins.scss */
   .sidebar .menu-sectors-container ul li:nth-child(6n+1) {
     clear: none;
   }
-  /* line 185, /home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/susy-1.0.5/sass/susy/_grid.scss */
+  /* line 185, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/susy-1.0.5/sass/susy/_grid.scss */
   .sidebar .menu-sectors-container ul li:nth-child(12n) {
     float: right;
     margin-right: 0;
   }
-  /* line 40, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_mixins.scss */
+  /* line 39, scss/_mixins.scss */
   .sidebar .menu-sectors-container ul li:nth-child(12n+1) {
     clear: both;
   }
@@ -1156,19 +1156,19 @@ span.highlight.grey {
 /* Content
    ========================================================================== */
 @media (min-width: 35em) {
-  /* line 347, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/style.css.scss */
+  /* line 346, scss/style.css.scss */
   .content {
     width: 65.85366%;
     float: left;
     margin-right: 2.43902%;
   }
 }
-/* line 358, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/style.css.scss */
+/* line 357, scss/style.css.scss */
 .content .loop h2,
 .content .loop p {
   margin: 0;
 }
-/* line 363, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/style.css.scss */
+/* line 362, scss/style.css.scss */
 .content .loop .meta {
   font-style: italic;
   text-align: right;
@@ -1176,21 +1176,21 @@ span.highlight.grey {
 
 /* Sidebar
    ========================================================================== */
-/* line 373, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/style.css.scss */
+/* line 372, scss/style.css.scss */
 .sidebar {
   padding: 0 10px;
   background: #585858;
   border: 1px solid #585858;
 }
 @media (min-width: 35em) {
-  /* line 373, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/style.css.scss */
+  /* line 372, scss/style.css.scss */
   .sidebar {
     width: 31.70732%;
     float: right;
     margin-right: 0;
   }
 }
-/* line 384, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/style.css.scss */
+/* line 383, scss/style.css.scss */
 .sidebar h3 {
   color: #ff8800;
 }
@@ -1204,7 +1204,7 @@ span.highlight.grey {
 /*
  * Image replacement
  */
-/* line 10, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_helpers.scss */
+/* line 9, scss/_helpers.scss */
 .ir {
   background-color: transparent;
   border: 0;
@@ -1213,7 +1213,7 @@ span.highlight.grey {
   *text-indent: -9999px;
 }
 
-/* line 18, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_helpers.scss */
+/* line 17, scss/_helpers.scss */
 .ir:before {
   content: "";
   display: block;
@@ -1224,7 +1224,7 @@ span.highlight.grey {
 /*
  * Hide from both screenreaders and browsers: h5bp.com/u
  */
-/* line 29, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_helpers.scss */
+/* line 28, scss/_helpers.scss */
 .hidden {
   display: none !important;
   visibility: hidden;
@@ -1233,7 +1233,7 @@ span.highlight.grey {
 /*
  * Hide only visually, but have it available for screenreaders: h5bp.com/v
  */
-/* line 38, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_helpers.scss */
+/* line 37, scss/_helpers.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -1249,7 +1249,7 @@ span.highlight.grey {
  * Extends the .visuallyhidden class to allow the element to be focusable
  * when navigated to via the keyboard: h5bp.com/p
  */
-/* line 55, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_helpers.scss */
+/* line 54, scss/_helpers.scss */
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -1263,7 +1263,7 @@ span.highlight.grey {
 /*
  * Hide visually and from screenreaders, but maintain layout
  */
-/* line 68, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_helpers.scss */
+/* line 67, scss/_helpers.scss */
 .invisible {
   visibility: hidden;
 }
@@ -1279,7 +1279,7 @@ span.highlight.grey {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 85, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_helpers.scss */
+/* line 84, scss/_helpers.scss */
 .clearfix:before, .header:before, .main:before, .main-standout:before, .main-content:before, .footer:before, .home-icons:before, .portfolio-home .menu-sectors-container ul:before, .sidebar .menu-sectors-container ul:before,
 .clearfix:after,
 .header:after,
@@ -1296,7 +1296,7 @@ span.highlight.grey {
   /* 2 */
 }
 
-/* line 90, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_helpers.scss */
+/* line 89, scss/_helpers.scss */
 .clearfix:after, .header:after, .main:after, .main-standout:after, .main-content:after, .footer:after, .home-icons:after, .portfolio-home .menu-sectors-container ul:after, .sidebar .menu-sectors-container ul:after {
   clear: both;
 }
@@ -1305,7 +1305,7 @@ span.highlight.grey {
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-/* line 99, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_helpers.scss */
+/* line 98, scss/_helpers.scss */
 .clearfix, .header, .main, .main-standout, .main-content, .footer, .home-icons, .portfolio-home .menu-sectors-container ul, .sidebar .menu-sectors-container ul {
   *zoom: 1;
 }
@@ -1315,7 +1315,7 @@ span.highlight.grey {
    Inlined to avoid required HTTP connection: h5bp.com/r
    ========================================================================== */
 @media print {
-  /* line 8, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_print.scss */
+  /* line 7, scss/_print.scss */
   * {
     background: transparent !important;
     color: black !important;
@@ -1324,18 +1324,18 @@ span.highlight.grey {
     text-shadow: none !important;
   }
 
-  /* line 16, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_print.scss */
+  /* line 15, scss/_print.scss */
   a,
   a:visited {
     text-decoration: underline;
   }
 
-  /* line 20, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_print.scss */
+  /* line 19, scss/_print.scss */
   a[href]:after {
     content: " (" attr(href) ")";
   }
 
-  /* line 24, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_print.scss */
+  /* line 23, scss/_print.scss */
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
@@ -1343,33 +1343,33 @@ span.highlight.grey {
   /*
    * Don't show links for images, or javascript/internal links
    */
-  /* line 34, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_print.scss */
+  /* line 33, scss/_print.scss */
   .ir a:after,
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
     content: "";
   }
 
-  /* line 39, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_print.scss */
+  /* line 38, scss/_print.scss */
   pre,
   blockquote {
     border: 1px solid #999999;
     page-break-inside: avoid;
   }
 
-  /* line 44, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_print.scss */
+  /* line 43, scss/_print.scss */
   thead {
     display: table-header-group;
     /* h5bp.com/t */
   }
 
-  /* line 49, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_print.scss */
+  /* line 48, scss/_print.scss */
   tr,
   img {
     page-break-inside: avoid;
   }
 
-  /* line 53, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_print.scss */
+  /* line 52, scss/_print.scss */
   img {
     max-width: 100% !important;
   }
@@ -1378,7 +1378,7 @@ span.highlight.grey {
     margin: 0.5cm;
 }
 
-  /* line 63, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_print.scss */
+  /* line 62, scss/_print.scss */
   p,
   h2,
   h3 {
@@ -1386,7 +1386,7 @@ span.highlight.grey {
     widows: 3;
   }
 
-  /* line 69, /srv/www/synergyarchitects.co.uk/htdocs/sa/source/assets/stylesheets/_print.scss */
+  /* line 68, scss/_print.scss */
   h2,
   h3 {
     page-break-after: avoid;
