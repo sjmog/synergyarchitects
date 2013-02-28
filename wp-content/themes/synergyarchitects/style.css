@@ -1201,6 +1201,72 @@ span.highlight.grey {
   color: #ff8800;
 }
 
+/* Contact / Map
+   ========================================================================== */
+@media (min-width: 35em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/style\.css\.scss}line{font-family:\00003386}}
+  .contact_form {
+    width: 48.78049%;
+    float: left;
+    margin-right: 2.43902%;
+  }
+}
+
+@media (min-width: 35em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/style\.css\.scss}line{font-family:\00003394}}
+  .contact_map {
+    width: 48.78049%;
+    float: right;
+    margin-right: 0;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/style\.css\.scss}line{font-family:\00003404}}
+.wpcf7 p {
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/style\.css\.scss}line{font-family:\00003410}}
+.wpcf7-text,
+.wpcf7-textarea {
+  width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/style\.css\.scss}line{font-family:\00003417}}
+.mapp-layout * {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/style\.css\.scss}line{font-family:\00003422}}
+.mapp-layout p {
+  margin: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/style\.css\.scss}line{font-family:\00003429}}
+.mapp-layout .mapp-links a {
+  color: #ff8800;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/daniel\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/typography\/links\/_link-colors\.scss}line{font-family:\0000318}}
+.mapp-layout .mapp-links a:visited {
+  color: #ff8800;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/daniel\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/typography\/links\/_link-colors\.scss}line{font-family:\0000324}}
+.mapp-layout .mapp-links a:hover {
+  color: #cc6d00;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/daniel\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/typography\/links\/_link-colors\.scss}line{font-family:\0000327}}
+.mapp-layout .mapp-links a:active {
+  color: #cc6d00;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/style\.css\.scss}line{font-family:\00003435}}
+.mapp-layout .adp-list {
+  color: #ff8800;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/style\.css\.scss}line{font-family:\00003440}}
+.mapp-layout .warnbox-content {
+  color: black;
+}
+
 /* ==========================================================================
    Final imports
    ========================================================================== */
