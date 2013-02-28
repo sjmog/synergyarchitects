@@ -17,6 +17,11 @@
 		<div class="main-content">
 			<div class="wrap">
 
+				<?php if (is_front_page()){
+					if ( ! dynamic_sidebar( 'front_page' ) ) {
+						//<!-- do nothing -->
+					}
+				} ?>
 				<?php the_content(); ?>
 
 			</div><!-- .wrap -->

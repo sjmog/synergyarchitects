@@ -12,20 +12,11 @@
 		<div class="main-content">
 			<div class="wrap">
 
-				<div class="portfolio-home">
-					<?php
-					wp_nav_menu(
-						array(
-							'theme_location' => 'portfolio-sectors',
-							'container' => 'div',
-							'container_class' => 'menu-sectors-container',
-							'menu_class' => 'portfolio-sectors',
-							'depth' => '1',
-							'fallback_cb' => false
-						)
-					);
-					?>
-				</div>
+				<?php
+					if ( ! dynamic_sidebar( 'portfolio_home' ) ) {
+						//<!-- do nothing -->
+					}
+				?>
 
 			</div><!-- .wrap -->
 		</div><!-- .main-content -->

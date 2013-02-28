@@ -32,14 +32,14 @@ if (!function_exists('sa_setup'))
 		register_nav_menus(
 			array(
 				'top-menu' => __('Top Menu'),
-				'portfolio-sectors' => __('Portfolio Sectors')
+//				'portfolio-sectors' => __('Portfolio Sectors')
 			)
 		);
 	}
 	add_action('init', 'sa_register_nav_menus');
 
 	register_sidebar(array(
-		'name' => 'Blog sidebar',
+		'name' => 'Blog Sidebar',
 		'id' => 'blog',
 		'before_widget' => '<div class="widget">',
 		'after_widget' => '</div>',
@@ -48,12 +48,30 @@ if (!function_exists('sa_setup'))
 	));
 
 	register_sidebar(array(
-		'name' => 'Portfolio sidebar',
-		'id' => 'portfolio',
+		'name' => 'Portfolio Home',
+		'id' => 'portfolio_home',
 		'before_widget' => '<div class="widget">',
 		'after_widget' => '</div>',
 		'before_title' => '<h3 class="title">',
 		'after_title' => '</h3>',
+	));
+
+	register_sidebar(array(
+		'name' => 'Portfolio Sidebar',
+		'id' => 'portfolio',
+		'before_widget' => '',
+		'after_widget' => '',
+		'before_title' => '',
+		'after_title' => '',
+	));
+
+	register_sidebar(array(
+		'name' => 'Front Page',
+		'id' => 'front_page',
+		'before_widget' => '',
+		'after_widget' => '',
+		'before_title' => '',
+		'after_title' => '',
 	));
 
 	if (function_exists('add_image_size'))

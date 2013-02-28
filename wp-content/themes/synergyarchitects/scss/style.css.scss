@@ -50,7 +50,6 @@ span.highlight
 	@extend .wrap;
 }
 
-
 /* Page wrapper
    ========================================================================== */
 .wrap
@@ -77,7 +76,7 @@ span.highlight
 {
 	@include at-breakpoint($desktop-size $desktop-columns)
 	{
-		background: url(http://lorempixel.com/1600/600/city) no-repeat center top;
+		background: url(http://lorempixel.com/1600/600/city) no-repeat center top $orange;
 		padding: 30px 0 400px 0;
 
 		&:after
@@ -110,7 +109,7 @@ span.highlight
 
 	.header-title
 	{
-		@include padding-trailer(3);
+		@include padding-trailer(1);
 
 		@include at-breakpoint($desktop-size $desktop-columns)
 		{
@@ -139,6 +138,7 @@ span.highlight
 		{
 			display: block;
 			text-decoration: none;
+			@include adjust-font-size-to($h2-font-size);
 		}
 
 		@include at-breakpoint($desktop-size $desktop-columns)
@@ -146,12 +146,17 @@ span.highlight
 			li
 			{
 				@include span-columns(2, 8);
-				line-height: 4;
 
 				&:last-child
 				{
 					margin-right: 0;
 				}
+			}
+
+			a
+			{
+				@include adjust-font-size-to($base-font-size);
+				line-height: 4;
 			}
 		}
 	}
@@ -294,19 +299,20 @@ span.highlight
 {
 	text-align: center;
 	font-family: $title-font-family;
-	@include adjust-font-size-to(1.1 * $base-font-size);
+	@include adjust-font-size-to(.8 * $base-font-size);
 	line-height: 1.2;
 
 	a
 	{
 		text-decoration: none;
 		display: block;
-		padding-top: 100%;
+		padding-bottom: 10%;
 	}
 
 	img
 	{
 		border-radius: 50%; // this smooths the outline of the circles
+		padding-bottom: 5%;
 	}
 }
 
@@ -314,29 +320,22 @@ span.highlight
 {
 	@include tile-list(3, $total-columns, 3, $desktop-columns);
 	@extend %icon-list;
+	@include adjust-font-size-to(1 * $base-font-size);
 }
 
-.portfolio-home
+.portfolio-icons
 {
-	.menu-sectors-container
-	{
-		ul
-		{
-			@include tile-list(3, $total-columns, 3, $desktop-columns);
-			@extend %icon-list;
-		}
-	}
+	@include tile-list(3, $total-columns, 3, $desktop-columns);
+	@extend %icon-list;
+	@include adjust-font-size-to(1 * $base-font-size);
 }
 
 .sidebar
 {
-	.menu-sectors-container
+	.portfolio-icons
 	{
-		ul
-		{
-			@include tile-list(1, $total-columns, 1, $desktop-columns);
-			@extend %icon-list;
-		}
+		@include tile-list(3, 6, 1, 2);
+		@extend %icon-list;
 	}
 }
 
@@ -370,10 +369,6 @@ span.highlight
    ========================================================================== */
 .sidebar
 {
-	padding: 0 $gutter-width / 2;
-	background: $grey;
-	border: 1px solid $grey;
-
 	@include at-breakpoint($desktop-size $desktop-columns)
 	{
 		@include span-columns(4 omega, $desktop-columns);

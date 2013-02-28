@@ -16,7 +16,7 @@
 					<?php if ( have_posts() ) : ?>
 						<?php get_template_part( 'loop-portfolio' ); ?>
 					<?php else : ?>
-						<p><?php _e( 'No posts found.', 'sa' ); ?></p>
+						<p><?php _e( 'No projects found.', 'sa' ); ?></p>
 					<?php endif; ?>
 				</div>
 
