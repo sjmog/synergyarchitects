@@ -184,42 +184,42 @@ h1 {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/_normalize\.scss}line{font-family:\00003196}}
 h2 {
-  font-size: 1.4em;
-  line-height: 2.2449em;
-  margin-top: 1.12245em;
-  margin-bottom: 1.12245em;
+  font-size: 1.2em;
+  line-height: 1.30952em;
+  margin-top: 1.30952em;
+  margin-bottom: 1.30952em;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/_normalize\.scss}line{font-family:\00003202}}
 h3 {
-  font-size: 1.17em;
-  line-height: 1.3431em;
-  margin-top: 1.3431em;
-  margin-bottom: 1.3431em;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/_normalize\.scss}line{font-family:\00003208}}
-h4 {
   font-size: 1em;
   line-height: 1.57143em;
   margin-top: 1.57143em;
   margin-bottom: 1.57143em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/_normalize\.scss}line{font-family:\00003214}}
-h5 {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/_normalize\.scss}line{font-family:\00003208}}
+h4 {
   font-size: 0.83em;
   line-height: 1.89329em;
   margin-top: 1.89329em;
   margin-bottom: 1.89329em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/_normalize\.scss}line{font-family:\00003220}}
-h6 {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/_normalize\.scss}line{font-family:\00003214}}
+h5 {
   font-size: 0.67em;
   line-height: 2.34542em;
   margin-top: 2.34542em;
   margin-bottom: 2.34542em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/_normalize\.scss}line{font-family:\00003220}}
+h6 {
+  font-size: 0.5em;
+  line-height: 3.14286em;
+  margin-top: 3.14286em;
+  margin-bottom: 3.14286em;
 }
 
 /**
@@ -803,8 +803,8 @@ span.highlight.grey {
 .header-links a {
   display: block;
   text-decoration: none;
-  font-size: 1.4em;
-  line-height: 2.2449em;
+  font-size: 1.5em;
+  line-height: 2.09524em;
 }
 @media (min-width: 35em) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/style\.css\.scss}line{font-family:\00003147}}
@@ -938,8 +938,8 @@ span.highlight.grey {
   text-align: center;
   font-family: "Michroma", sans-serif;
   padding-top: 1.57143em;
-  font-size: 1.4em;
-  line-height: 2.2449em;
+  font-size: 1.2em;
+  line-height: 1.30952em;
 }
 @media (min-width: 35em) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/style\.css\.scss}line{font-family:\00003257}}
@@ -983,23 +983,23 @@ span.highlight.grey {
 .home-icons, .portfolio-icons, .sidebar .portfolio-icons {
   text-align: center;
   font-family: "Michroma", sans-serif;
-  font-size: 0.8em;
-  line-height: 1.96429em;
-  line-height: 1.2;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/style\.css\.scss}line{font-family:\00003306}}
+@media (min-width: 35em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/style\.css\.scss}line{font-family:\00003299}}
+  .home-icons, .portfolio-icons, .sidebar .portfolio-icons {
+    font-size: 0.5em;
+    line-height: 3.14286em;
+    line-height: 1.2;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/style\.css\.scss}line{font-family:\00003310}}
 .home-icons a, .portfolio-icons a, .sidebar .portfolio-icons a {
   text-decoration: none;
   display: block;
   padding-bottom: 10%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/style\.css\.scss}line{font-family:\00003313}}
-.home-icons img, .portfolio-icons img, .sidebar .portfolio-icons img {
-  border-radius: 50%;
-  padding-bottom: 5%;
-}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/style\.css\.scss}line{font-family:\00003320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/style\.css\.scss}line{font-family:\00003318}}
 .home-icons {
   list-style: none;
   clear: both;
@@ -1055,7 +1055,7 @@ span.highlight.grey {
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/style\.css\.scss}line{font-family:\00003327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/style\.css\.scss}line{font-family:\00003325}}
 .portfolio-icons {
   list-style: none;
   clear: both;
@@ -1111,7 +1111,7 @@ span.highlight.grey {
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/style\.css\.scss}line{font-family:\00003336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/style\.css\.scss}line{font-family:\00003334}}
 .sidebar .portfolio-icons {
   list-style: none;
   clear: both;
@@ -1168,43 +1168,93 @@ span.highlight.grey {
 /* Content
    ========================================================================== */
 @media (min-width: 35em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/style\.css\.scss}line{font-family:\00003345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/style\.css\.scss}line{font-family:\00003343}}
   .content {
-    width: 65.85366%;
+    width: 74.39024%;
     float: left;
     margin-right: 2.43902%;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/style\.css\.scss}line{font-family:\00003356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/style\.css\.scss}line{font-family:\00003351}}
+.content .loop {
+  margin: 20px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/style\.css\.scss}line{font-family:\00003357}}
 .content .loop h2,
 .content .loop p {
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/style\.css\.scss}line{font-family:\00003361}}
-.content .loop .meta {
-  font-style: italic;
-  text-align: right;
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/style\.css\.scss}line{font-family:\00003364}}
+.date-box {
+  clear: both;
+  float: left;
+  width: 50px;
+  height: 50px;
+  margin-top: 3px;
+  margin-right: 10px;
+  text-align: center;
+  background-image: url(./images/date.png);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/style\.css\.scss}line{font-family:\00003375}}
+.date-box .month {
+  display: block;
+  width: 100%;
+  height: 18px;
+  text-transform: uppercase;
+  font-size: 80%;
+  font-weight: bold;
+  color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/style\.css\.scss}line{font-family:\00003385}}
+.date-box .day {
+  display: block;
+  color: black;
+  line-height: 30px;
+  font-size: 120%;
+  font-weight: bold;
 }
 
 /* Sidebar
    ========================================================================== */
 @media (min-width: 35em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/style\.css\.scss}line{font-family:\00003371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/style\.css\.scss}line{font-family:\00003397}}
   .sidebar {
-    width: 31.70732%;
+    width: 23.17073%;
     float: right;
     margin-right: 0;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/style\.css\.scss}line{font-family:\00003378}}
-.sidebar h3 {
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/style\.css\.scss}line{font-family:\00003407}}
+.widget .title {
   color: #ff8800;
+  background: #585858;
+  padding: 0.3em 0.8em;
+  margin-bottom: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/style\.css\.scss}line{font-family:\00003415}}
+.widget > ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/daniel\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/typography\/lists\/_bullets\.scss}line{font-family:\0000311}}
+.widget > ul li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/style\.css\.scss}line{font-family:\00003421}}
+.widget > ul li {
+  padding: 0.3em 0.8em;
+  border-bottom: solid 1px #585858;
 }
 
 /* Contact / Map
    ========================================================================== */
 @media (min-width: 35em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/style\.css\.scss}line{font-family:\00003386}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/style\.css\.scss}line{font-family:\00003431}}
   .contact_form {
     width: 48.78049%;
     float: left;
@@ -1213,7 +1263,7 @@ span.highlight.grey {
 }
 
 @media (min-width: 35em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/style\.css\.scss}line{font-family:\00003394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/style\.css\.scss}line{font-family:\00003439}}
   .contact_map {
     width: 48.78049%;
     float: right;
@@ -1221,28 +1271,28 @@ span.highlight.grey {
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/style\.css\.scss}line{font-family:\00003404}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/style\.css\.scss}line{font-family:\00003449}}
 .wpcf7 p {
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/style\.css\.scss}line{font-family:\00003410}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/style\.css\.scss}line{font-family:\00003455}}
 .wpcf7-text,
 .wpcf7-textarea {
   width: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/style\.css\.scss}line{font-family:\00003417}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/style\.css\.scss}line{font-family:\00003462}}
 .mapp-layout * {
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/style\.css\.scss}line{font-family:\00003422}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/style\.css\.scss}line{font-family:\00003467}}
 .mapp-layout p {
   margin: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/style\.css\.scss}line{font-family:\00003429}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/style\.css\.scss}line{font-family:\00003474}}
 .mapp-layout .mapp-links a {
   color: #ff8800;
 }
@@ -1258,11 +1308,11 @@ span.highlight.grey {
 .mapp-layout .mapp-links a:active {
   color: #cc6d00;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/style\.css\.scss}line{font-family:\00003435}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/style\.css\.scss}line{font-family:\00003480}}
 .mapp-layout .adp-list {
   color: #ff8800;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/style\.css\.scss}line{font-family:\00003440}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/style\.css\.scss}line{font-family:\00003485}}
 .mapp-layout .warnbox-content {
   color: black;
 }
@@ -1352,7 +1402,7 @@ span.highlight.grey {
  *    `:before` to contain the top-margins of child elements.
  */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/_helpers\.scss}line{font-family:\0000384}}
-.clearfix:before, .header:before, .main:before, .main-standout:before, .main-content:before, .footer:before, .home-icons:before, .portfolio-icons:before,
+.clearfix:before, .header:before, .main:before, .main-standout:before, .main-content:before, .footer:before, .home-icons:before, .portfolio-icons:before, .content .loop:before,
 .clearfix:after,
 .header:after,
 .main:after,
@@ -1360,7 +1410,8 @@ span.highlight.grey {
 .main-content:after,
 .footer:after,
 .home-icons:after,
-.portfolio-icons:after {
+.portfolio-icons:after,
+.content .loop:after {
   content: " ";
   /* 1 */
   display: table;
@@ -1368,7 +1419,7 @@ span.highlight.grey {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/_helpers\.scss}line{font-family:\0000389}}
-.clearfix:after, .header:after, .main:after, .main-standout:after, .main-content:after, .footer:after, .home-icons:after, .portfolio-icons:after {
+.clearfix:after, .header:after, .main:after, .main-standout:after, .main-content:after, .footer:after, .home-icons:after, .portfolio-icons:after, .content .loop:after {
   clear: both;
 }
 
@@ -1377,7 +1428,7 @@ span.highlight.grey {
  * Include this rule to trigger hasLayout and contain floats.
  */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/wp-content\/themes\/synergyarchitects\/scss\/_helpers\.scss}line{font-family:\0000398}}
-.clearfix, .header, .main, .main-standout, .main-content, .footer, .home-icons, .portfolio-icons, .sidebar .portfolio-icons {
+.clearfix, .header, .main, .main-standout, .main-content, .footer, .home-icons, .portfolio-icons, .sidebar .portfolio-icons, .content .loop {
   *zoom: 1;
 }
 

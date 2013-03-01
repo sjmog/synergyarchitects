@@ -125,6 +125,7 @@ function sa_gallery_shortcode($attr) {
 		<style type='text/css'>
 			#{$selector} {
 				margin: auto;
+				margin-top: 22px;
 				background: #585858;
 				border: 1px solid #585858;
 			}
@@ -141,10 +142,10 @@ function sa_gallery_shortcode($attr) {
 				margin-left: 0;
 			}
 			#{$selector} .gallery-main {
-				max-height: 339px; // hax
+				max-height: 384px; // hax
 			}
 		</style>
-		<!-- see gallery_shortcode() in wp-includes/media.php -->";
+		<!-- see sa_gallery_shortcode() in includesshort-codes.php -->";
 	$size_class = sanitize_html_class( $size );
 
 	$gallery_div = "<div id='$selector' class='gallery galleryid-{$id} gallery-columns-{$columns} gallery-size-{$size_class} clearfix'>";

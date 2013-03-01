@@ -4,7 +4,7 @@
 
 		<div id="post-<?php the_ID(); ?>" <?php post_class('loop'); ?>>
 			<h2 class="post-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
-			<?php echo do_shortcode(get_the_excerpt()); ?>
+			<?php the_excerpt(); ?>
 		</div><!--end post-->
 
 	<?php endwhile; /* rewind or continue if all posts have been fetched */ ?>

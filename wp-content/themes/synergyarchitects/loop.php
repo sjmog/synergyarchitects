@@ -3,9 +3,19 @@
 	<?php while ( have_posts() ) : the_post(); ?>
 
 		<div id="post-<?php the_ID(); ?>" <?php post_class('loop'); ?>>
+
+			<div class="date-box">
+				<span class="month">
+					<?php the_time('M'); ?>
+				</span>
+				<span class="day">
+					<?php the_time('d'); ?>
+				</span>
+			</div>
+
 			<h2 class="post-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
-			<?php echo do_shortcode(get_the_excerpt()); ?>
-			<p class="meta">Posted: <?php the_time( __( 'F jS, Y', 'sa' ) ); ?></p>
+			<?php the_excerpt(); ?>
+
 		</div><!--end post-->
 
 	<?php endwhile; /* rewind or continue if all posts have been fetched */ ?>

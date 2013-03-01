@@ -59,10 +59,10 @@ if (!function_exists('sa_setup'))
 	register_sidebar(array(
 		'name' => 'Portfolio Sidebar',
 		'id' => 'portfolio',
-		'before_widget' => '',
-		'after_widget' => '',
-		'before_title' => '',
-		'after_title' => '',
+		'before_widget' => '<div class="widget">',
+		'after_widget' => '</div>',
+		'before_title' => '<h3 class="title">',
+		'after_title' => '</h3>',
 	));
 
 	register_sidebar(array(
@@ -76,8 +76,8 @@ if (!function_exists('sa_setup'))
 
 	if (function_exists('add_image_size'))
 	{
-		add_image_size('portfolio-main', 540, 340, true);
-		add_image_size('portfolio-thumb', 135, 85, true);
+		add_image_size('portfolio-main', 610, 384, true);
+		add_image_size('portfolio-thumb', 152, 96, true);
 	}
 
 	require( get_template_directory() . '/includes/short-codes.php' );
