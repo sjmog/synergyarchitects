@@ -332,7 +332,7 @@ span.highlight
 {
 	.portfolio-icons
 	{
-		@include tile-list(3, 6, 1, 2);
+		@include tile-list(3, 6, 6, 12); // the last two numbers are a bit of a hack to make the two-column's of icons a little more visually appealing
 		@extend %icon-list;
 	}
 }
@@ -486,6 +486,32 @@ span.highlight
 		color: $black;
 	}
 }
+
+/* portfolio item
+   ========================================================================== */
+.project_details {
+	@extend .clearfix;
+
+	@include adjust-font-size-to(1.1 * $base-font-size);
+
+	dt {
+		width: 30%;
+		float: left;
+		clear: both;
+		color: $black;
+		font-weight: bold;
+
+		&:after {
+			content: ':';
+		}
+	}
+	dd {
+		width: 70%;
+		margin-left: 0;
+		float: left;
+	}
+}
+
 
 /* ==========================================================================
    Final imports

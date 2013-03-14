@@ -18,9 +18,19 @@
 						<div class="content">
 							<?php the_content(); ?>
 
-							<dl>
+							<dl class="project_details">
 								<dt>Location</dt>
 								<dd><?php the_field('location'); ?></dd>
+								<dt>Client</dt>
+								<dd><?php the_field('client'); ?></dd>
+								<dt>Project Value</dt>
+								<dd><?php the_field('project_value'); ?></dd>
+								<dt>Completion Date</dt>
+								<dd><?php the_field('completion_date'); ?></dd>
+								<dt>Procurement</dt>
+								<dd><?php the_field('procurement'); ?></dd>
+								<dt>Contractor</dt>
+								<dd><?php the_field('contractor'); ?></dd>
 							</dl>
 
 							<?php wp_link_pages(); ?>

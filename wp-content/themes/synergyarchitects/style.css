@@ -1141,14 +1141,14 @@ span.highlight.grey {
 @media (min-width: 35em) {
   /* line 22, scss/_mixins.scss */
   .sidebar .portfolio-icons li {
-    width: 41.66667%;
+    width: 48.78049%;
     float: left;
-    margin-right: 16.66667%;
+    margin-right: 2.43902%;
   }
   /* line 248, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/susy-1.0.5/sass/susy/_grid.scss */
   .sidebar .portfolio-icons li:nth-child(2n) {
     float: left;
-    margin-right: 16.66667%;
+    margin-right: 2.43902%;
   }
   /* line 34, scss/_mixins.scss */
   .sidebar .portfolio-icons li:nth-child(2n+1) {
@@ -1317,6 +1317,32 @@ span.highlight.grey {
   color: black;
 }
 
+/* portfolio item
+   ========================================================================== */
+/* line 492, scss/style.css.scss */
+.project_details {
+  font-size: 1.1em;
+  line-height: 1.42857em;
+}
+/* line 497, scss/style.css.scss */
+.project_details dt {
+  width: 30%;
+  float: left;
+  clear: both;
+  color: black;
+  font-weight: bold;
+}
+/* line 504, scss/style.css.scss */
+.project_details dt:after {
+  content: ':';
+}
+/* line 508, scss/style.css.scss */
+.project_details dd {
+  width: 70%;
+  margin-left: 0;
+  float: left;
+}
+
 /* ==========================================================================
    Final imports
    ========================================================================== */
@@ -1402,7 +1428,7 @@ span.highlight.grey {
  *    `:before` to contain the top-margins of child elements.
  */
 /* line 84, scss/_helpers.scss */
-.clearfix:before, .header:before, .main:before, .main-standout:before, .main-content:before, .footer:before, .home-icons:before, .portfolio-icons:before, .content .loop:before,
+.clearfix:before, .header:before, .main:before, .main-standout:before, .main-content:before, .footer:before, .home-icons:before, .portfolio-icons:before, .content .loop:before, .project_details:before,
 .clearfix:after,
 .header:after,
 .main:after,
@@ -1411,7 +1437,8 @@ span.highlight.grey {
 .footer:after,
 .home-icons:after,
 .portfolio-icons:after,
-.content .loop:after {
+.content .loop:after,
+.project_details:after {
   content: " ";
   /* 1 */
   display: table;
@@ -1419,7 +1446,7 @@ span.highlight.grey {
 }
 
 /* line 89, scss/_helpers.scss */
-.clearfix:after, .header:after, .main:after, .main-standout:after, .main-content:after, .footer:after, .home-icons:after, .portfolio-icons:after, .content .loop:after {
+.clearfix:after, .header:after, .main:after, .main-standout:after, .main-content:after, .footer:after, .home-icons:after, .portfolio-icons:after, .content .loop:after, .project_details:after {
   clear: both;
 }
 
@@ -1428,7 +1455,7 @@ span.highlight.grey {
  * Include this rule to trigger hasLayout and contain floats.
  */
 /* line 98, scss/_helpers.scss */
-.clearfix, .header, .main, .main-standout, .main-content, .footer, .home-icons, .portfolio-icons, .sidebar .portfolio-icons, .content .loop {
+.clearfix, .header, .main, .main-standout, .main-content, .footer, .home-icons, .portfolio-icons, .sidebar .portfolio-icons, .content .loop, .project_details {
   *zoom: 1;
 }
 
