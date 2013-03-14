@@ -25,6 +25,7 @@ if (!function_exists('sa_setup'))
 	function sa_setup()
 	{
 		add_theme_support('post-thumbnails');
+		set_post_thumbnail_size( 150, 150, true );
 		add_theme_support('menus');
 	}
 

@@ -703,6 +703,20 @@ span.highlight.grey {
   padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(0%, rgba(100, 100, 225, 0.25)), color-stop(12.5%, rgba(100, 100, 225, 0.25)), color-stop(12.5%, rgba(0, 0, 0, 0)), color-stop(17.5%, rgba(0, 0, 0, 0)), color-stop(17.5%, rgba(100, 100, 225, 0.25)), color-stop(30%, rgba(100, 100, 225, 0.25)), color-stop(30%, rgba(0, 0, 0, 0)), color-stop(35%, rgba(0, 0, 0, 0)), color-stop(35%, rgba(100, 100, 225, 0.25)), color-stop(47.5%, rgba(100, 100, 225, 0.25)), color-stop(47.5%, rgba(0, 0, 0, 0)), color-stop(52.5%, rgba(0, 0, 0, 0)), color-stop(52.5%, rgba(100, 100, 225, 0.25)), color-stop(65%, rgba(100, 100, 225, 0.25)), color-stop(65%, rgba(0, 0, 0, 0)), color-stop(70%, rgba(0, 0, 0, 0)), color-stop(70%, rgba(100, 100, 225, 0.25)), color-stop(82.5%, rgba(100, 100, 225, 0.25)), color-stop(82.5%, rgba(0, 0, 0, 0)), color-stop(87.5%, rgba(0, 0, 0, 0)), color-stop(87.5%, rgba(100, 100, 225, 0.25)), color-stop(100%, rgba(100, 100, 225, 0.25)), color-stop(100%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0)));
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 12.5%, rgba(0, 0, 0, 0) 12.5%, rgba(0, 0, 0, 0) 17.5%, rgba(100, 100, 225, 0.25) 17.5%, rgba(100, 100, 225, 0.25) 30%, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0) 35%, rgba(100, 100, 225, 0.25) 35%, rgba(100, 100, 225, 0.25) 47.5%, rgba(0, 0, 0, 0) 47.5%, rgba(0, 0, 0, 0) 52.5%, rgba(100, 100, 225, 0.25) 52.5%, rgba(100, 100, 225, 0.25) 65%, rgba(0, 0, 0, 0) 65%, rgba(0, 0, 0, 0) 70%, rgba(100, 100, 225, 0.25) 70%, rgba(100, 100, 225, 0.25) 82.5%, rgba(0, 0, 0, 0) 82.5%, rgba(0, 0, 0, 0) 87.5%, rgba(100, 100, 225, 0.25) 87.5%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 12.5%, rgba(0, 0, 0, 0) 12.5%, rgba(0, 0, 0, 0) 17.5%, rgba(100, 100, 225, 0.25) 17.5%, rgba(100, 100, 225, 0.25) 30%, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0) 35%, rgba(100, 100, 225, 0.25) 35%, rgba(100, 100, 225, 0.25) 47.5%, rgba(0, 0, 0, 0) 47.5%, rgba(0, 0, 0, 0) 52.5%, rgba(100, 100, 225, 0.25) 52.5%, rgba(100, 100, 225, 0.25) 65%, rgba(0, 0, 0, 0) 65%, rgba(0, 0, 0, 0) 70%, rgba(100, 100, 225, 0.25) 70%, rgba(100, 100, 225, 0.25) 82.5%, rgba(0, 0, 0, 0) 82.5%, rgba(0, 0, 0, 0) 87.5%, rgba(100, 100, 225, 0.25) 87.5%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 12.5%, rgba(0, 0, 0, 0) 12.5%, rgba(0, 0, 0, 0) 17.5%, rgba(100, 100, 225, 0.25) 17.5%, rgba(100, 100, 225, 0.25) 30%, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0) 35%, rgba(100, 100, 225, 0.25) 35%, rgba(100, 100, 225, 0.25) 47.5%, rgba(0, 0, 0, 0) 47.5%, rgba(0, 0, 0, 0) 52.5%, rgba(100, 100, 225, 0.25) 52.5%, rgba(100, 100, 225, 0.25) 65%, rgba(0, 0, 0, 0) 65%, rgba(0, 0, 0, 0) 70%, rgba(100, 100, 225, 0.25) 70%, rgba(100, 100, 225, 0.25) 82.5%, rgba(0, 0, 0, 0) 82.5%, rgba(0, 0, 0, 0) 87.5%, rgba(100, 100, 225, 0.25) 87.5%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+  background-image: linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 12.5%, rgba(0, 0, 0, 0) 12.5%, rgba(0, 0, 0, 0) 17.5%, rgba(100, 100, 225, 0.25) 17.5%, rgba(100, 100, 225, 0.25) 30%, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0) 35%, rgba(100, 100, 225, 0.25) 35%, rgba(100, 100, 225, 0.25) 47.5%, rgba(0, 0, 0, 0) 47.5%, rgba(0, 0, 0, 0) 52.5%, rgba(100, 100, 225, 0.25) 52.5%, rgba(100, 100, 225, 0.25) 65%, rgba(0, 0, 0, 0) 65%, rgba(0, 0, 0, 0) 70%, rgba(100, 100, 225, 0.25) 70%, rgba(100, 100, 225, 0.25) 82.5%, rgba(0, 0, 0, 0) 82.5%, rgba(0, 0, 0, 0) 87.5%, rgba(100, 100, 225, 0.25) 87.5%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+  background-position: left top;
+  -webkit-background-origin: content;
+  -moz-background-origin: content;
+  -ms-background-origin: content-box;
+  -o-background-origin: content-box;
+  background-origin: content-box;
+  -webkit-background-clip: content-box;
+  -moz-background-clip: content-box;
+  background-clip: content-box;
 }
 /* line 38, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .wrap:after, .chromeframe:after {
@@ -714,6 +728,25 @@ span.highlight.grey {
   /* line 56, scss/style.css.scss */
   .wrap, .chromeframe {
     max-width: 860px;
+  }
+}
+@media (min-width: 35em) {
+  /* line 56, scss/style.css.scss */
+  .wrap, .chromeframe {
+    background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(0%, rgba(100, 100, 225, 0.25)), color-stop(6.09756%, rgba(100, 100, 225, 0.25)), color-stop(6.09756%, rgba(0, 0, 0, 0)), color-stop(8.53659%, rgba(0, 0, 0, 0)), color-stop(8.53659%, rgba(100, 100, 225, 0.25)), color-stop(14.63415%, rgba(100, 100, 225, 0.25)), color-stop(14.63415%, rgba(0, 0, 0, 0)), color-stop(17.07317%, rgba(0, 0, 0, 0)), color-stop(17.07317%, rgba(100, 100, 225, 0.25)), color-stop(23.17073%, rgba(100, 100, 225, 0.25)), color-stop(23.17073%, rgba(0, 0, 0, 0)), color-stop(25.60976%, rgba(0, 0, 0, 0)), color-stop(25.60976%, rgba(100, 100, 225, 0.25)), color-stop(31.70732%, rgba(100, 100, 225, 0.25)), color-stop(31.70732%, rgba(0, 0, 0, 0)), color-stop(34.14634%, rgba(0, 0, 0, 0)), color-stop(34.14634%, rgba(100, 100, 225, 0.25)), color-stop(40.2439%, rgba(100, 100, 225, 0.25)), color-stop(40.2439%, rgba(0, 0, 0, 0)), color-stop(42.68293%, rgba(0, 0, 0, 0)), color-stop(42.68293%, rgba(100, 100, 225, 0.25)), color-stop(48.78049%, rgba(100, 100, 225, 0.25)), color-stop(48.78049%, rgba(0, 0, 0, 0)), color-stop(51.21951%, rgba(0, 0, 0, 0)), color-stop(51.21951%, rgba(100, 100, 225, 0.25)), color-stop(57.31707%, rgba(100, 100, 225, 0.25)), color-stop(57.31707%, rgba(0, 0, 0, 0)), color-stop(59.7561%, rgba(0, 0, 0, 0)), color-stop(59.7561%, rgba(100, 100, 225, 0.25)), color-stop(65.85366%, rgba(100, 100, 225, 0.25)), color-stop(65.85366%, rgba(0, 0, 0, 0)), color-stop(68.29268%, rgba(0, 0, 0, 0)), color-stop(68.29268%, rgba(100, 100, 225, 0.25)), color-stop(74.39024%, rgba(100, 100, 225, 0.25)), color-stop(74.39024%, rgba(0, 0, 0, 0)), color-stop(76.82927%, rgba(0, 0, 0, 0)), color-stop(76.82927%, rgba(100, 100, 225, 0.25)), color-stop(82.92683%, rgba(100, 100, 225, 0.25)), color-stop(82.92683%, rgba(0, 0, 0, 0)), color-stop(85.36585%, rgba(0, 0, 0, 0)), color-stop(85.36585%, rgba(100, 100, 225, 0.25)), color-stop(91.46341%, rgba(100, 100, 225, 0.25)), color-stop(91.46341%, rgba(0, 0, 0, 0)), color-stop(93.90244%, rgba(0, 0, 0, 0)), color-stop(93.90244%, rgba(100, 100, 225, 0.25)), color-stop(100%, rgba(100, 100, 225, 0.25)), color-stop(100%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0)));
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 6.09756%, rgba(0, 0, 0, 0) 6.09756%, rgba(0, 0, 0, 0) 8.53659%, rgba(100, 100, 225, 0.25) 8.53659%, rgba(100, 100, 225, 0.25) 14.63415%, rgba(0, 0, 0, 0) 14.63415%, rgba(0, 0, 0, 0) 17.07317%, rgba(100, 100, 225, 0.25) 17.07317%, rgba(100, 100, 225, 0.25) 23.17073%, rgba(0, 0, 0, 0) 23.17073%, rgba(0, 0, 0, 0) 25.60976%, rgba(100, 100, 225, 0.25) 25.60976%, rgba(100, 100, 225, 0.25) 31.70732%, rgba(0, 0, 0, 0) 31.70732%, rgba(0, 0, 0, 0) 34.14634%, rgba(100, 100, 225, 0.25) 34.14634%, rgba(100, 100, 225, 0.25) 40.2439%, rgba(0, 0, 0, 0) 40.2439%, rgba(0, 0, 0, 0) 42.68293%, rgba(100, 100, 225, 0.25) 42.68293%, rgba(100, 100, 225, 0.25) 48.78049%, rgba(0, 0, 0, 0) 48.78049%, rgba(0, 0, 0, 0) 51.21951%, rgba(100, 100, 225, 0.25) 51.21951%, rgba(100, 100, 225, 0.25) 57.31707%, rgba(0, 0, 0, 0) 57.31707%, rgba(0, 0, 0, 0) 59.7561%, rgba(100, 100, 225, 0.25) 59.7561%, rgba(100, 100, 225, 0.25) 65.85366%, rgba(0, 0, 0, 0) 65.85366%, rgba(0, 0, 0, 0) 68.29268%, rgba(100, 100, 225, 0.25) 68.29268%, rgba(100, 100, 225, 0.25) 74.39024%, rgba(0, 0, 0, 0) 74.39024%, rgba(0, 0, 0, 0) 76.82927%, rgba(100, 100, 225, 0.25) 76.82927%, rgba(100, 100, 225, 0.25) 82.92683%, rgba(0, 0, 0, 0) 82.92683%, rgba(0, 0, 0, 0) 85.36585%, rgba(100, 100, 225, 0.25) 85.36585%, rgba(100, 100, 225, 0.25) 91.46341%, rgba(0, 0, 0, 0) 91.46341%, rgba(0, 0, 0, 0) 93.90244%, rgba(100, 100, 225, 0.25) 93.90244%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+    background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 6.09756%, rgba(0, 0, 0, 0) 6.09756%, rgba(0, 0, 0, 0) 8.53659%, rgba(100, 100, 225, 0.25) 8.53659%, rgba(100, 100, 225, 0.25) 14.63415%, rgba(0, 0, 0, 0) 14.63415%, rgba(0, 0, 0, 0) 17.07317%, rgba(100, 100, 225, 0.25) 17.07317%, rgba(100, 100, 225, 0.25) 23.17073%, rgba(0, 0, 0, 0) 23.17073%, rgba(0, 0, 0, 0) 25.60976%, rgba(100, 100, 225, 0.25) 25.60976%, rgba(100, 100, 225, 0.25) 31.70732%, rgba(0, 0, 0, 0) 31.70732%, rgba(0, 0, 0, 0) 34.14634%, rgba(100, 100, 225, 0.25) 34.14634%, rgba(100, 100, 225, 0.25) 40.2439%, rgba(0, 0, 0, 0) 40.2439%, rgba(0, 0, 0, 0) 42.68293%, rgba(100, 100, 225, 0.25) 42.68293%, rgba(100, 100, 225, 0.25) 48.78049%, rgba(0, 0, 0, 0) 48.78049%, rgba(0, 0, 0, 0) 51.21951%, rgba(100, 100, 225, 0.25) 51.21951%, rgba(100, 100, 225, 0.25) 57.31707%, rgba(0, 0, 0, 0) 57.31707%, rgba(0, 0, 0, 0) 59.7561%, rgba(100, 100, 225, 0.25) 59.7561%, rgba(100, 100, 225, 0.25) 65.85366%, rgba(0, 0, 0, 0) 65.85366%, rgba(0, 0, 0, 0) 68.29268%, rgba(100, 100, 225, 0.25) 68.29268%, rgba(100, 100, 225, 0.25) 74.39024%, rgba(0, 0, 0, 0) 74.39024%, rgba(0, 0, 0, 0) 76.82927%, rgba(100, 100, 225, 0.25) 76.82927%, rgba(100, 100, 225, 0.25) 82.92683%, rgba(0, 0, 0, 0) 82.92683%, rgba(0, 0, 0, 0) 85.36585%, rgba(100, 100, 225, 0.25) 85.36585%, rgba(100, 100, 225, 0.25) 91.46341%, rgba(0, 0, 0, 0) 91.46341%, rgba(0, 0, 0, 0) 93.90244%, rgba(100, 100, 225, 0.25) 93.90244%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 6.09756%, rgba(0, 0, 0, 0) 6.09756%, rgba(0, 0, 0, 0) 8.53659%, rgba(100, 100, 225, 0.25) 8.53659%, rgba(100, 100, 225, 0.25) 14.63415%, rgba(0, 0, 0, 0) 14.63415%, rgba(0, 0, 0, 0) 17.07317%, rgba(100, 100, 225, 0.25) 17.07317%, rgba(100, 100, 225, 0.25) 23.17073%, rgba(0, 0, 0, 0) 23.17073%, rgba(0, 0, 0, 0) 25.60976%, rgba(100, 100, 225, 0.25) 25.60976%, rgba(100, 100, 225, 0.25) 31.70732%, rgba(0, 0, 0, 0) 31.70732%, rgba(0, 0, 0, 0) 34.14634%, rgba(100, 100, 225, 0.25) 34.14634%, rgba(100, 100, 225, 0.25) 40.2439%, rgba(0, 0, 0, 0) 40.2439%, rgba(0, 0, 0, 0) 42.68293%, rgba(100, 100, 225, 0.25) 42.68293%, rgba(100, 100, 225, 0.25) 48.78049%, rgba(0, 0, 0, 0) 48.78049%, rgba(0, 0, 0, 0) 51.21951%, rgba(100, 100, 225, 0.25) 51.21951%, rgba(100, 100, 225, 0.25) 57.31707%, rgba(0, 0, 0, 0) 57.31707%, rgba(0, 0, 0, 0) 59.7561%, rgba(100, 100, 225, 0.25) 59.7561%, rgba(100, 100, 225, 0.25) 65.85366%, rgba(0, 0, 0, 0) 65.85366%, rgba(0, 0, 0, 0) 68.29268%, rgba(100, 100, 225, 0.25) 68.29268%, rgba(100, 100, 225, 0.25) 74.39024%, rgba(0, 0, 0, 0) 74.39024%, rgba(0, 0, 0, 0) 76.82927%, rgba(100, 100, 225, 0.25) 76.82927%, rgba(100, 100, 225, 0.25) 82.92683%, rgba(0, 0, 0, 0) 82.92683%, rgba(0, 0, 0, 0) 85.36585%, rgba(100, 100, 225, 0.25) 85.36585%, rgba(100, 100, 225, 0.25) 91.46341%, rgba(0, 0, 0, 0) 91.46341%, rgba(0, 0, 0, 0) 93.90244%, rgba(100, 100, 225, 0.25) 93.90244%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+    background-image: linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 6.09756%, rgba(0, 0, 0, 0) 6.09756%, rgba(0, 0, 0, 0) 8.53659%, rgba(100, 100, 225, 0.25) 8.53659%, rgba(100, 100, 225, 0.25) 14.63415%, rgba(0, 0, 0, 0) 14.63415%, rgba(0, 0, 0, 0) 17.07317%, rgba(100, 100, 225, 0.25) 17.07317%, rgba(100, 100, 225, 0.25) 23.17073%, rgba(0, 0, 0, 0) 23.17073%, rgba(0, 0, 0, 0) 25.60976%, rgba(100, 100, 225, 0.25) 25.60976%, rgba(100, 100, 225, 0.25) 31.70732%, rgba(0, 0, 0, 0) 31.70732%, rgba(0, 0, 0, 0) 34.14634%, rgba(100, 100, 225, 0.25) 34.14634%, rgba(100, 100, 225, 0.25) 40.2439%, rgba(0, 0, 0, 0) 40.2439%, rgba(0, 0, 0, 0) 42.68293%, rgba(100, 100, 225, 0.25) 42.68293%, rgba(100, 100, 225, 0.25) 48.78049%, rgba(0, 0, 0, 0) 48.78049%, rgba(0, 0, 0, 0) 51.21951%, rgba(100, 100, 225, 0.25) 51.21951%, rgba(100, 100, 225, 0.25) 57.31707%, rgba(0, 0, 0, 0) 57.31707%, rgba(0, 0, 0, 0) 59.7561%, rgba(100, 100, 225, 0.25) 59.7561%, rgba(100, 100, 225, 0.25) 65.85366%, rgba(0, 0, 0, 0) 65.85366%, rgba(0, 0, 0, 0) 68.29268%, rgba(100, 100, 225, 0.25) 68.29268%, rgba(100, 100, 225, 0.25) 74.39024%, rgba(0, 0, 0, 0) 74.39024%, rgba(0, 0, 0, 0) 76.82927%, rgba(100, 100, 225, 0.25) 76.82927%, rgba(100, 100, 225, 0.25) 82.92683%, rgba(0, 0, 0, 0) 82.92683%, rgba(0, 0, 0, 0) 85.36585%, rgba(100, 100, 225, 0.25) 85.36585%, rgba(100, 100, 225, 0.25) 91.46341%, rgba(0, 0, 0, 0) 91.46341%, rgba(0, 0, 0, 0) 93.90244%, rgba(100, 100, 225, 0.25) 93.90244%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+    background-position: left top;
+    -webkit-background-origin: content;
+    -moz-background-origin: content;
+    -ms-background-origin: content-box;
+    -o-background-origin: content-box;
+    background-origin: content-box;
+    -webkit-background-clip: content-box;
+    -moz-background-clip: content-box;
+    background-clip: content-box;
   }
 }
 
@@ -1165,27 +1198,83 @@ span.highlight.grey {
   }
 }
 
+/* Portfolio list
+   ========================================================================== */
+/* line 342, scss/style.css.scss */
+.portfolio-list {
+  list-style: none;
+  clear: both;
+  padding: 0;
+}
+/* line 11, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
+.portfolio-list li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+}
+/* line 22, scss/_mixins.scss */
+.portfolio-list li {
+  width: 47.5%;
+  float: left;
+  margin-right: 5%;
+}
+/* line 185, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/susy-1.0.5/sass/susy/_grid.scss */
+.portfolio-list li:nth-child(2n) {
+  float: right;
+  margin-right: 0;
+}
+/* line 26, scss/_mixins.scss */
+.portfolio-list li:nth-child(2n+1) {
+  clear: both;
+}
+@media (min-width: 35em) {
+  /* line 22, scss/_mixins.scss */
+  .portfolio-list li {
+    width: 31.14754%;
+    float: left;
+    margin-right: 3.27869%;
+  }
+  /* line 248, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/susy-1.0.5/sass/susy/_grid.scss */
+  .portfolio-list li:nth-child(2n) {
+    float: left;
+    margin-right: 3.27869%;
+  }
+  /* line 34, scss/_mixins.scss */
+  .portfolio-list li:nth-child(2n+1) {
+    clear: none;
+  }
+  /* line 185, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/susy-1.0.5/sass/susy/_grid.scss */
+  .portfolio-list li:nth-child(3n) {
+    float: right;
+    margin-right: 0;
+  }
+  /* line 39, scss/_mixins.scss */
+  .portfolio-list li:nth-child(3n+1) {
+    clear: both;
+  }
+}
+
 /* Content
    ========================================================================== */
 @media (min-width: 35em) {
-  /* line 343, scss/style.css.scss */
+  /* line 350, scss/style.css.scss */
   .content {
     width: 74.39024%;
     float: left;
     margin-right: 2.43902%;
   }
 }
-/* line 351, scss/style.css.scss */
+/* line 358, scss/style.css.scss */
 .content .loop {
   margin: 20px 0;
 }
-/* line 357, scss/style.css.scss */
+/* line 364, scss/style.css.scss */
 .content .loop h2,
 .content .loop p {
   margin: 0;
 }
 
-/* line 364, scss/style.css.scss */
+/* line 371, scss/style.css.scss */
 .date-box {
   clear: both;
   float: left;
@@ -1196,7 +1285,7 @@ span.highlight.grey {
   text-align: center;
   background-image: url(./images/date.png);
 }
-/* line 375, scss/style.css.scss */
+/* line 382, scss/style.css.scss */
 .date-box .month {
   display: block;
   width: 100%;
@@ -1206,7 +1295,7 @@ span.highlight.grey {
   font-weight: bold;
   color: white;
 }
-/* line 385, scss/style.css.scss */
+/* line 392, scss/style.css.scss */
 .date-box .day {
   display: block;
   color: black;
@@ -1218,7 +1307,7 @@ span.highlight.grey {
 /* Sidebar
    ========================================================================== */
 @media (min-width: 35em) {
-  /* line 397, scss/style.css.scss */
+  /* line 404, scss/style.css.scss */
   .sidebar {
     width: 23.17073%;
     float: right;
@@ -1226,14 +1315,14 @@ span.highlight.grey {
   }
 }
 
-/* line 407, scss/style.css.scss */
+/* line 414, scss/style.css.scss */
 .widget .title {
   color: #ff8800;
   background: #585858;
   padding: 0.3em 0.8em;
   margin-bottom: 0;
 }
-/* line 415, scss/style.css.scss */
+/* line 422, scss/style.css.scss */
 .widget > ul {
   list-style: none;
   padding: 0;
@@ -1245,7 +1334,7 @@ span.highlight.grey {
   list-style-type: none;
   margin-left: 0;
 }
-/* line 421, scss/style.css.scss */
+/* line 428, scss/style.css.scss */
 .widget > ul li {
   padding: 0.3em 0.8em;
   border-bottom: solid 1px #585858;
@@ -1254,7 +1343,7 @@ span.highlight.grey {
 /* Contact / Map
    ========================================================================== */
 @media (min-width: 35em) {
-  /* line 431, scss/style.css.scss */
+  /* line 438, scss/style.css.scss */
   .contact_form {
     width: 48.78049%;
     float: left;
@@ -1263,7 +1352,7 @@ span.highlight.grey {
 }
 
 @media (min-width: 35em) {
-  /* line 439, scss/style.css.scss */
+  /* line 446, scss/style.css.scss */
   .contact_map {
     width: 48.78049%;
     float: right;
@@ -1271,28 +1360,28 @@ span.highlight.grey {
   }
 }
 
-/* line 449, scss/style.css.scss */
+/* line 456, scss/style.css.scss */
 .wpcf7 p {
   margin: 0;
 }
 
-/* line 455, scss/style.css.scss */
+/* line 462, scss/style.css.scss */
 .wpcf7-text,
 .wpcf7-textarea {
   width: 100%;
 }
 
-/* line 462, scss/style.css.scss */
+/* line 469, scss/style.css.scss */
 .mapp-layout * {
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
 }
-/* line 467, scss/style.css.scss */
+/* line 474, scss/style.css.scss */
 .mapp-layout p {
   margin: auto;
 }
-/* line 474, scss/style.css.scss */
+/* line 481, scss/style.css.scss */
 .mapp-layout .mapp-links a {
   color: #ff8800;
 }
@@ -1308,23 +1397,23 @@ span.highlight.grey {
 .mapp-layout .mapp-links a:active {
   color: #cc6d00;
 }
-/* line 480, scss/style.css.scss */
+/* line 487, scss/style.css.scss */
 .mapp-layout .adp-list {
   color: #ff8800;
 }
-/* line 485, scss/style.css.scss */
+/* line 492, scss/style.css.scss */
 .mapp-layout .warnbox-content {
   color: black;
 }
 
 /* portfolio item
    ========================================================================== */
-/* line 492, scss/style.css.scss */
+/* line 499, scss/style.css.scss */
 .project_details {
   font-size: 1.1em;
   line-height: 1.42857em;
 }
-/* line 497, scss/style.css.scss */
+/* line 504, scss/style.css.scss */
 .project_details dt {
   width: 30%;
   float: left;
@@ -1332,11 +1421,11 @@ span.highlight.grey {
   color: black;
   font-weight: bold;
 }
-/* line 504, scss/style.css.scss */
+/* line 511, scss/style.css.scss */
 .project_details dt:after {
   content: ':';
 }
-/* line 508, scss/style.css.scss */
+/* line 515, scss/style.css.scss */
 .project_details dd {
   width: 70%;
   margin-left: 0;
@@ -1428,7 +1517,7 @@ span.highlight.grey {
  *    `:before` to contain the top-margins of child elements.
  */
 /* line 84, scss/_helpers.scss */
-.clearfix:before, .header:before, .main:before, .main-standout:before, .main-content:before, .footer:before, .home-icons:before, .portfolio-icons:before, .content .loop:before, .project_details:before,
+.clearfix:before, .header:before, .main:before, .main-standout:before, .main-content:before, .footer:before, .home-icons:before, .portfolio-icons:before, .portfolio-list:before, .content .loop:before, .project_details:before,
 .clearfix:after,
 .header:after,
 .main:after,
@@ -1437,6 +1526,7 @@ span.highlight.grey {
 .footer:after,
 .home-icons:after,
 .portfolio-icons:after,
+.portfolio-list:after,
 .content .loop:after,
 .project_details:after {
   content: " ";
@@ -1446,7 +1536,7 @@ span.highlight.grey {
 }
 
 /* line 89, scss/_helpers.scss */
-.clearfix:after, .header:after, .main:after, .main-standout:after, .main-content:after, .footer:after, .home-icons:after, .portfolio-icons:after, .content .loop:after, .project_details:after {
+.clearfix:after, .header:after, .main:after, .main-standout:after, .main-content:after, .footer:after, .home-icons:after, .portfolio-icons:after, .portfolio-list:after, .content .loop:after, .project_details:after {
   clear: both;
 }
 
@@ -1455,7 +1545,7 @@ span.highlight.grey {
  * Include this rule to trigger hasLayout and contain floats.
  */
 /* line 98, scss/_helpers.scss */
-.clearfix, .header, .main, .main-standout, .main-content, .footer, .home-icons, .portfolio-icons, .sidebar .portfolio-icons, .content .loop, .project_details {
+.clearfix, .header, .main, .main-standout, .main-content, .footer, .home-icons, .portfolio-icons, .sidebar .portfolio-icons, .portfolio-list, .content .loop, .project_details {
   *zoom: 1;
 }
 

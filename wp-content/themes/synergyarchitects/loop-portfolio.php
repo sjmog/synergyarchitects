@@ -1,13 +1,15 @@
 <?php if ( have_posts() ) : ?>
 
-	<?php while ( have_posts() ) : the_post(); ?>
-
-		<div id="post-<?php the_ID(); ?>" <?php post_class('loop'); ?>>
-			<h2 class="post-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
-			<?php the_excerpt(); ?>
-		</div><!--end post-->
-
-	<?php endwhile; /* rewind or continue if all posts have been fetched */ ?>
+	<ul class="portfolio-list">
+		<?php while ( have_posts() ) : the_post(); ?>
+			<li>
+				<div id="post-<?php the_ID(); ?>" <?php post_class('loop'); ?>>
+					<h2 class="post-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
+					<?php the_excerpt(); ?>
+				</div><!--end post-->
+			</li>
+		<?php endwhile; /* rewind or continue if all posts have been fetched */ ?>
+	</ul>
 
 		<div class="pagination index">
 			<div class="alignleft">
