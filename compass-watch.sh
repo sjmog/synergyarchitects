@@ -1,3 +1,4 @@
 #!/bin/sh
 cd wp-content/themes/synergyarchitects/
-compass watch --debug-info
+compass watch
+#--debug-info

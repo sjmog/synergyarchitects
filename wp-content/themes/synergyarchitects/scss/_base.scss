@@ -11,6 +11,9 @@ $grid-padding:		$gutter-width;
 $desktop-size:		40em;
 $desktop-columns:	12;
 
+// set the default breakpoint (and include a modernizr compatible fall back for IE8 and under)
+$media-layout:		$desktop-size $desktop-columns lt-ie9;
+
 /* ==========================================================================
    Colours
    ========================================================================== */
