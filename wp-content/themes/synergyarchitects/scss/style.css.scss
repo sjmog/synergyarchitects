@@ -122,7 +122,7 @@ span.highlight
 	{
 		@include at-breakpoint($desktop-size $desktop-columns)
 		{
-			@include span-columns(8 omega, $desktop-columns);
+			@include span-columns(12 omega, $desktop-columns);
 		}
 	}
 
@@ -145,7 +145,7 @@ span.highlight
 		{
 			li
 			{
-				@include span-columns(2, 8);
+				@include span-columns(3, 12);
 
 				&:last-child
 				{

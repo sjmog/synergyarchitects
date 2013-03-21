@@ -812,7 +812,7 @@ span.highlight.grey {
 @media (min-width: 35em) {
   /* line 122, scss/style.css.scss */
   .header-navigation {
-    width: 49.09091%;
+    width: 74.54545%;
     float: right;
     margin-right: 0;
   }
@@ -842,9 +842,9 @@ span.highlight.grey {
 @media (min-width: 35em) {
   /* line 147, scss/style.css.scss */
   .header-links li {
-    width: 22.22222%;
+    width: 23.17073%;
     float: left;
-    margin-right: 3.7037%;
+    margin-right: 2.43902%;
   }
   /* line 151, scss/style.css.scss */
   .header-links li:last-child {
