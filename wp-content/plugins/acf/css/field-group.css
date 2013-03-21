@@ -534,42 +534,6 @@ ul.checkbox_list li input {
 } 
 
 
-/*---------------------------------------------------------------------------------------------
-*
-*	Flexible Content
-*	
-*---------------------------------------------------------------------------------------------*/
-table.acf_input table.acf_cf_meta {
-	width: 100%;
-	border: 0 none;
-}
-
-table.acf_input table.acf_cf_meta td {
-	border: 0 none;
-	width: 33%;
-}
-
-table.acf_input table.acf_cf_meta label {
-	width: 20%;
-	color: #333333;
-	font-weight: bold;
-}
-
-table.acf_input table.acf_cf_meta input {
-	width: 80%;
-}
-
-table.acf_input table.acf_cf_meta select {
-	width: 75%;
-}
-
-.acf_fc_reorder {
-	cursor: move;
-}
-
-
-
-
 
 /*---------------------------------------------------------------------------------------------
 *
@@ -689,8 +653,7 @@ table.conditional-logic-rules tbody td {
 
 #acf_fields .fields .field-tab tr.field_name,
 #acf_fields .fields .field-tab tr.field_instructions,
-#acf_fields .fields .field-tab tr.required,
-#acf_fields .fields .field-tab tr.conditional-logic {
+#acf_fields .fields .field-tab tr.required {
 	display: none;
 }
 
@@ -714,14 +677,6 @@ only screen and (                min-resolution: 2dppx) {
 		background-image: url(../images/sprite@2x.png);
 		background-size: 100px 600px;
 	}
-	
-	
-	/*
-#toplevel_page_edit-post_type-acf .wp-menu-image { 
-		background-image: url("../../../../wp-admin/images/menu-2x.png") !important;
-	}
-*/
-
 	
 }
 

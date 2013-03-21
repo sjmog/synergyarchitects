@@ -249,14 +249,15 @@
 			type: 'post',
 			dataType: 'html',
 			data: { 
-				'action' : 'acf_get_relationship_results', 
+				'action' : 'acf/fields/relationship/query_posts', 
 				's' : s,
 				'paged' : paged,
 				'taxonomy' : taxonomy,
 				'post_type' : post_type,
 				'lang' : lang,
 				'field_name' : div.parent().attr('data-field_name'),
-				'field_key' : div.parent().attr('data-field_key')
+				'field_key' : div.parent().attr('data-field_key'),
+				'nonce' : acf.nonce
 			},
 			success: function( html ){
 				

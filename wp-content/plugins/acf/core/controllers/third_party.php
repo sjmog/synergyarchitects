@@ -1,20 +1,15 @@
 <?php 
 
 /*
-*  third_party
+*  acf_third_party
 *
-*  @description: 
-*  @since 3.5.1
-*  @created: 23/06/12
+*  @description: controller for add-ons sub menu page
+*  @since: 3.6
+*  @created: 25/01/13
 */
- 
-class acf_third_party 
-{
 
-	var $parent,
-		$data;
-	
-	
+class acf_third_party
+{
 	/*
 	*  __construct
 	*
@@ -23,13 +18,8 @@ class acf_third_party
 	*  @created: 23/06/12
 	*/
 	
-	function __construct($parent)
+	function __construct()
 	{
-		// vars
-		$this->parent = $parent;
-		$this->data['metaboxes'] = array();
-		
-		
 		// Tabify Edit Screen - http://wordpress.org/extend/plugins/tabify-edit-screen/
 		add_action('admin_head-settings_page_tabify-edit-screen', array($this,'admin_head_tabify'));
 		
@@ -45,8 +35,8 @@ class acf_third_party
 		// WordPres Importer
 		add_filter('import_post_meta_key', array($this, 'import_post_meta_key'), 10, 1);
 		add_action('import_post_meta', array($this, 'import_post_meta'), 10, 3);
-		
 	}
+	
 	
 	
 	/*
@@ -127,7 +117,7 @@ class acf_third_party
 	function tabify_add_meta_boxes( $post_type )
 	{
 		// get acf's
-		$acfs = apply_filters('acf/get_field_groups', false);
+		$acfs = apply_filters('acf/get_field_groups', array());
 		
 		if($acfs)
 		{
@@ -210,16 +200,8 @@ class acf_third_party
 	
 	function create_new_field_keys( $field )
 	{
-		// get next id
-		$next_id = (int) get_option('acf_next_field_id', 1);
-		
-		
-		// update the acf_next_field_id
-		update_option('acf_next_field_id', ($next_id + 1) );
-		
-		
 		// update key
-		$field['key'] = 'field_' . $next_id;
+		$field['key'] = 'field_' . uniqid();
 		
 		
 		// update sub field's keys
@@ -236,44 +218,9 @@ class acf_third_party
 	}
 	
 	
-	/*
-	*  import_post_meta
-	*
-	*  @description: 
-	*  @since: 3.5.5
-	*  @created: 31/12/12
-	*/
-	
-	function import_post_meta_key( $meta_key )
-	{
-		if( strpos($meta_key, 'field_') !== false )
-		{
-			$meta_key = 'field_' . $this->parent->get_next_field_id();
-		}
-		
-		return $meta_key;
-	}
-	
-	
-	/*
-	*  import_post_meta
-	*
-	*  @description: 
-	*  @since: 3.5.5
-	*  @created: 1/01/13
-	*/
-	
-	function import_post_meta( $post_id, $key, $value )
-	{
-		if( strpos($key, 'field_') !== false )
-		{
-			$value['key'] = $key;
 			
-			update_post_meta( $post_id, $key, $value );
-		}
-	}
-
-
 }
+
+new acf_third_party();
 
 ?>

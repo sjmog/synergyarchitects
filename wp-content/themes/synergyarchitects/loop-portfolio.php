@@ -3,7 +3,8 @@
 	<ul class="portfolio-list">
 		<?php while ( have_posts() ) : the_post(); ?>
 			<li>
-				<div id="post-<?php the_ID(); ?>" <?php post_class('loop'); ?>>
+				<div id="post-<?php the_ID(); ?>" <?php post_class('loop-portfolio'); ?>>
+					<?php the_post_thumbnail( 'single-post-thumbnail' ); ?>
 					<h2 class="post-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
 					<?php the_excerpt(); ?>
 				</div><!--end post-->

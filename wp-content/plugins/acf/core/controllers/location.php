@@ -1,19 +1,16 @@
 <?php 
 
 /*
-*  acf_location
+*  Locations
 *
-*  @description: 
-*  @since: 3.5.7
-*  @created: 3/01/13
+*  @description: controller for location match functionality
+*  @since: 3.6
+*  @created: 25/01/13
 */
 
 class acf_location
 {
 
-	var $parent,
-		$data;
-		
 	/*
 	*  __construct
 	*
@@ -22,12 +19,8 @@ class acf_location
 	*  @created: 23/06/12
 	*/
 	
-	function __construct($parent)
+	function __construct()
 	{
-		// vars
-		$this->parent = $parent;
-		
-		
 		// ajax
 		add_action('wp_ajax_acf/location/match_field_groups_ajax', array($this, 'match_field_groups_ajax'));
 		
@@ -59,11 +52,8 @@ class acf_location
 		
 		// Options Page
 		add_filter('acf/location/rule_match/options_page', array($this, 'rule_match_options_page'), 10, 3);
-
-		
-		
 	}
-
+	
 	
 	/*
 	*  match_field_groups_ajax
@@ -117,6 +107,7 @@ class acf_location
 	
 	function match_field_groups( $return, $options )
 	{
+		
 		// vars
 		$defaults = array(
 			'post_id' => 0,
@@ -154,8 +145,8 @@ class acf_location
 		
 		
 		// find all acf objects
-		$acfs = apply_filters('acf/get_field_groups', false);
-		
+		$acfs = apply_filters('acf/get_field_groups', array());
+
 		
 		// blank array to hold acfs
 		$return = array();
@@ -165,6 +156,10 @@ class acf_location
 		{
 			foreach( $acfs as $acf )
 			{
+				// load location
+				$acf['location'] = apply_filters('acf/field_group/get_location', array(), $acf['id']);
+
+				
 				// vars
 				$add_box = false;
 				
@@ -176,7 +171,7 @@ class acf_location
 				}
 						
 				
-				if( $acf['location']['rules'] )
+				if( is_array($acf['location']['rules']) )
 				{
 					// defaults
 					$rule_defaults = array(
@@ -196,6 +191,7 @@ class acf_location
 						$match = apply_filters( 'acf/location/rule_match/' . $rule['param'] , $match, $rule, $options );
 						
 						
+						
 						if( $acf['location']['allorany'] == 'all' && !$match )
 						{
 							// if all of the rules are required to match and this rule did not, don't add this box!
@@ -210,11 +206,13 @@ class acf_location
 					}
 				}
 					
+		
 				
 				// add ID to array	
 				if( $add_box )
 				{
 					$return[] = $acf['id'];
+					
 				}
 				
 			}
@@ -242,7 +240,7 @@ class acf_location
 			$post_type = get_post_type( $options['post_id'] );
 		}
 		
-
+		
         if( $rule['operator'] == "==" )
         {
         	$match = ( $post_type == $rule['value'] );
@@ -251,7 +249,7 @@ class acf_location
         {
         	$match = ( $post_type != $rule['value'] );
         }
-		
+        
 	
 		return $match;
 	}
@@ -343,6 +341,25 @@ class acf_location
 	        elseif($rule['operator'] == "!=")
 	        {
 	        	$match = ( $posts_page != $post->ID );
+	        }
+	        
+        }
+        elseif( $rule['value'] == 'top_level')
+        {
+        	$post_parent = $post->post_parent;
+        	if( $options['page_parent'] )
+        	{
+	        	$post_parent = $options['page_parent'];
+        	}
+        	
+        	
+	        if($rule['operator'] == "==")
+	        {
+	        	$match = ( $post_parent == 0 );
+	        }
+	        elseif($rule['operator'] == "!=")
+	        {
+	        	$match = ( $post_parent != 0 );
 	        }
 	        
         }
@@ -485,47 +502,57 @@ class acf_location
 	
 	function rule_match_post_category( $match, $rule, $options )
 	{
-		$cats = $options['post_category'];
-		
-		if( empty($cats) )
+		// validate
+		if( !$options['post_id'] )
 		{
-			if( !$options['post_id'] )
-			{
-				return false;
-			}
-			
-			$all_cats = get_the_category( $options['post_id'] );
-        	foreach( $all_cats as $cat )
-			{
-				$cats[] = $cat->term_id;
-			}
+			return false;
 		}
-		
-		$post_type = $options['post_type'];
 
-		if( !$post_type )
+		
+		// post type
+		if( !$options['post_type'] )
 		{
-			$post_type = get_post_type( $options['post_id'] );
+			$options['post_type'] = get_post_type( $options['post_id'] );
 		}
 		
-		$taxonomies = get_object_taxonomies( $post_type );
-	
-			
 		
-		// If no $cats, this is a new post and should be treated as if it has the "Uncategorized" (1) category ticked
-		if( in_array('category', $taxonomies) && empty($cats) )
+		// vars
+		$taxonomies = get_object_taxonomies( $options['post_type'] );
+		$terms = $options['post_category'];
+		
+		
+		// no terms? This is not an ajax call. Load them from the post_id
+		if( empty($terms) )
 		{
-			$cats[] = '1';
+			$all_terms = get_the_terms( $options['post_id'], 'category' );
+			if($all_terms)
+			{
+				foreach($all_terms as $all_term)
+				{
+					$terms[] = $all_term->term_id;
+				}
+			}
 		}
 		
+		
+		// no terms at all? 
+		if( empty($terms) )
+		{
+			// If no ters, this is a new post and should be treated as if it has the "Uncategorized" (1) category ticked
+			if( is_array($taxonomies) && in_array('category', $taxonomies) )
+			{
+				$terms[] = '1';
+			}
+		}
 
+        
         if($rule['operator'] == "==")
         {
         	$match = false;
         	
-        	if($cats)
+        	if($terms)
 			{
-				if( in_array($rule['value'], $cats) )
+				if( in_array($rule['value'], $terms) )
 				{
 					$match = true; 
 				}
@@ -536,15 +563,16 @@ class acf_location
         {
         	$match = true;
         	
-        	if($cats)
+        	if($terms)
 			{
-				if( in_array($rule['value'], $cats) )
+				if( in_array($rule['value'], $terms) )
 				{
 					$match = false; 
 				}
 			}
 
         }
+    
         
         return $match;
         
@@ -666,28 +694,31 @@ class acf_location
 	
 	function rule_match_taxonomy( $match, $rule, $options )
 	{
+		// validate
+		if( !$options['post_id'] )
+		{
+			return false;
+		}
+		
+		
+		// post type
+		if( !$options['post_type'] )
+		{
+			$options['post_type'] = get_post_type( $options['post_id'] );
+		}
+		
+		
+		// vars
+		$taxonomies = get_object_taxonomies( $options['post_type'] );
 		$terms = $options['taxonomy'];
 		
 		
+		// no terms? This is not an ajax call. Load them from the post_id
 		if( empty($terms) )
 		{
-			if( !$options['post_id'] )
-			{
-				return false;
-			}
-			
-			$post_type = $options['post_type'];
-
-			if( !$post_type )
-			{
-				$post_type = get_post_type( $options['post_id'] );
-			}
-			
-			$taxonomies = get_object_taxonomies( $post_type );
-			
-        	if($taxonomies)
+        	if( is_array($taxonomies) )
         	{
-	        	foreach($taxonomies as $tax)
+	        	foreach( $taxonomies as $tax )
 				{
 					$all_terms = get_the_terms( $options['post_id'], $tax );
 					if($all_terms)
@@ -702,10 +733,14 @@ class acf_location
 		}
 		
 		
-		// If no $cats, this is a new post and should be treated as if it has the "Uncategorized" (1) category ticked
-		if( in_array('category', $taxonomies) && empty($terms) )
+		// no terms at all? 
+		if( empty($terms) )
 		{
-			$terms[] = '1';
+			// If no ters, this is a new post and should be treated as if it has the "Uncategorized" (1) category ticked
+			if( is_array($taxonomies) && in_array('category', $taxonomies) )
+			{
+				$terms[] = '1';
+			}
 		}
 
         
@@ -885,7 +920,10 @@ class acf_location
         return $match;
         
     }
-
+	
+			
 }
+
+$acf_location = new acf_location();
 
 ?>
