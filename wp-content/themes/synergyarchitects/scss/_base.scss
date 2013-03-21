@@ -2,14 +2,14 @@
    Susy grid: http://susy.oddbird.net/
    ========================================================================== */
 // mobile first
-$total-columns:		6;
-$column-width:		50px;
-$gutter-width:		20px;
+$total-columns:		8;
+$column-width:		40px;
+$gutter-width:		16px;
 $grid-padding:		$gutter-width;
 
 // desktop breakpoint
 $desktop-size:		40em;
-$desktop-columns:	12;
+$desktop-columns:	16;
 
 // set the default breakpoint (and include a modernizr compatible fall back for IE8 and under)
 $media-layout:		$desktop-size $desktop-columns lt-ie9;
