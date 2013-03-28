@@ -364,6 +364,34 @@ span.highlight
    ========================================================================== */
 .portfolio-list {
 	@include tile-list(4, $total-columns, 4, 12);
+
+	li {
+		position: relative;
+		overflow: hidden;
+		margin-bottom: $gutter-width;
+
+		&:hover {
+			h2 {
+				display: block;
+			}
+		}
+	}
+
+	h2 {
+		display: none;
+		width: 100%;
+		padding: 2px;
+		background: rgba($dark-grey, .9);
+		position: absolute;
+		top: 0;
+		@include leader(0);
+		@include adjust-font-size-to($h3-font-size);
+		line-height: 1.3;
+	}
+
+	a {
+		text-decoration: none;
+	}
 }
 
 
