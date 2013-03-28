@@ -1260,7 +1260,6 @@ span.highlight.grey {
 .portfolio-list h2 {
   display: none;
   width: 100%;
-  padding: 2px;
   background: rgba(65, 65, 65, 0.9);
   position: absolute;
   top: 0;
@@ -1269,32 +1268,34 @@ span.highlight.grey {
   line-height: 1.57143em;
   line-height: 1.3;
 }
-/* line 392, scss/style.css.scss */
+/* line 391, scss/style.css.scss */
 .portfolio-list a {
   text-decoration: none;
+  display: block;
+  padding: 2px;
 }
 
 /* Content
    ========================================================================== */
 @media (min-width: 35em) {
-  /* line 401, scss/style.css.scss */
+  /* line 402, scss/style.css.scss */
   .content {
     width: 74.54545%;
     float: left;
     margin-right: 1.81818%;
   }
 }
-/* line 409, scss/style.css.scss */
+/* line 410, scss/style.css.scss */
 .content .loop {
   margin: 20px 0;
 }
-/* line 415, scss/style.css.scss */
+/* line 416, scss/style.css.scss */
 .content .loop h2,
 .content .loop p {
   margin: 0;
 }
 
-/* line 422, scss/style.css.scss */
+/* line 423, scss/style.css.scss */
 .date-box {
   clear: both;
   float: left;
@@ -1305,7 +1306,7 @@ span.highlight.grey {
   text-align: center;
   background-image: url(./images/date.png);
 }
-/* line 433, scss/style.css.scss */
+/* line 434, scss/style.css.scss */
 .date-box .month {
   display: block;
   width: 100%;
@@ -1315,7 +1316,7 @@ span.highlight.grey {
   font-weight: bold;
   color: white;
 }
-/* line 443, scss/style.css.scss */
+/* line 444, scss/style.css.scss */
 .date-box .day {
   display: block;
   color: black;
@@ -1327,7 +1328,7 @@ span.highlight.grey {
 /* Sidebar
    ========================================================================== */
 @media (min-width: 35em) {
-  /* line 455, scss/style.css.scss */
+  /* line 456, scss/style.css.scss */
   .sidebar {
     width: 23.63636%;
     float: right;
@@ -1335,14 +1336,14 @@ span.highlight.grey {
   }
 }
 
-/* line 465, scss/style.css.scss */
+/* line 466, scss/style.css.scss */
 .widget .title {
   color: #ff8800;
   background: #585858;
   padding: 0.3em 0.8em;
   margin-bottom: 0;
 }
-/* line 473, scss/style.css.scss */
+/* line 474, scss/style.css.scss */
 .widget > ul {
   list-style: none;
   padding: 0;
@@ -1354,7 +1355,7 @@ span.highlight.grey {
   list-style-type: none;
   margin-left: 0;
 }
-/* line 479, scss/style.css.scss */
+/* line 480, scss/style.css.scss */
 .widget > ul li {
   padding: 0.3em 0.8em;
   border-bottom: solid 1px #585858;
@@ -1363,7 +1364,7 @@ span.highlight.grey {
 /* Contact / Map
    ========================================================================== */
 @media (min-width: 35em) {
-  /* line 489, scss/style.css.scss */
+  /* line 490, scss/style.css.scss */
   .contact_form {
     width: 36.36364%;
     float: left;
@@ -1372,7 +1373,7 @@ span.highlight.grey {
 }
 
 @media (min-width: 35em) {
-  /* line 497, scss/style.css.scss */
+  /* line 498, scss/style.css.scss */
   .contact_map {
     width: 36.36364%;
     float: right;
@@ -1380,28 +1381,28 @@ span.highlight.grey {
   }
 }
 
-/* line 507, scss/style.css.scss */
+/* line 508, scss/style.css.scss */
 .wpcf7 p {
   margin: 0;
 }
 
-/* line 513, scss/style.css.scss */
+/* line 514, scss/style.css.scss */
 .wpcf7-text,
 .wpcf7-textarea {
   width: 100%;
 }
 
-/* line 520, scss/style.css.scss */
+/* line 521, scss/style.css.scss */
 .mapp-layout * {
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
 }
-/* line 525, scss/style.css.scss */
+/* line 526, scss/style.css.scss */
 .mapp-layout p {
   margin: auto;
 }
-/* line 532, scss/style.css.scss */
+/* line 533, scss/style.css.scss */
 .mapp-layout .mapp-links a {
   color: #ff8800;
 }
@@ -1417,23 +1418,23 @@ span.highlight.grey {
 .mapp-layout .mapp-links a:active {
   color: #cc6d00;
 }
-/* line 538, scss/style.css.scss */
+/* line 539, scss/style.css.scss */
 .mapp-layout .adp-list {
   color: #ff8800;
 }
-/* line 543, scss/style.css.scss */
+/* line 544, scss/style.css.scss */
 .mapp-layout .warnbox-content {
   color: black;
 }
 
 /* portfolio item
    ========================================================================== */
-/* line 550, scss/style.css.scss */
+/* line 551, scss/style.css.scss */
 .project_details {
   font-size: 1.1em;
   line-height: 1.42857em;
 }
-/* line 555, scss/style.css.scss */
+/* line 556, scss/style.css.scss */
 .project_details dt {
   width: 30%;
   float: left;
@@ -1441,11 +1442,11 @@ span.highlight.grey {
   color: black;
   font-weight: bold;
 }
-/* line 562, scss/style.css.scss */
+/* line 563, scss/style.css.scss */
 .project_details dt:after {
   content: ':';
 }
-/* line 566, scss/style.css.scss */
+/* line 567, scss/style.css.scss */
 .project_details dd {
   width: 70%;
   margin-left: 0;

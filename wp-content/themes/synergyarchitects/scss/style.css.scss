@@ -380,7 +380,6 @@ span.highlight
 	h2 {
 		display: none;
 		width: 100%;
-		padding: 2px;
 		background: rgba($dark-grey, .9);
 		position: absolute;
 		top: 0;
@@ -391,6 +390,8 @@ span.highlight
 
 	a {
 		text-decoration: none;
+		display: block;
+		padding: 2px;
 	}
 }
 
