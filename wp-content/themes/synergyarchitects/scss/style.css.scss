@@ -141,6 +141,27 @@ span.highlight
 			@include adjust-font-size-to(1.5 * $base-font-size);
 		}
 
+		li {
+			&.nav-label {
+				display: block;
+				@include at-breakpoint($desktop-size $desktop-columns) {
+					display: none;
+				}
+			}
+			&.nav-link {
+				display: none;
+				@include at-breakpoint($desktop-size $desktop-columns) {
+					display: block;
+				}
+			}
+		}
+
+		&:hover {
+			.nav-link {
+				display: block;
+			}
+		}
+
 		@include at-breakpoint($desktop-size $desktop-columns)
 		{
 			li
@@ -204,7 +225,9 @@ span.highlight
 		h1 + p.lede,
 		p.lede + p
 		{
-			margin-top: 30px;
+			@include at-breakpoint($desktop-size $desktop-columns) {
+				margin-top: 30px;
+			}
 		}
 
 		p

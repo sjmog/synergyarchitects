@@ -141,9 +141,6 @@ function sa_gallery_shortcode($attr) {
 			#{$selector} .gallery-caption {
 				margin-left: 0;
 			}
-			#{$selector} .gallery-main {
-				max-height: 384px; // hax
-			}
 		</style>
 		<!-- see sa_gallery_shortcode() in includesshort-codes.php -->";
 	$size_class = sanitize_html_class( $size );

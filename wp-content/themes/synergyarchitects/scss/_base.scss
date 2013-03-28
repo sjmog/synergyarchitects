@@ -12,7 +12,7 @@ $desktop-size:		40em;
 $desktop-columns:	16;
 
 // set the default breakpoint (and include a modernizr compatible fall back for IE8 and under)
-$media-layout:		$desktop-size $desktop-columns lt-ie9;
+//$media-layout:		// not used in this project, we're using respond.js instead.
 
 /* ==========================================================================
    Colours
@@ -73,7 +73,7 @@ $legacy-support-for-mozilla:	false;
 /* ==========================================================================
    Debug - set this to false to remove the grid overlay.
    ========================================================================== */
-$qs-debug:	true;
+$qs-debug:	false;
 
 /* ==========================================================================
    Imports

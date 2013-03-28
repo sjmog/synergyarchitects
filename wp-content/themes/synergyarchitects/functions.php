@@ -78,8 +78,9 @@ if (!function_exists('sa_setup'))
 
 	if (function_exists('add_image_size'))
 	{
-		add_image_size('portfolio-main', 610, 384, true);
-		add_image_size('portfolio-thumb', 152, 96, true);
+		add_image_size('portfolio-main', 656);
+		add_image_size('portfolio-thumb', 163, 100, true);
+		add_image_size('portfolio-loop', 208, 128, true);
 	}
 
 	require( get_template_directory() . '/includes/short-codes.php' );
