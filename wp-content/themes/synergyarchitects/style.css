@@ -1,1 +1,1696 @@
-article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,video{display:inline-block}audio:not([controls]){display:none;height:0}[hidden]{display:none}html{font-family:"PT Sans",sans-serif;font-size:87.5%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;line-height:1.57143em}body{margin:0}a:focus{outline:thin dotted}a:active,a:hover{outline:0}p,pre{margin:1.57143em 0}blockquote{margin:1.57143em 40px}h1{font-size:1.9em;line-height:1.65414em;margin-top:0.82707em;margin-bottom:0.82707em}h2{font-size:1.2em;line-height:1.30952em;margin-top:1.30952em;margin-bottom:1.30952em}h3{font-size:1em;line-height:1.57143em;margin-top:1.57143em;margin-bottom:1.57143em}h4{font-size:0.83em;line-height:1.89329em;margin-top:1.89329em;margin-bottom:1.89329em}h5{font-size:0.67em;line-height:2.34542em;margin-top:2.34542em;margin-bottom:2.34542em}h6{font-size:0.5em;line-height:3.14286em;margin-top:3.14286em;margin-bottom:3.14286em}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}dfn{font-style:italic}hr{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;height:0}mark{background:#ff0;color:#000}code,kbd,pre,samp{font-family:monospace, serif;font-size:1em;line-height:1.57143em}pre{white-space:pre-wrap}q{quotes:"\201C" "\201D" "\2018" "\2019"}small{font-size:0.8em;line-height:1.30952em}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}dl,menu,ol,ul{margin:1.57143em 0;padding:0 0 0 40px}dl{padding:0}dd{margin:0 0 0 40px}img{border:0}svg:not(:root){overflow:hidden}figure{margin:0}fieldset{border-color:#c0c0c0;margin:0 2px;border-top-style:solid;border-top-width:0.07143em;padding-top:0.47857em;border-bottom-style:solid;border-bottom-width:0.07143em;padding-bottom:0.95em;border-left-style:solid;border-left-width:0.07143em;padding-left:0.91071em;border-right-style:solid;border-right-width:0.07143em;padding-right:0.91071em}legend{border:0;padding:0}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0}button,input{line-height:normal}button,select{text-transform:none}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}input[type="checkbox"],input[type="radio"]{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding:0}input[type="search"]{-webkit-appearance:textfield;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}html,button,input,select,textarea{color:#222}::-moz-selection{background:#b3d4fc;text-shadow:none}::selection{background:#b3d4fc;text-shadow:none}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}img{vertical-align:middle;max-width:100%;height:auto}fieldset{border:0;margin:0;padding:0}textarea{resize:vertical}.chromeframe{margin:0.2em 0;background:#ccc;color:#000;padding:0.2em 0}@font-face{font-family:"Michroma";src:url('fonts/Michroma-webfont.eot');src:url('fonts/Michroma-webfont.eot?#iefix') format('eot'),url('fonts/Michroma-webfont.woff') format('woff'), url('fonts/Michroma-webfont.ttf') format('truetype'), url('fonts/Michroma-webfont.svg') format('svg')}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}h1,h2,h3,h4,h5,h6{font-family:"Michroma",sans-serif;font-weight:normal}span.highlight{color:#f80}span.highlight.grey{color:gray}.wrap,.chromeframe{max-width:464px;padding-left:16px;padding-right:16px;margin-left:auto;margin-right:auto}.wrap:after,.chromeframe:after{content:"";display:table;clear:both}@media (min-width: 35em){.wrap,.chromeframe{max-width:912px}}@media (min-width: 35em){.background{background:url(http://lorempixel.com/1600/400/city) no-repeat center top #f80;padding:0 0 300px 0}.background:after{position:absolute;z-index:99;content:'';height:300px;width:100%;background:url(./images/standout-top.png) no-repeat center bottom}}.header{background:#585858;color:#fff;padding-top:1.57143em;padding-bottom:1.57143em}.header a{color:#f80}.header a:visited{color:#f80}.header a:hover{color:#cc6d00}.header a:active{color:#cc6d00}.header-title{padding-bottom:1.57143em}@media (min-width: 35em){.header-title{width:23.63636%;float:left;margin-right:1.81818%;padding-bottom:0em}}@media (min-width: 35em){.header-navigation{width:74.54545%;float:right;margin-right:0}}.header-links{list-style:none;margin:0;padding:0;text-align:center;font-family:"Michroma",sans-serif}.header-links li{list-style-image:none;list-style-type:none;margin-left:0}.header-links a{display:block;text-decoration:none;font-size:1.5em;line-height:2.09524em}.header-links li.nav-label{display:block}@media (min-width: 35em){.header-links li.nav-label{display:none}}.header-links li.nav-link{display:none}@media (min-width: 35em){.header-links li.nav-link{display:block}}.header-links:hover .nav-link{display:block}@media (min-width: 35em){.header-links li{width:23.17073%;float:left;margin-right:2.43902%}.header-links li:last-child{margin-right:0}.header-links a{font-size:1em;line-height:1.57143em;line-height:4}}.main-standout{background:#414141;color:#fff;text-align:center}.main-standout a{color:#f80}.main-standout a:visited{color:#f80}.main-standout a:hover{color:#cc6d00}.main-standout a:active{color:#cc6d00}@media (min-width: 35em){.main-standout:after{position:relative;z-index:99;content:'';height:100px;width:100%;background:url(./images/standout-bottom.png) no-repeat center top}}.main-standout h1{margin-top:0;margin-bottom:0;color:#f80}@media (min-width: 35em){.main-standout h1+p,.main-standout h1+p.lede,.main-standout p.lede+p{margin-top:30px}}.main-standout p{margin-top:0;margin-bottom:0}.main-standout p.lede{font-family:"Michroma",sans-serif;font-size:1.33333em;line-height:2.35714em;line-height:1.5}@media (min-width: 35em){.main-standout p.lede{font-size:2em;line-height:1.57143em}}.main-content{background:gray;color:#fff;padding-top:0em;padding-bottom:0em}.main-content a{color:#fff}.main-content a:visited{color:#fff}.main-content a:hover{color:#e6e6e6}.main-content a:active{color:#e6e6e6}.footer{padding-bottom:3.14286em}.footer-telephone{background:#f80;color:#fff}.footer-telephone>.wrap,.footer-telephone>.chromeframe{background:url(./images/footer-logo.png) no-repeat bottom center;-webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%;text-align:center;font-family:"Michroma",sans-serif;padding-top:1.57143em;font-size:1.2em;line-height:1.30952em}@media (min-width: 35em){.footer-telephone>.wrap,.footer-telephone>.chromeframe{padding-top:4.71429em;text-align:right}}.footer-copyright{text-align:center}@media (min-width: 35em){.footer-copyright{text-align:left;width:23.63636%;float:left;margin-right:1.81818%}}.footer-accreditations{text-align:center}@media (min-width: 35em){.footer-accreditations{text-align:right;width:49.09091%;float:right;margin-right:0}}.home-icons,.portfolio-icons,.sidebar .portfolio-icons{text-align:center;font-family:"Michroma",sans-serif}@media (min-width: 35em){.home-icons,.portfolio-icons,.sidebar .portfolio-icons{font-size:0.5em;line-height:3.14286em;line-height:1.2}}.home-icons a,.portfolio-icons a,.sidebar .portfolio-icons a{text-decoration:none;display:block;padding-bottom:10%}.home-icons{list-style:none;clear:both;padding:0;font-size:1em;line-height:1.57143em}.home-icons li{list-style-image:none;list-style-type:none;margin-left:0}.home-icons li{width:22.22222%;float:left;margin-right:3.7037%}.home-icons li:nth-child(4n){float:right;margin-right:0}.home-icons li:nth-child(4n+1){clear:both}@media (min-width: 35em){.home-icons li{width:23.63636%;float:left;margin-right:1.81818%}.home-icons li:nth-child(4n){float:left;margin-right:1.81818%}.home-icons li:nth-child(4n+1){clear:none}.home-icons li:nth-child(4n){float:right;margin-right:0}.home-icons li:nth-child(4n+1){clear:both}}.portfolio-icons{list-style:none;clear:both;padding:0;font-size:1em;line-height:1.57143em}.portfolio-icons li{list-style-image:none;list-style-type:none;margin-left:0}.portfolio-icons li{width:22.22222%;float:left;margin-right:3.7037%}.portfolio-icons li:nth-child(4n){float:right;margin-right:0}.portfolio-icons li:nth-child(4n+1){clear:both}@media (min-width: 35em){.portfolio-icons li{width:10.90909%;float:left;margin-right:1.81818%}.portfolio-icons li:nth-child(4n){float:left;margin-right:1.81818%}.portfolio-icons li:nth-child(4n+1){clear:none}.portfolio-icons li:nth-child(8n){float:right;margin-right:0}.portfolio-icons li:nth-child(8n+1){clear:both}}.sidebar .portfolio-icons{list-style:none;clear:both;padding:0}.sidebar .portfolio-icons li{list-style-image:none;list-style-type:none;margin-left:0}.sidebar .portfolio-icons li{width:22.22222%;float:left;margin-right:3.7037%}.sidebar .portfolio-icons li:nth-child(4n){float:right;margin-right:0}.sidebar .portfolio-icons li:nth-child(4n+1){clear:both}@media (min-width: 35em){.sidebar .portfolio-icons li{width:46.15385%;float:left;margin-right:7.69231%}.sidebar .portfolio-icons li:nth-child(4n){float:left;margin-right:7.69231%}.sidebar .portfolio-icons li:nth-child(4n+1){clear:none}.sidebar .portfolio-icons li:nth-child(2n){float:right;margin-right:0}.sidebar .portfolio-icons li:nth-child(2n+1){clear:both}}.portfolio-list{list-style:none;clear:both;padding:0}.portfolio-list li{list-style-image:none;list-style-type:none;margin-left:0}.portfolio-list li{width:48.14815%;float:left;margin-right:3.7037%}.portfolio-list li:nth-child(2n){float:right;margin-right:0}.portfolio-list li:nth-child(2n+1){clear:both}@media (min-width: 35em){.portfolio-list li{width:31.70732%;float:left;margin-right:2.43902%}.portfolio-list li:nth-child(2n){float:left;margin-right:2.43902%}.portfolio-list li:nth-child(2n+1){clear:none}.portfolio-list li:nth-child(3n){float:right;margin-right:0}.portfolio-list li:nth-child(3n+1){clear:both}}.portfolio-list li{position:relative;overflow:hidden;margin-bottom:16px}.portfolio-list li:hover h2{display:block}.portfolio-list h2{display:none;width:100%;background:rgba(65,65,65,0.9);position:absolute;top:0;margin-top:0em;font-size:1em;line-height:1.57143em;line-height:1.3}.portfolio-list a{text-decoration:none;display:block;padding:2px}@media (min-width: 35em){.content{width:74.54545%;float:left;margin-right:1.81818%}}.content .loop{margin:20px 0}.content .loop h2,.content .loop p{margin:0}.date-box{clear:both;float:left;width:50px;height:50px;margin-top:3px;margin-right:10px;text-align:center;background-image:url(./images/date.png)}.date-box .month{display:block;width:100%;height:18px;text-transform:uppercase;font-size:80%;font-weight:bold;color:#fff}.date-box .day{display:block;color:#000;line-height:30px;font-size:120%;font-weight:bold}@media (min-width: 35em){.sidebar{width:23.63636%;float:right;margin-right:0}}.widget .title{color:#f80;background:#585858;padding:0.3em 0.8em;margin-bottom:0}.widget>ul{list-style:none;padding:0;margin-top:0}.widget>ul li{list-style-image:none;list-style-type:none;margin-left:0}.widget>ul li{padding:0.3em 0.8em;border-bottom:solid 1px #585858}@media (min-width: 35em){.contact_form{width:36.36364%;float:left;margin-right:1.81818%}}@media (min-width: 35em){.contact_map{width:36.36364%;float:right;margin-right:0}}.wpcf7 p{margin:0}.wpcf7-text,.wpcf7-textarea{width:100%}.mapp-layout *{-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box}.mapp-layout p{margin:auto}.mapp-layout .mapp-links a{color:#f80}.mapp-layout .mapp-links a:visited{color:#f80}.mapp-layout .mapp-links a:hover{color:#cc6d00}.mapp-layout .mapp-links a:active{color:#cc6d00}.mapp-layout .adp-list{color:#f80}.mapp-layout .warnbox-content{color:#000}.project_details{font-size:1.1em;line-height:1.42857em}.project_details dt{width:30%;float:left;clear:both;color:#000;font-weight:bold}.project_details dt:after{content:':'}.project_details dd{width:70%;margin-left:0;float:left}.ir{background-color:transparent;border:0;overflow:hidden;*text-indent:-9999px}.ir:before{content:"";display:block;width:0;height:150%}.hidden{display:none !important;visibility:hidden}.visuallyhidden{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}.invisible{visibility:hidden}.clearfix:before,.header:before,.main:before,.main-standout:before,.main-content:before,.footer:before,.home-icons:before,.portfolio-icons:before,.portfolio-list:before,.content .loop:before,.project_details:before,.clearfix:after,.header:after,.main:after,.main-standout:after,.main-content:after,.footer:after,.home-icons:after,.portfolio-icons:after,.portfolio-list:after,.content .loop:after,.project_details:after{content:" ";display:table}.clearfix:after,.header:after,.main:after,.main-standout:after,.main-content:after,.footer:after,.home-icons:after,.portfolio-icons:after,.portfolio-list:after,.content .loop:after,.project_details:after{clear:both}.clearfix,.header,.main,.main-standout,.main-content,.footer,.home-icons,.portfolio-icons,.sidebar .portfolio-icons,.portfolio-list,.content .loop,.project_details{*zoom:1}@media print{*{background:transparent !important;color:#000 !important;box-shadow:none !important;text-shadow:none !important}a,a:visited{text-decoration:underline}a[href]:after{content:" (" attr(href) ")"}abbr[title]:after{content:" (" attr(title) ")"}.ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""}pre,blockquote{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}tr,img{page-break-inside:avoid}img{max-width:100% !important}@page{margin:0.5cm}p,h2,h3{orphans:3;widows:3}h2,h3{page-break-after:avoid}}
+/* __     _    ___    __      ____    __     _    _
+	/    | |  |   |  | (_    _)  /  __) \   | )  /
+   (     | |  |   |  |   |  |   |  /     |  |/  /            Created by:
+	\__  | |  |   |  |   |  |   | |      |     (             Daniel Hollands
+	   | | |   \_/   |  _|  |_  |  \__   |  |\  \            http://danielhollands.co.uk/
+   ____| |__\       /__(      )__\    )_/   |_)  \_
+   _       ___        ______  _____     ____        __
+	)  ____) (__    __)    /  \    |    \  (__    __)
+   (  (___      |  |      /    \   |     )    |  |           For:
+	\___  \     |  |     /  ()  \  |    /     |  |           Lime Blast
+	____)  )    |  |    |   __   | | |\ \     |  |           http://limeblast.co.uk/
+   (      (_____|  |____|  (__)  |_| |_\ \____|  |____ */
+/* ==========================================================================
+   Initial imports
+   ========================================================================== */
+/**
+ * Theme Name: Synergy Architects
+ * Theme URI: http://synergyarchitects.co.uk/
+ * Author: Daniel Hollands
+ * Author URI: http://danielhollands.co.uk/
+ * Description: This theme uses http://forge.thethemefoundry.com/
+ * Version: 0.0.1
+ * License: 
+ * License URI:
+ * Tags:
+ */
+/* ==========================================================================
+   Susy grid: http://susy.oddbird.net/
+   ========================================================================== */
+/* ==========================================================================
+   Colours
+   ========================================================================== */
+/* ==========================================================================
+   Vertical rhythm: http://compass-style.org/reference/compass/typography/vertical_rhythm/
+   ========================================================================== */
+/* ==========================================================================
+   Sassy Buttons: http://jaredhardy.com/sassy-buttons/
+   ========================================================================== */
+/* ==========================================================================
+   Cross-Browser Support: http://compass-style.org/reference/compass/support/
+   ========================================================================== */
+/* ==========================================================================
+   Debug - set this to false to remove the grid overlay.
+   ========================================================================== */
+/* ==========================================================================
+   Imports
+   ========================================================================== */
+/* normalize.css v2.1.0 | MIT License | git.io/normalize */
+/* normalize.scss v2.1.0 | MIT/GPLv2 License | bit.ly/normalize-with-compass */
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined in IE 8/9.
+ */
+/* line 63, scss/_normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * Correct `inline-block` display not defined in IE 8/9.
+ */
+/* line 73, scss/_normalize.scss */
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 86, scss/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address styling not present in IE 7/8/9.
+ * Known issue: no IE 6 support.
+ */
+/* line 96, scss/_normalize.scss */
+[hidden] {
+  display: none;
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ * 3. Correct text resizing oddly in IE 6/7 when body `font-size` is set using
+ *    `em` units.
+ */
+/* line 112, scss/_normalize.scss */
+html {
+  font-family: "PT Sans", sans-serif;
+  /* 1 */
+  font-size: 87.5%;
+  /* 3 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  /* Establish a vertical rhythm unit using $base-line-height. */
+  line-height: 1.57143em;
+}
+
+/**
+ * Remove default margin.
+ */
+/* line 139, scss/_normalize.scss */
+body {
+  margin: 0;
+}
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+/**
+ * Address `outline` inconsistency between Chrome and other browsers.
+ */
+/* line 151, scss/_normalize.scss */
+a:focus {
+  outline: thin dotted;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+/* line 160, scss/_normalize.scss */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+/**
+ * Set 1 unit of vertical rhythm on the top and bottom margin.
+ */
+/* line 173, scss/_normalize.scss */
+p,
+pre {
+  margin: 1.57143em 0;
+}
+
+/* line 177, scss/_normalize.scss */
+blockquote {
+  /* Set 1 unit of vertical rhythm on the top and bottom margin. */
+  margin: 1.57143em 40px;
+}
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari 5, and Chrome.
+ */
+/* line 187, scss/_normalize.scss */
+h1 {
+  /* Set the font-size and line-height while keeping a proper vertical rhythm. */
+  font-size: 1.9em;
+  line-height: 1.65414em;
+  /* Set 1 unit of vertical rhythm on the top and bottom margins. */
+  margin-top: 0.82707em;
+  margin-bottom: 0.82707em;
+}
+
+/* line 196, scss/_normalize.scss */
+h2 {
+  font-size: 1.2em;
+  line-height: 1.30952em;
+  margin-top: 1.30952em;
+  margin-bottom: 1.30952em;
+}
+
+/* line 202, scss/_normalize.scss */
+h3 {
+  font-size: 1em;
+  line-height: 1.57143em;
+  margin-top: 1.57143em;
+  margin-bottom: 1.57143em;
+}
+
+/* line 208, scss/_normalize.scss */
+h4 {
+  font-size: 0.83em;
+  line-height: 1.89329em;
+  margin-top: 1.89329em;
+  margin-bottom: 1.89329em;
+}
+
+/* line 214, scss/_normalize.scss */
+h5 {
+  font-size: 0.67em;
+  line-height: 2.34542em;
+  margin-top: 2.34542em;
+  margin-bottom: 2.34542em;
+}
+
+/* line 220, scss/_normalize.scss */
+h6 {
+  font-size: 0.5em;
+  line-height: 3.14286em;
+  margin-top: 3.14286em;
+  margin-bottom: 3.14286em;
+}
+
+/**
+ * Address styling not present in IE 8/9, Safari 5, and Chrome.
+ */
+/* line 230, scss/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+ */
+/* line 239, scss/_normalize.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari 5 and Chrome.
+ */
+/* line 247, scss/_normalize.scss */
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ * Known issue: no IE 6/7 normalization.
+ */
+/* line 256, scss/_normalize.scss */
+hr {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+/* line 265, scss/_normalize.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Correct font family set oddly in Safari 5 and Chrome.
+ */
+/* line 277, scss/_normalize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+  line-height: 1.57143em;
+}
+
+/**
+ * Improve readability of pre-formatted text in all browsers.
+ */
+/* line 289, scss/_normalize.scss */
+pre {
+  white-space: pre-wrap;
+}
+
+/**
+ * Set consistent quote types.
+ */
+/* line 297, scss/_normalize.scss */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+/* line 305, scss/_normalize.scss */
+small {
+  font-size: 0.8em;
+  line-height: 1.30952em;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 314, scss/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 321, scss/_normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 325, scss/_normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* ==========================================================================
+   Lists
+   ========================================================================== */
+/**
+ * Set 1 unit of vertical rhythm and a consistent indentation.
+ */
+/* line 340, scss/_normalize.scss */
+dl,
+menu,
+ol,
+ul {
+  margin: 1.57143em 0;
+  padding: 0 0 0 40px;
+}
+
+/* line 345, scss/_normalize.scss */
+dl {
+  padding: 0;
+}
+
+/* line 349, scss/_normalize.scss */
+dd {
+  margin: 0 0 0 40px;
+}
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9.
+ */
+/* line 373, scss/_normalize.scss */
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow displayed oddly in IE 9.
+ */
+/* line 385, scss/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari 5.
+ */
+/* line 397, scss/_normalize.scss */
+figure {
+  margin: 0;
+}
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+/**
+ * Define consistent border, margin, and padding.
+ */
+/* line 419, scss/_normalize.scss */
+fieldset {
+  border-color: #c0c0c0;
+  margin: 0 2px;
+  /* Apply borders and padding that keep the vertical rhythm. */
+  border-top-style: solid;
+  border-top-width: 0.07143em;
+  padding-top: 0.47857em;
+  border-bottom-style: solid;
+  border-bottom-width: 0.07143em;
+  padding-bottom: 0.95em;
+  border-left-style: solid;
+  border-left-width: 0.07143em;
+  padding-left: 0.91071em;
+  border-right-style: solid;
+  border-right-width: 0.07143em;
+  padding-right: 0.91071em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ * 3. Correct alignment displayed oddly in IE 6/7.
+ */
+/* line 435, scss/_normalize.scss */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * 1. Correct font family not being inherited in all browsers.
+ * 2. Correct font size not being inherited in all browsers.
+ * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
+ * 4. Improve appearance and consistency with IE 6/7.
+ */
+/* line 453, scss/_normalize.scss */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 469, scss/_normalize.scss */
+button,
+input {
+  line-height: normal;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
+ * Correct `select` style inheritance in Firefox 4+ and Opera.
+ */
+/* line 481, scss/_normalize.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ * 4. Remove inner spacing in IE 7 without affecting normal text inputs.
+ *    Known issue: inner spacing remains in IE 6.
+ */
+/* line 498, scss/_normalize.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+/* line 511, scss/_normalize.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * 1. Address box sizing set to `content-box` in IE 8/9.
+ * 2. Remove excess padding in IE 8/9.
+ * 3. Remove excess padding in IE 7.
+ *    Known issue: excess padding remains in IE 6.
+ */
+/* line 523, scss/_normalize.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+/* line 538, scss/_normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  /* 2 */
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+/* line 549, scss/_normalize.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+/* line 558, scss/_normalize.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * 1. Remove default vertical scrollbar in IE 8/9.
+ * 2. Improve readability and alignment in all browsers.
+ */
+/* line 568, scss/_normalize.scss */
+textarea {
+  overflow: auto;
+  /* 1 */
+  vertical-align: top;
+  /* 2 */
+}
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+/* line 581, scss/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* compass specific */
+/* ==========================================================================
+   Mixins
+   ========================================================================== */
+/* Responsive tile-list (This requires susy to work)
+   ========================================================================== */
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+/* line 9, scss/_h5bp.scss */
+html,
+button,
+input,
+select,
+textarea {
+  color: #222;
+}
+
+/* This is commented out because it kills the vertical rhythem set in our normalize file.
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}*/
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection declarations have to be separate.
+ * Customize the background color to match your design.
+ */
+/* line 25, scss/_h5bp.scss */
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/* line 30, scss/_h5bp.scss */
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+/* line 39, scss/_h5bp.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*
+ * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
+ */
+/* line 52, scss/_h5bp.scss */
+img {
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+/* line 63, scss/_h5bp.scss */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+/* line 73, scss/_h5bp.scss */
+textarea {
+  resize: vertical;
+}
+
+/* ==========================================================================
+   Chrome Frame prompt
+   ========================================================================== */
+/* line 81, scss/_h5bp.scss */
+.chromeframe {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+@font-face {
+  font-family: "Michroma";
+  src: url('fonts/Michroma-webfont.eot');
+  src: url('fonts/Michroma-webfont.eot?#iefix') format('eot'), url('fonts/Michroma-webfont.woff') format('woff'), url('fonts/Michroma-webfont.ttf') format('truetype'), url('fonts/Michroma-webfont.svg') format('svg');
+}
+
+/* ==========================================================================
+   Author's custom styles (Here be dragons)
+   ========================================================================== */
+/* Global
+   ========================================================================== */
+/* line 14, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/susy-1.0.8/sass/susy/_grid.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 32, scss/style.css.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Michroma", sans-serif;
+  font-weight: normal;
+}
+
+/* line 38, scss/style.css.scss */
+span.highlight {
+  color: #ff8800;
+}
+/* line 41, scss/style.css.scss */
+span.highlight.grey {
+  color: gray;
+}
+
+/* Chrome frame
+   ========================================================================== */
+/* Page wrapper
+   ========================================================================== */
+/* line 56, scss/style.css.scss */
+.wrap, .chromeframe {
+  max-width: 464px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 38, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.wrap:after, .chromeframe:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media (min-width: 35em) {
+  /* line 56, scss/style.css.scss */
+  .wrap, .chromeframe {
+    max-width: 912px;
+  }
+}
+
+/* Background
+   ========================================================================== */
+@media (min-width: 35em) {
+  /* line 76, scss/style.css.scss */
+  .background {
+    background: url(http://lorempixel.com/1600/400/city) no-repeat center top #ff8800;
+    padding: 0 0 300px 0;
+  }
+  /* line 83, scss/style.css.scss */
+  .background:after {
+    position: absolute;
+    z-index: 99;
+    content: '';
+    height: 300px;
+    width: 100%;
+    background: url(./images/standout-top.png) no-repeat center bottom;
+  }
+}
+
+/* Header
+   ========================================================================= */
+/* line 97, scss/style.css.scss */
+.header {
+  background: #585858;
+  color: white;
+  padding-top: 1.57143em;
+  padding-bottom: 1.57143em;
+}
+/* line 105, scss/style.css.scss */
+.header a {
+  color: #ff8800;
+}
+/* line 18, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.header a:visited {
+  color: #ff8800;
+}
+/* line 24, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.header a:hover {
+  color: #cc6d00;
+}
+/* line 27, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.header a:active {
+  color: #cc6d00;
+}
+
+/* line 111, scss/style.css.scss */
+.header-title {
+  padding-bottom: 1.57143em;
+}
+@media (min-width: 35em) {
+  /* line 111, scss/style.css.scss */
+  .header-title {
+    width: 23.63636%;
+    float: left;
+    margin-right: 1.81818%;
+    padding-bottom: 0em;
+  }
+}
+
+@media (min-width: 35em) {
+  /* line 122, scss/style.css.scss */
+  .header-navigation {
+    width: 74.54545%;
+    float: right;
+    margin-right: 0;
+  }
+}
+
+/* line 130, scss/style.css.scss */
+.header-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: "Michroma", sans-serif;
+}
+/* line 11, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
+.header-links li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+}
+/* line 138, scss/style.css.scss */
+.header-links a {
+  display: block;
+  text-decoration: none;
+  font-size: 1.5em;
+  line-height: 2.09524em;
+}
+/* line 145, scss/style.css.scss */
+.header-links li.nav-label {
+  display: block;
+}
+@media (min-width: 35em) {
+  /* line 145, scss/style.css.scss */
+  .header-links li.nav-label {
+    display: none;
+  }
+}
+/* line 151, scss/style.css.scss */
+.header-links li.nav-link {
+  display: none;
+}
+@media (min-width: 35em) {
+  /* line 151, scss/style.css.scss */
+  .header-links li.nav-link {
+    display: block;
+  }
+}
+/* line 160, scss/style.css.scss */
+.header-links:hover .nav-link {
+  display: block;
+}
+@media (min-width: 35em) {
+  /* line 168, scss/style.css.scss */
+  .header-links li {
+    width: 23.17073%;
+    float: left;
+    margin-right: 2.43902%;
+  }
+  /* line 172, scss/style.css.scss */
+  .header-links li:last-child {
+    margin-right: 0;
+  }
+  /* line 178, scss/style.css.scss */
+  .header-links a {
+    font-size: 1em;
+    line-height: 1.57143em;
+    line-height: 4;
+  }
+}
+
+/* Main
+   ========================================================================== */
+/* line 193, scss/style.css.scss */
+.main-standout {
+  background: #414141;
+  color: white;
+  text-align: center;
+}
+/* line 200, scss/style.css.scss */
+.main-standout a {
+  color: #ff8800;
+}
+/* line 18, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.main-standout a:visited {
+  color: #ff8800;
+}
+/* line 24, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.main-standout a:hover {
+  color: #cc6d00;
+}
+/* line 27, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.main-standout a:active {
+  color: #cc6d00;
+}
+@media (min-width: 35em) {
+  /* line 207, scss/style.css.scss */
+  .main-standout:after {
+    position: relative;
+    z-index: 99;
+    content: '';
+    height: 100px;
+    width: 100%;
+    background: url(./images/standout-bottom.png) no-repeat center top;
+  }
+}
+/* line 218, scss/style.css.scss */
+.main-standout h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #ff8800;
+}
+@media (min-width: 35em) {
+  /* line 227, scss/style.css.scss */
+  .main-standout h1 + p,
+  .main-standout h1 + p.lede,
+  .main-standout p.lede + p {
+    margin-top: 30px;
+  }
+}
+/* line 234, scss/style.css.scss */
+.main-standout p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/* line 240, scss/style.css.scss */
+.main-standout p.lede {
+  font-family: "Michroma", sans-serif;
+  font-size: 1.33333em;
+  line-height: 2.35714em;
+  line-height: 1.5;
+}
+@media (min-width: 35em) {
+  /* line 240, scss/style.css.scss */
+  .main-standout p.lede {
+    font-size: 2em;
+    line-height: 1.57143em;
+  }
+}
+
+/* line 253, scss/style.css.scss */
+.main-content {
+  background: gray;
+  color: white;
+  padding-top: 0em;
+  padding-bottom: 0em;
+}
+/* line 261, scss/style.css.scss */
+.main-content a {
+  color: white;
+}
+/* line 18, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.main-content a:visited {
+  color: white;
+}
+/* line 24, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.main-content a:hover {
+  color: #e6e6e6;
+}
+/* line 27, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.main-content a:active {
+  color: #e6e6e6;
+}
+
+/* Footer
+   ========================================================================== */
+/* line 269, scss/style.css.scss */
+.footer {
+  padding-bottom: 3.14286em;
+}
+
+/* line 275, scss/style.css.scss */
+.footer-telephone {
+  background: #ff8800;
+  color: white;
+}
+/* line 280, scss/style.css.scss */
+.footer-telephone > .wrap, .footer-telephone > .chromeframe {
+  background: url(./images/footer-logo.png) no-repeat bottom center;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  text-align: center;
+  font-family: "Michroma", sans-serif;
+  padding-top: 1.57143em;
+  font-size: 1.2em;
+  line-height: 1.30952em;
+}
+@media (min-width: 35em) {
+  /* line 280, scss/style.css.scss */
+  .footer-telephone > .wrap, .footer-telephone > .chromeframe {
+    padding-top: 4.71429em;
+    text-align: right;
+  }
+}
+
+/* line 298, scss/style.css.scss */
+.footer-copyright {
+  text-align: center;
+}
+@media (min-width: 35em) {
+  /* line 298, scss/style.css.scss */
+  .footer-copyright {
+    text-align: left;
+    width: 23.63636%;
+    float: left;
+    margin-right: 1.81818%;
+  }
+}
+
+/* line 309, scss/style.css.scss */
+.footer-accreditations {
+  text-align: center;
+}
+@media (min-width: 35em) {
+  /* line 309, scss/style.css.scss */
+  .footer-accreditations {
+    text-align: right;
+    width: 49.09091%;
+    float: right;
+    margin-right: 0;
+  }
+}
+
+/* Icon List
+   ========================================================================== */
+/* line 322, scss/style.css.scss */
+.home-icons, .portfolio-icons, .sidebar .portfolio-icons {
+  text-align: center;
+  font-family: "Michroma", sans-serif;
+}
+@media (min-width: 35em) {
+  /* line 322, scss/style.css.scss */
+  .home-icons, .portfolio-icons, .sidebar .portfolio-icons {
+    font-size: 0.5em;
+    line-height: 3.14286em;
+    line-height: 1.2;
+  }
+}
+/* line 333, scss/style.css.scss */
+.home-icons a, .portfolio-icons a, .sidebar .portfolio-icons a {
+  text-decoration: none;
+  display: block;
+  padding-bottom: 10%;
+}
+
+/* line 341, scss/style.css.scss */
+.home-icons {
+  list-style: none;
+  clear: both;
+  padding: 0;
+  font-size: 1em;
+  line-height: 1.57143em;
+}
+/* line 11, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
+.home-icons li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+}
+/* line 22, scss/_mixins.scss */
+.home-icons li {
+  width: 22.22222%;
+  float: left;
+  margin-right: 3.7037%;
+}
+/* line 184, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/susy-1.0.8/sass/susy/_grid.scss */
+.home-icons li:nth-child(4n) {
+  float: right;
+  margin-right: 0;
+}
+/* line 26, scss/_mixins.scss */
+.home-icons li:nth-child(4n+1) {
+  clear: both;
+}
+@media (min-width: 35em) {
+  /* line 22, scss/_mixins.scss */
+  .home-icons li {
+    width: 23.63636%;
+    float: left;
+    margin-right: 1.81818%;
+  }
+  /* line 251, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/susy-1.0.8/sass/susy/_grid.scss */
+  .home-icons li:nth-child(4n) {
+    float: left;
+    margin-right: 1.81818%;
+  }
+  /* line 34, scss/_mixins.scss */
+  .home-icons li:nth-child(4n+1) {
+    clear: none;
+  }
+  /* line 184, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/susy-1.0.8/sass/susy/_grid.scss */
+  .home-icons li:nth-child(4n) {
+    float: right;
+    margin-right: 0;
+  }
+  /* line 39, scss/_mixins.scss */
+  .home-icons li:nth-child(4n+1) {
+    clear: both;
+  }
+}
+
+/* line 348, scss/style.css.scss */
+.portfolio-icons {
+  list-style: none;
+  clear: both;
+  padding: 0;
+  font-size: 1em;
+  line-height: 1.57143em;
+}
+/* line 11, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
+.portfolio-icons li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+}
+/* line 22, scss/_mixins.scss */
+.portfolio-icons li {
+  width: 22.22222%;
+  float: left;
+  margin-right: 3.7037%;
+}
+/* line 184, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/susy-1.0.8/sass/susy/_grid.scss */
+.portfolio-icons li:nth-child(4n) {
+  float: right;
+  margin-right: 0;
+}
+/* line 26, scss/_mixins.scss */
+.portfolio-icons li:nth-child(4n+1) {
+  clear: both;
+}
+@media (min-width: 35em) {
+  /* line 22, scss/_mixins.scss */
+  .portfolio-icons li {
+    width: 10.90909%;
+    float: left;
+    margin-right: 1.81818%;
+  }
+  /* line 251, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/susy-1.0.8/sass/susy/_grid.scss */
+  .portfolio-icons li:nth-child(4n) {
+    float: left;
+    margin-right: 1.81818%;
+  }
+  /* line 34, scss/_mixins.scss */
+  .portfolio-icons li:nth-child(4n+1) {
+    clear: none;
+  }
+  /* line 184, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/susy-1.0.8/sass/susy/_grid.scss */
+  .portfolio-icons li:nth-child(8n) {
+    float: right;
+    margin-right: 0;
+  }
+  /* line 39, scss/_mixins.scss */
+  .portfolio-icons li:nth-child(8n+1) {
+    clear: both;
+  }
+}
+
+/* line 357, scss/style.css.scss */
+.sidebar .portfolio-icons {
+  list-style: none;
+  clear: both;
+  padding: 0;
+}
+/* line 11, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
+.sidebar .portfolio-icons li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+}
+/* line 22, scss/_mixins.scss */
+.sidebar .portfolio-icons li {
+  width: 22.22222%;
+  float: left;
+  margin-right: 3.7037%;
+}
+/* line 184, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/susy-1.0.8/sass/susy/_grid.scss */
+.sidebar .portfolio-icons li:nth-child(4n) {
+  float: right;
+  margin-right: 0;
+}
+/* line 26, scss/_mixins.scss */
+.sidebar .portfolio-icons li:nth-child(4n+1) {
+  clear: both;
+}
+@media (min-width: 35em) {
+  /* line 22, scss/_mixins.scss */
+  .sidebar .portfolio-icons li {
+    width: 46.15385%;
+    float: left;
+    margin-right: 7.69231%;
+  }
+  /* line 251, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/susy-1.0.8/sass/susy/_grid.scss */
+  .sidebar .portfolio-icons li:nth-child(4n) {
+    float: left;
+    margin-right: 7.69231%;
+  }
+  /* line 34, scss/_mixins.scss */
+  .sidebar .portfolio-icons li:nth-child(4n+1) {
+    clear: none;
+  }
+  /* line 184, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/susy-1.0.8/sass/susy/_grid.scss */
+  .sidebar .portfolio-icons li:nth-child(2n) {
+    float: right;
+    margin-right: 0;
+  }
+  /* line 39, scss/_mixins.scss */
+  .sidebar .portfolio-icons li:nth-child(2n+1) {
+    clear: both;
+  }
+}
+
+/* Portfolio list
+   ========================================================================== */
+/* line 365, scss/style.css.scss */
+.portfolio-list {
+  list-style: none;
+  clear: both;
+  padding: 0;
+}
+/* line 11, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
+.portfolio-list li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+}
+/* line 22, scss/_mixins.scss */
+.portfolio-list li {
+  width: 48.14815%;
+  float: left;
+  margin-right: 3.7037%;
+}
+/* line 184, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/susy-1.0.8/sass/susy/_grid.scss */
+.portfolio-list li:nth-child(2n) {
+  float: right;
+  margin-right: 0;
+}
+/* line 26, scss/_mixins.scss */
+.portfolio-list li:nth-child(2n+1) {
+  clear: both;
+}
+@media (min-width: 35em) {
+  /* line 22, scss/_mixins.scss */
+  .portfolio-list li {
+    width: 31.70732%;
+    float: left;
+    margin-right: 2.43902%;
+  }
+  /* line 251, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/susy-1.0.8/sass/susy/_grid.scss */
+  .portfolio-list li:nth-child(2n) {
+    float: left;
+    margin-right: 2.43902%;
+  }
+  /* line 34, scss/_mixins.scss */
+  .portfolio-list li:nth-child(2n+1) {
+    clear: none;
+  }
+  /* line 184, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/susy-1.0.8/sass/susy/_grid.scss */
+  .portfolio-list li:nth-child(3n) {
+    float: right;
+    margin-right: 0;
+  }
+  /* line 39, scss/_mixins.scss */
+  .portfolio-list li:nth-child(3n+1) {
+    clear: both;
+  }
+}
+/* line 368, scss/style.css.scss */
+.portfolio-list li {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+/* line 374, scss/style.css.scss */
+.portfolio-list li:hover h2 {
+  display: block;
+}
+/* line 380, scss/style.css.scss */
+.portfolio-list h2 {
+  display: none;
+  width: 100%;
+  background: rgba(65, 65, 65, 0.9);
+  position: absolute;
+  top: 0;
+  margin-top: 0em;
+  font-size: 1em;
+  line-height: 1.57143em;
+  line-height: 1.3;
+}
+/* line 391, scss/style.css.scss */
+.portfolio-list a {
+  text-decoration: none;
+  display: block;
+  padding: 2px;
+}
+
+/* Content
+   ========================================================================== */
+@media (min-width: 35em) {
+  /* line 402, scss/style.css.scss */
+  .content {
+    width: 74.54545%;
+    float: left;
+    margin-right: 1.81818%;
+  }
+}
+/* line 410, scss/style.css.scss */
+.content .loop {
+  margin: 20px 0;
+}
+/* line 416, scss/style.css.scss */
+.content .loop h2,
+.content .loop p {
+  margin: 0;
+}
+
+/* line 423, scss/style.css.scss */
+.date-box {
+  clear: both;
+  float: left;
+  width: 50px;
+  height: 50px;
+  margin-top: 3px;
+  margin-right: 10px;
+  text-align: center;
+  background-image: url(./images/date.png);
+}
+/* line 434, scss/style.css.scss */
+.date-box .month {
+  display: block;
+  width: 100%;
+  height: 18px;
+  text-transform: uppercase;
+  font-size: 80%;
+  font-weight: bold;
+  color: white;
+}
+/* line 444, scss/style.css.scss */
+.date-box .day {
+  display: block;
+  color: black;
+  line-height: 30px;
+  font-size: 120%;
+  font-weight: bold;
+}
+
+/* Sidebar
+   ========================================================================== */
+@media (min-width: 35em) {
+  /* line 456, scss/style.css.scss */
+  .sidebar {
+    width: 23.63636%;
+    float: right;
+    margin-right: 0;
+  }
+}
+
+/* line 466, scss/style.css.scss */
+.widget .title {
+  color: #ff8800;
+  background: #585858;
+  padding: 0.3em 0.8em;
+  margin-bottom: 0;
+}
+/* line 474, scss/style.css.scss */
+.widget > ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 0;
+}
+/* line 11, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
+.widget > ul li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+}
+/* line 480, scss/style.css.scss */
+.widget > ul li {
+  padding: 0.3em 0.8em;
+  border-bottom: solid 1px #585858;
+}
+
+/* Contact / Map
+   ========================================================================== */
+@media (min-width: 35em) {
+  /* line 490, scss/style.css.scss */
+  .contact_form {
+    width: 36.36364%;
+    float: left;
+    margin-right: 1.81818%;
+  }
+}
+
+@media (min-width: 35em) {
+  /* line 498, scss/style.css.scss */
+  .contact_map {
+    width: 36.36364%;
+    float: right;
+    margin-right: 0;
+  }
+}
+
+/* line 508, scss/style.css.scss */
+.wpcf7 p {
+  margin: 0;
+}
+
+/* line 514, scss/style.css.scss */
+.wpcf7-text,
+.wpcf7-textarea {
+  width: 100%;
+}
+
+/* line 521, scss/style.css.scss */
+.mapp-layout * {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+/* line 526, scss/style.css.scss */
+.mapp-layout p {
+  margin: auto;
+}
+/* line 533, scss/style.css.scss */
+.mapp-layout .mapp-links a {
+  color: #ff8800;
+}
+/* line 18, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.mapp-layout .mapp-links a:visited {
+  color: #ff8800;
+}
+/* line 24, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.mapp-layout .mapp-links a:hover {
+  color: #cc6d00;
+}
+/* line 27, ../../../../../../../home/daniel/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.mapp-layout .mapp-links a:active {
+  color: #cc6d00;
+}
+/* line 539, scss/style.css.scss */
+.mapp-layout .adp-list {
+  color: #ff8800;
+}
+/* line 544, scss/style.css.scss */
+.mapp-layout .warnbox-content {
+  color: black;
+}
+
+/* portfolio item
+   ========================================================================== */
+/* line 551, scss/style.css.scss */
+.project_details {
+  font-size: 1.1em;
+  line-height: 1.42857em;
+}
+/* line 556, scss/style.css.scss */
+.project_details dt {
+  width: 30%;
+  float: left;
+  clear: both;
+  color: #414141;
+  font-weight: bold;
+}
+/* line 563, scss/style.css.scss */
+.project_details dt:after {
+  content: ':';
+}
+/* line 567, scss/style.css.scss */
+.project_details dd {
+  width: 70%;
+  margin-left: 0;
+  float: left;
+}
+
+/* ==========================================================================
+   Final imports
+   ========================================================================== */
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+/*
+ * Image replacement
+ */
+/* line 9, scss/_helpers.scss */
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  /* IE 6/7 fallback */
+  *text-indent: -9999px;
+}
+
+/* line 17, scss/_helpers.scss */
+.ir:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 150%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+/* line 28, scss/_helpers.scss */
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+/* line 37, scss/_helpers.scss */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+/* line 54, scss/_helpers.scss */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+/* line 67, scss/_helpers.scss */
+.invisible {
+  visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+/* line 84, scss/_helpers.scss */
+.clearfix:before, .header:before, .main:before, .main-standout:before, .main-content:before, .footer:before, .home-icons:before, .portfolio-icons:before, .portfolio-list:before, .content .loop:before, .project_details:before,
+.clearfix:after,
+.header:after,
+.main:after,
+.main-standout:after,
+.main-content:after,
+.footer:after,
+.home-icons:after,
+.portfolio-icons:after,
+.portfolio-list:after,
+.content .loop:after,
+.project_details:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+/* line 89, scss/_helpers.scss */
+.clearfix:after, .header:after, .main:after, .main-standout:after, .main-content:after, .footer:after, .home-icons:after, .portfolio-icons:after, .portfolio-list:after, .content .loop:after, .project_details:after {
+  clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+/* line 98, scss/_helpers.scss */
+.clearfix, .header, .main, .main-standout, .main-content, .footer, .home-icons, .portfolio-icons, .sidebar .portfolio-icons, .portfolio-list, .content .loop, .project_details {
+  *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+@media print {
+  /* line 7, scss/_print.scss */
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    /* Black prints faster: h5bp.com/s */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  /* line 15, scss/_print.scss */
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  /* line 19, scss/_print.scss */
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  /* line 23, scss/_print.scss */
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  /*
+   * Don't show links for images, or javascript/internal links
+   */
+  /* line 33, scss/_print.scss */
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+
+  /* line 38, scss/_print.scss */
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  /* line 43, scss/_print.scss */
+  thead {
+    display: table-header-group;
+    /* h5bp.com/t */
+  }
+
+  /* line 48, scss/_print.scss */
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  /* line 52, scss/_print.scss */
+  img {
+    max-width: 100% !important;
+  }
+
+  @page {
+    margin: 0.5cm;
+}
+
+  /* line 62, scss/_print.scss */
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* line 68, scss/_print.scss */
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
+/*                      /\
+                        ||
+                        ||
+                        ||
+                        ||                                               ~-----~
+                        ||                                            /===--  ---~~~
+                        ||                   ;'                 /==~- --   -    ---~~~
+                        ||                (/ ('              /=----         ~~_  --(  '
+                        ||             ' / ;'             /=----               \__~
+     '                ~==_=~          '('             ~-~~      ~~~~        ~~~--\~'
+     \                (c_\_        .i.             /~--    ~~~--   -~     (     '
+      `\               (}| /       / : \           / ~~------~     ~~\   (
+      \ '               ||/ \      |===|          /~/             ~~~ \ \(
+      ``~\              ~~\  )~.~_ >._.< _~-~     |`_          ~~-~     )\
+       '-~                 {  /  ) \___/ (   \   |` ` _       ~~         '
+       \ -~\                -<__/  -   -  L~ -;   \    \ _ _/
+       `` ~~=\                  {    :    }\ ,\    ||   _ :(
+        \  ~~=\__                \ _/ \_ /  )  } _//   ( `|'
+        ``    , ~\--~=\           \     /  / _/ / '    (   '
+         \`    } ~ ~~ -~=\   _~_  / \ / \ )^ ( // :_  / '
+         |    ,          _~-'   '~~__-_  / - |/     \ (
+          \  ,_--_     _/              \_'---', -~ .   \
+           )/      /\ / /\   ,~,         \__ _}     \_  "~_
+           ,      { ( _ )'} ~ - \_    ~\  (-:-)       "\   ~
+                  /'' ''  )~ \~_ ~\   )->  \ :|    _,       "
+                 (\  _/)''} | \~_ ~  /~(   | :)   /          }
+                <``  >;,,/  )= \~__ {{{ '  \ =(  ,   ,       ;
+               {o_o }_/     |v  '~__  _    )-v|  "  :       ,"
+               {/"\_)       {_/'  \~__ ~\_ \_} '  {        /~\
+               ,/!          '_/    '~__ _-~ \_' :  '      ,"  ~
+              (''`                  /,'~___~    | /     ,"  \ ~'
+             '/, )                 (-)  '~____~";     ,"     , }
+           /,')                    / \         /  ,~-"       '~'
+       (  ''/                     / ( '       /  /          '~'
+    ~ ~  ,, /) ,                 (/( \)      ( -)          /~'
+  (  ~~ )`  ~}                   '  \)'     _/ /           ~'
+ { |) /`,--.(  }'                    '     (  /          /~'
+(` ~ ( c|~~| `}   )                        '/:\         ,'
+ ~ )/``) )) '|),                          (/ | \)                 -sjm
+  (` (-~(( `~`'  )                        ' (/ '
+   `~'    )'`')                              '
+     ` ``*/
