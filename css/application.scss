@@ -281,11 +281,49 @@ body {
 	.footer-upper {
 		background: $footer-upper-bg-color;
 		color: $footer-upper-fg-color;
+
+		.wrap {
+			background: image-url('footer-upper-bg.png') no-repeat scroll center bottom / 100% auto transparent;
+
+			min-height: 90px; // magic
+
+			@include at-breakpoint($media-layout) {
+				min-height: 70px; // magic
+			}
+		}
 	}
 
 	.footer-lower {
 		background: $footer-lower-bg-color;
 		color: $footer-lower-fg-color;
+
+		.wrap {
+			background: image-url('footer-lower-bg.png') no-repeat scroll center top / 100% auto transparent;
+			min-height: 30px; // magic
+		}
+	}
+
+	.telephone {
+		display: block;
+		text-align: center;
+		font-family: $title-font-family;
+		@include adjust-font-size-to($h1-font-size);
+
+		a {
+			@include link-colors($white);
+			text-decoration: none;
+		}
+
+		@include at-breakpoint($media-layout) {
+			text-align: right;
+			padding-top: 70px; // magic
+		}
+	}
+
+	.design-by {
+		display: block;
+		font-family: $title-font-family;
+		@include adjust-font-size-to($h5-font-size);
 	}
 
 /* ==========================================================================
