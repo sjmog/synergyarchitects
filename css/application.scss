@@ -18,7 +18,7 @@
 
 /* Compass
    ========================================================================== */
-@import 'compass/typography/lists/inline-block-list';
+@import 'compass/typography/lists/bullets';
 @import 'compass/utilities/general/clearfix';
 @import 'compass/typography/links/link-colors';
 @import 'compass/css3/text-shadow';
@@ -32,6 +32,7 @@
 @import 'normalize';
 @import 'mixins';
 @import 'shame';
+@import 'fonts';
 
 /* ==========================================================================
    Globals (Based on recommendations by H5BP)
@@ -175,11 +176,10 @@ body {
    ========================================================================== */
 .header {
 	@extend .clearfix;
+	background: $header-bg-color;
 }
 
 	.header-title {
-		@extend h1;
-
 		@include at-breakpoint($media-layout) {
 			@include span-columns(8, $desktop-columns);
 		}
@@ -187,57 +187,71 @@ body {
 
 	.header-navigation {
 		@include at-breakpoint($media-layout) {
-			@include span-columns(4 omega, $desktop-columns);
+			@include span-columns(16 omega, $desktop-columns);
 		}
 	}
 
 	.header-links {
-		@include horizontal-list();
-
 		@include at-breakpoint($media-layout) {
-			float: right;
-		}
-	}
+			@include no-bullets;
+			padding: 0;
+			margin: 0;
 
-	.header-search {
-		float: right;
+			li {
+				@include span-columns(4, 16);
+				text-align: center;
+
+				&:last-child {
+					@include omega;
+				}
+			}
+
+			a {
+				display: block;
+				line-height: 50px;
+				text-decoration: none;
+				font-family: $title-font-family;
+			}
+
+			.current {
+				a {
+					color: $white;
+				}
+			}
+		}
 	}
 
 /* Main
    ========================================================================== */
 .main {
-	@extend .clearfix;
+	background: $main-bg-color;
+	color:	$main-fg-color;
 
-	@include at-breakpoint($media-layout) {
-		@include span-columns(8, $desktop-columns);
+	.wrap {
+		@include at-breakpoint($media-layout) {
+			$experimental-support-for-svg: true;
+			// Doug Neiner Method: http://css-tricks.com/fluid-width-equal-height-columns/
+			@include background-image(linear-gradient(left center, $main-bg-color columns(16), $sidebar-bg-color columns(16)));
+		}
 	}
 }
 
-	.left-box {
-		@include at-breakpoint($media-layout) {
-			@include span-columns(4, 8);
-		}
-	}
-
-	.right-box {
-		@include at-breakpoint($media-layout) {
-			@include span-columns(4 omega, 8);
-		}
-	}
-
-	.feature-list {
-		@include tile-list;
-	}
-
-/* Aside
+/* Content
    ========================================================================== */
-.aside {
+.content {
 	@extend .clearfix;
-	background: grey;
-	@include bleed;
 
 	@include at-breakpoint($media-layout) {
-		@include span-columns(4 omega, $desktop-columns, $grid-padding);
+		@include span-columns(16, $desktop-columns);
+	}
+}
+/* Sidebar
+   ========================================================================== */
+.sidebar {
+	@extend .clearfix;
+
+	@include at-breakpoint($media-layout) {
+		@include span-columns(8 omega, $desktop-columns);
 	}
 }
 
@@ -245,26 +259,17 @@ body {
    ========================================================================== */
 .footer {
 	@extend .clearfix;
+	clear: both;
 }
 
-	.footer-copyright {
-		@include at-breakpoint($media-layout) {
-			@include span-columns(6, $desktop-columns);
-		}
+	.footer-upper {
+		background: $footer-upper-bg-color;
+		color: $footer-upper-fg-color;
 	}
 
-	.footer-navigation {
-		@include at-breakpoint($media-layout) {
-			@include span-columns(6 omega, $desktop-columns);
-		}
-	}
-
-	.footer-links {
-		@include horizontal-list();
-
-		@include at-breakpoint($media-layout) {
-			float: right;
-		}
+	.footer-lower {
+		background: $footer-lower-bg-color;
+		color: $footer-lower-fg-color;
 	}
 
 /* ==========================================================================

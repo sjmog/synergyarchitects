@@ -2,14 +2,14 @@
    Susy grid: http://susy.oddbird.net/
    ========================================================================== */
 // mobile first
-$total-columns:		6;
-$column-width:		60px;
-$gutter-width:		20px;
+$total-columns:		12;
+$column-width:		30px;
+$gutter-width:		10px;
 $grid-padding:		$gutter-width / 2;
 
 // desktop breakpoint
 $desktop-size:		40em;
-$desktop-columns:	12;
+$desktop-columns:	24;
 
 // set the default breakpoint (and include a modernizr compatible fall back for IE8 and under)
 $media-layout:		$desktop-size $desktop-columns lt-ie9;
@@ -18,14 +18,31 @@ $media-layout:		$desktop-size $desktop-columns lt-ie9;
    Colours
    ========================================================================== */
 $white:					#fff;
-$lime:					#BFFF00;
+$light-grey:			#ababab;
+$grey:					#7a7a7a;
+$dark-grey:				#585858;
 $black:					#222;
+$orange:				#ff8800;
 
-$qs-feature-color:		$lime;
+$qs-feature-color:		$orange;
 
 $body-bg-color:			$white;
 $body-fg-color:			$black;
 
+$header-bg-color:		$dark-grey;
+$header-fg-color:		$white;
+
+$main-bg-color:			$light-grey;
+$main-fg-color:			$white;
+
+$sidebar-bg-color:		$grey;
+$sidebar-fg-color:		$white;
+
+$footer-upper-bg-color:	$orange;
+$footer-upper-fg-color:	$white;
+
+$footer-lower-bg-color:	$white;
+$footer-lower-fg-color:	$black;
 
 /* ==========================================================================
    Vertical rhythm: http://compass-style.org/reference/compass/typography/vertical_rhythm/
@@ -40,7 +57,7 @@ $base-line-height:		$qs-base-line-height * 1px;
 $indent-amount:			48px;
 
 $base-font-family:		'PT Sans', sans-serif;
-$title-font-family:		'PT Sans', sans-serif;
+$title-font-family:		Michroma, 'PT Sans', sans-serif;
 
 $h1-font-size: 2    * $base-font-size;
 $h2-font-size: 1.5  * $base-font-size;
