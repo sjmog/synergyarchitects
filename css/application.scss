@@ -259,10 +259,6 @@ body {
 			@include span-columns($desktop-columns, $desktop-columns);
 		}
 	}
-
-	.copy {
-		margin-right: gutter($desktop-columns);
-	}
 }
 
 /* Sidebar

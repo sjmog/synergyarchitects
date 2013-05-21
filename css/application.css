@@ -941,15 +941,11 @@ body {
   float: left;
   margin-right: 1.05263%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003263}}
-.content .copy {
-  margin-right: 1.05263%;
-}
 
 /* Sidebar
    ========================================================================== */
 @media (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003270}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003266}}
   .sidebar {
     width: 32.63158%;
     float: right;
@@ -965,18 +961,18 @@ body {
 
 /* Footer
    ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003280}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003276}}
 .footer {
   clear: both;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003285}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003281}}
 .footer-upper {
   background: #ff8800;
   color: white;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003290}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003286}}
 .footer-lower {
   background: white;
   color: #222222;
