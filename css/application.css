@@ -721,28 +721,8 @@ ul ol {
    ========================================================================== */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003112}}
 body {
-  position: relative;
   background: white;
   text-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003117}}
-body:after {
-  position: absolute;
-  width: auto;
-  height: auto;
-  z-index: 9999;
-  content: '';
-  display: block;
-  pointer-events: none;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: url("http://basehold.it/i/24") repeat top left;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003132}}
-body:active:after {
-  display: none;
 }
 
 /* Page wrapper
@@ -750,24 +730,10 @@ body:active:after {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003145}}
 .wrap, .chromeframe {
   max-width: 470px;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
   margin-left: auto;
   margin-right: auto;
-  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(0%, rgba(100, 100, 225, 0.25)), color-stop(6.38298%, rgba(100, 100, 225, 0.25)), color-stop(6.38298%, rgba(0, 0, 0, 0)), color-stop(8.51064%, rgba(0, 0, 0, 0)), color-stop(8.51064%, rgba(100, 100, 225, 0.25)), color-stop(14.89362%, rgba(100, 100, 225, 0.25)), color-stop(14.89362%, rgba(0, 0, 0, 0)), color-stop(17.02128%, rgba(0, 0, 0, 0)), color-stop(17.02128%, rgba(100, 100, 225, 0.25)), color-stop(23.40426%, rgba(100, 100, 225, 0.25)), color-stop(23.40426%, rgba(0, 0, 0, 0)), color-stop(25.53191%, rgba(0, 0, 0, 0)), color-stop(25.53191%, rgba(100, 100, 225, 0.25)), color-stop(31.91489%, rgba(100, 100, 225, 0.25)), color-stop(31.91489%, rgba(0, 0, 0, 0)), color-stop(34.04255%, rgba(0, 0, 0, 0)), color-stop(34.04255%, rgba(100, 100, 225, 0.25)), color-stop(40.42553%, rgba(100, 100, 225, 0.25)), color-stop(40.42553%, rgba(0, 0, 0, 0)), color-stop(42.55319%, rgba(0, 0, 0, 0)), color-stop(42.55319%, rgba(100, 100, 225, 0.25)), color-stop(48.93617%, rgba(100, 100, 225, 0.25)), color-stop(48.93617%, rgba(0, 0, 0, 0)), color-stop(51.06383%, rgba(0, 0, 0, 0)), color-stop(51.06383%, rgba(100, 100, 225, 0.25)), color-stop(57.44681%, rgba(100, 100, 225, 0.25)), color-stop(57.44681%, rgba(0, 0, 0, 0)), color-stop(59.57447%, rgba(0, 0, 0, 0)), color-stop(59.57447%, rgba(100, 100, 225, 0.25)), color-stop(65.95745%, rgba(100, 100, 225, 0.25)), color-stop(65.95745%, rgba(0, 0, 0, 0)), color-stop(68.08511%, rgba(0, 0, 0, 0)), color-stop(68.08511%, rgba(100, 100, 225, 0.25)), color-stop(74.46809%, rgba(100, 100, 225, 0.25)), color-stop(74.46809%, rgba(0, 0, 0, 0)), color-stop(76.59574%, rgba(0, 0, 0, 0)), color-stop(76.59574%, rgba(100, 100, 225, 0.25)), color-stop(82.97872%, rgba(100, 100, 225, 0.25)), color-stop(82.97872%, rgba(0, 0, 0, 0)), color-stop(85.10638%, rgba(0, 0, 0, 0)), color-stop(85.10638%, rgba(100, 100, 225, 0.25)), color-stop(91.48936%, rgba(100, 100, 225, 0.25)), color-stop(91.48936%, rgba(0, 0, 0, 0)), color-stop(93.61702%, rgba(0, 0, 0, 0)), color-stop(93.61702%, rgba(100, 100, 225, 0.25)), color-stop(100%, rgba(100, 100, 225, 0.25)), color-stop(100%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0)));
-  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 6.38298%, rgba(0, 0, 0, 0) 6.38298%, rgba(0, 0, 0, 0) 8.51064%, rgba(100, 100, 225, 0.25) 8.51064%, rgba(100, 100, 225, 0.25) 14.89362%, rgba(0, 0, 0, 0) 14.89362%, rgba(0, 0, 0, 0) 17.02128%, rgba(100, 100, 225, 0.25) 17.02128%, rgba(100, 100, 225, 0.25) 23.40426%, rgba(0, 0, 0, 0) 23.40426%, rgba(0, 0, 0, 0) 25.53191%, rgba(100, 100, 225, 0.25) 25.53191%, rgba(100, 100, 225, 0.25) 31.91489%, rgba(0, 0, 0, 0) 31.91489%, rgba(0, 0, 0, 0) 34.04255%, rgba(100, 100, 225, 0.25) 34.04255%, rgba(100, 100, 225, 0.25) 40.42553%, rgba(0, 0, 0, 0) 40.42553%, rgba(0, 0, 0, 0) 42.55319%, rgba(100, 100, 225, 0.25) 42.55319%, rgba(100, 100, 225, 0.25) 48.93617%, rgba(0, 0, 0, 0) 48.93617%, rgba(0, 0, 0, 0) 51.06383%, rgba(100, 100, 225, 0.25) 51.06383%, rgba(100, 100, 225, 0.25) 57.44681%, rgba(0, 0, 0, 0) 57.44681%, rgba(0, 0, 0, 0) 59.57447%, rgba(100, 100, 225, 0.25) 59.57447%, rgba(100, 100, 225, 0.25) 65.95745%, rgba(0, 0, 0, 0) 65.95745%, rgba(0, 0, 0, 0) 68.08511%, rgba(100, 100, 225, 0.25) 68.08511%, rgba(100, 100, 225, 0.25) 74.46809%, rgba(0, 0, 0, 0) 74.46809%, rgba(0, 0, 0, 0) 76.59574%, rgba(100, 100, 225, 0.25) 76.59574%, rgba(100, 100, 225, 0.25) 82.97872%, rgba(0, 0, 0, 0) 82.97872%, rgba(0, 0, 0, 0) 85.10638%, rgba(100, 100, 225, 0.25) 85.10638%, rgba(100, 100, 225, 0.25) 91.48936%, rgba(0, 0, 0, 0) 91.48936%, rgba(0, 0, 0, 0) 93.61702%, rgba(100, 100, 225, 0.25) 93.61702%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
-  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 6.38298%, rgba(0, 0, 0, 0) 6.38298%, rgba(0, 0, 0, 0) 8.51064%, rgba(100, 100, 225, 0.25) 8.51064%, rgba(100, 100, 225, 0.25) 14.89362%, rgba(0, 0, 0, 0) 14.89362%, rgba(0, 0, 0, 0) 17.02128%, rgba(100, 100, 225, 0.25) 17.02128%, rgba(100, 100, 225, 0.25) 23.40426%, rgba(0, 0, 0, 0) 23.40426%, rgba(0, 0, 0, 0) 25.53191%, rgba(100, 100, 225, 0.25) 25.53191%, rgba(100, 100, 225, 0.25) 31.91489%, rgba(0, 0, 0, 0) 31.91489%, rgba(0, 0, 0, 0) 34.04255%, rgba(100, 100, 225, 0.25) 34.04255%, rgba(100, 100, 225, 0.25) 40.42553%, rgba(0, 0, 0, 0) 40.42553%, rgba(0, 0, 0, 0) 42.55319%, rgba(100, 100, 225, 0.25) 42.55319%, rgba(100, 100, 225, 0.25) 48.93617%, rgba(0, 0, 0, 0) 48.93617%, rgba(0, 0, 0, 0) 51.06383%, rgba(100, 100, 225, 0.25) 51.06383%, rgba(100, 100, 225, 0.25) 57.44681%, rgba(0, 0, 0, 0) 57.44681%, rgba(0, 0, 0, 0) 59.57447%, rgba(100, 100, 225, 0.25) 59.57447%, rgba(100, 100, 225, 0.25) 65.95745%, rgba(0, 0, 0, 0) 65.95745%, rgba(0, 0, 0, 0) 68.08511%, rgba(100, 100, 225, 0.25) 68.08511%, rgba(100, 100, 225, 0.25) 74.46809%, rgba(0, 0, 0, 0) 74.46809%, rgba(0, 0, 0, 0) 76.59574%, rgba(100, 100, 225, 0.25) 76.59574%, rgba(100, 100, 225, 0.25) 82.97872%, rgba(0, 0, 0, 0) 82.97872%, rgba(0, 0, 0, 0) 85.10638%, rgba(100, 100, 225, 0.25) 85.10638%, rgba(100, 100, 225, 0.25) 91.48936%, rgba(0, 0, 0, 0) 91.48936%, rgba(0, 0, 0, 0) 93.61702%, rgba(100, 100, 225, 0.25) 93.61702%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
-  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 6.38298%, rgba(0, 0, 0, 0) 6.38298%, rgba(0, 0, 0, 0) 8.51064%, rgba(100, 100, 225, 0.25) 8.51064%, rgba(100, 100, 225, 0.25) 14.89362%, rgba(0, 0, 0, 0) 14.89362%, rgba(0, 0, 0, 0) 17.02128%, rgba(100, 100, 225, 0.25) 17.02128%, rgba(100, 100, 225, 0.25) 23.40426%, rgba(0, 0, 0, 0) 23.40426%, rgba(0, 0, 0, 0) 25.53191%, rgba(100, 100, 225, 0.25) 25.53191%, rgba(100, 100, 225, 0.25) 31.91489%, rgba(0, 0, 0, 0) 31.91489%, rgba(0, 0, 0, 0) 34.04255%, rgba(100, 100, 225, 0.25) 34.04255%, rgba(100, 100, 225, 0.25) 40.42553%, rgba(0, 0, 0, 0) 40.42553%, rgba(0, 0, 0, 0) 42.55319%, rgba(100, 100, 225, 0.25) 42.55319%, rgba(100, 100, 225, 0.25) 48.93617%, rgba(0, 0, 0, 0) 48.93617%, rgba(0, 0, 0, 0) 51.06383%, rgba(100, 100, 225, 0.25) 51.06383%, rgba(100, 100, 225, 0.25) 57.44681%, rgba(0, 0, 0, 0) 57.44681%, rgba(0, 0, 0, 0) 59.57447%, rgba(100, 100, 225, 0.25) 59.57447%, rgba(100, 100, 225, 0.25) 65.95745%, rgba(0, 0, 0, 0) 65.95745%, rgba(0, 0, 0, 0) 68.08511%, rgba(100, 100, 225, 0.25) 68.08511%, rgba(100, 100, 225, 0.25) 74.46809%, rgba(0, 0, 0, 0) 74.46809%, rgba(0, 0, 0, 0) 76.59574%, rgba(100, 100, 225, 0.25) 76.59574%, rgba(100, 100, 225, 0.25) 82.97872%, rgba(0, 0, 0, 0) 82.97872%, rgba(0, 0, 0, 0) 85.10638%, rgba(100, 100, 225, 0.25) 85.10638%, rgba(100, 100, 225, 0.25) 91.48936%, rgba(0, 0, 0, 0) 91.48936%, rgba(0, 0, 0, 0) 93.61702%, rgba(100, 100, 225, 0.25) 93.61702%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
-  background-image: linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 6.38298%, rgba(0, 0, 0, 0) 6.38298%, rgba(0, 0, 0, 0) 8.51064%, rgba(100, 100, 225, 0.25) 8.51064%, rgba(100, 100, 225, 0.25) 14.89362%, rgba(0, 0, 0, 0) 14.89362%, rgba(0, 0, 0, 0) 17.02128%, rgba(100, 100, 225, 0.25) 17.02128%, rgba(100, 100, 225, 0.25) 23.40426%, rgba(0, 0, 0, 0) 23.40426%, rgba(0, 0, 0, 0) 25.53191%, rgba(100, 100, 225, 0.25) 25.53191%, rgba(100, 100, 225, 0.25) 31.91489%, rgba(0, 0, 0, 0) 31.91489%, rgba(0, 0, 0, 0) 34.04255%, rgba(100, 100, 225, 0.25) 34.04255%, rgba(100, 100, 225, 0.25) 40.42553%, rgba(0, 0, 0, 0) 40.42553%, rgba(0, 0, 0, 0) 42.55319%, rgba(100, 100, 225, 0.25) 42.55319%, rgba(100, 100, 225, 0.25) 48.93617%, rgba(0, 0, 0, 0) 48.93617%, rgba(0, 0, 0, 0) 51.06383%, rgba(100, 100, 225, 0.25) 51.06383%, rgba(100, 100, 225, 0.25) 57.44681%, rgba(0, 0, 0, 0) 57.44681%, rgba(0, 0, 0, 0) 59.57447%, rgba(100, 100, 225, 0.25) 59.57447%, rgba(100, 100, 225, 0.25) 65.95745%, rgba(0, 0, 0, 0) 65.95745%, rgba(0, 0, 0, 0) 68.08511%, rgba(100, 100, 225, 0.25) 68.08511%, rgba(100, 100, 225, 0.25) 74.46809%, rgba(0, 0, 0, 0) 74.46809%, rgba(0, 0, 0, 0) 76.59574%, rgba(100, 100, 225, 0.25) 76.59574%, rgba(100, 100, 225, 0.25) 82.97872%, rgba(0, 0, 0, 0) 82.97872%, rgba(0, 0, 0, 0) 85.10638%, rgba(100, 100, 225, 0.25) 85.10638%, rgba(100, 100, 225, 0.25) 91.48936%, rgba(0, 0, 0, 0) 91.48936%, rgba(0, 0, 0, 0) 93.61702%, rgba(100, 100, 225, 0.25) 93.61702%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
-  background-position: left top;
-  -webkit-background-origin: content;
-  -moz-background-origin: content;
-  -ms-background-origin: content-box;
-  -o-background-origin: content-box;
-  background-origin: content-box;
-  -webkit-background-clip: content-box;
-  -moz-background-clip: content-box;
-  background-clip: content-box;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/daniel\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
 .wrap:after, .chromeframe:after {
@@ -784,34 +750,6 @@ body:active:after {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/daniel\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/susy-1\.0\.8\/sass\/susy\/_media\.scss}line{font-family:\0000391}}
 .lt-ie9 .wrap, .lt-ie9 .chromeframe {
   max-width: 950px;
-}
-@media (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003145}}
-  .wrap, .chromeframe {
-    background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(0%, rgba(100, 100, 225, 0.25)), color-stop(3.15789%, rgba(100, 100, 225, 0.25)), color-stop(3.15789%, rgba(0, 0, 0, 0)), color-stop(4.21053%, rgba(0, 0, 0, 0)), color-stop(4.21053%, rgba(100, 100, 225, 0.25)), color-stop(7.36842%, rgba(100, 100, 225, 0.25)), color-stop(7.36842%, rgba(0, 0, 0, 0)), color-stop(8.42105%, rgba(0, 0, 0, 0)), color-stop(8.42105%, rgba(100, 100, 225, 0.25)), color-stop(11.57895%, rgba(100, 100, 225, 0.25)), color-stop(11.57895%, rgba(0, 0, 0, 0)), color-stop(12.63158%, rgba(0, 0, 0, 0)), color-stop(12.63158%, rgba(100, 100, 225, 0.25)), color-stop(15.78947%, rgba(100, 100, 225, 0.25)), color-stop(15.78947%, rgba(0, 0, 0, 0)), color-stop(16.84211%, rgba(0, 0, 0, 0)), color-stop(16.84211%, rgba(100, 100, 225, 0.25)), color-stop(20%, rgba(100, 100, 225, 0.25)), color-stop(20%, rgba(0, 0, 0, 0)), color-stop(21.05263%, rgba(0, 0, 0, 0)), color-stop(21.05263%, rgba(100, 100, 225, 0.25)), color-stop(24.21053%, rgba(100, 100, 225, 0.25)), color-stop(24.21053%, rgba(0, 0, 0, 0)), color-stop(25.26316%, rgba(0, 0, 0, 0)), color-stop(25.26316%, rgba(100, 100, 225, 0.25)), color-stop(28.42105%, rgba(100, 100, 225, 0.25)), color-stop(28.42105%, rgba(0, 0, 0, 0)), color-stop(29.47368%, rgba(0, 0, 0, 0)), color-stop(29.47368%, rgba(100, 100, 225, 0.25)), color-stop(32.63158%, rgba(100, 100, 225, 0.25)), color-stop(32.63158%, rgba(0, 0, 0, 0)), color-stop(33.68421%, rgba(0, 0, 0, 0)), color-stop(33.68421%, rgba(100, 100, 225, 0.25)), color-stop(36.84211%, rgba(100, 100, 225, 0.25)), color-stop(36.84211%, rgba(0, 0, 0, 0)), color-stop(37.89474%, rgba(0, 0, 0, 0)), color-stop(37.89474%, rgba(100, 100, 225, 0.25)), color-stop(41.05263%, rgba(100, 100, 225, 0.25)), color-stop(41.05263%, rgba(0, 0, 0, 0)), color-stop(42.10526%, rgba(0, 0, 0, 0)), color-stop(42.10526%, rgba(100, 100, 225, 0.25)), color-stop(45.26316%, rgba(100, 100, 225, 0.25)), color-stop(45.26316%, rgba(0, 0, 0, 0)), color-stop(46.31579%, rgba(0, 0, 0, 0)), color-stop(46.31579%, rgba(100, 100, 225, 0.25)), color-stop(49.47368%, rgba(100, 100, 225, 0.25)), color-stop(49.47368%, rgba(0, 0, 0, 0)), color-stop(50.52632%, rgba(0, 0, 0, 0)), color-stop(50.52632%, rgba(100, 100, 225, 0.25)), color-stop(53.68421%, rgba(100, 100, 225, 0.25)), color-stop(53.68421%, rgba(0, 0, 0, 0)), color-stop(54.73684%, rgba(0, 0, 0, 0)), color-stop(54.73684%, rgba(100, 100, 225, 0.25)), color-stop(57.89474%, rgba(100, 100, 225, 0.25)), color-stop(57.89474%, rgba(0, 0, 0, 0)), color-stop(58.94737%, rgba(0, 0, 0, 0)), color-stop(58.94737%, rgba(100, 100, 225, 0.25)), color-stop(62.10526%, rgba(100, 100, 225, 0.25)), color-stop(62.10526%, rgba(0, 0, 0, 0)), color-stop(63.15789%, rgba(0, 0, 0, 0)), color-stop(63.15789%, rgba(100, 100, 225, 0.25)), color-stop(66.31579%, rgba(100, 100, 225, 0.25)), color-stop(66.31579%, rgba(0, 0, 0, 0)), color-stop(67.36842%, rgba(0, 0, 0, 0)), color-stop(67.36842%, rgba(100, 100, 225, 0.25)), color-stop(70.52632%, rgba(100, 100, 225, 0.25)), color-stop(70.52632%, rgba(0, 0, 0, 0)), color-stop(71.57895%, rgba(0, 0, 0, 0)), color-stop(71.57895%, rgba(100, 100, 225, 0.25)), color-stop(74.73684%, rgba(100, 100, 225, 0.25)), color-stop(74.73684%, rgba(0, 0, 0, 0)), color-stop(75.78947%, rgba(0, 0, 0, 0)), color-stop(75.78947%, rgba(100, 100, 225, 0.25)), color-stop(78.94737%, rgba(100, 100, 225, 0.25)), color-stop(78.94737%, rgba(0, 0, 0, 0)), color-stop(80%, rgba(0, 0, 0, 0)), color-stop(80%, rgba(100, 100, 225, 0.25)), color-stop(83.15789%, rgba(100, 100, 225, 0.25)), color-stop(83.15789%, rgba(0, 0, 0, 0)), color-stop(84.21053%, rgba(0, 0, 0, 0)), color-stop(84.21053%, rgba(100, 100, 225, 0.25)), color-stop(87.36842%, rgba(100, 100, 225, 0.25)), color-stop(87.36842%, rgba(0, 0, 0, 0)), color-stop(88.42105%, rgba(0, 0, 0, 0)), color-stop(88.42105%, rgba(100, 100, 225, 0.25)), color-stop(91.57895%, rgba(100, 100, 225, 0.25)), color-stop(91.57895%, rgba(0, 0, 0, 0)), color-stop(92.63158%, rgba(0, 0, 0, 0)), color-stop(92.63158%, rgba(100, 100, 225, 0.25)), color-stop(95.78947%, rgba(100, 100, 225, 0.25)), color-stop(95.78947%, rgba(0, 0, 0, 0)), color-stop(96.84211%, rgba(0, 0, 0, 0)), color-stop(96.84211%, rgba(100, 100, 225, 0.25)), color-stop(100%, rgba(100, 100, 225, 0.25)), color-stop(100%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0)));
-    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 3.15789%, rgba(0, 0, 0, 0) 3.15789%, rgba(0, 0, 0, 0) 4.21053%, rgba(100, 100, 225, 0.25) 4.21053%, rgba(100, 100, 225, 0.25) 7.36842%, rgba(0, 0, 0, 0) 7.36842%, rgba(0, 0, 0, 0) 8.42105%, rgba(100, 100, 225, 0.25) 8.42105%, rgba(100, 100, 225, 0.25) 11.57895%, rgba(0, 0, 0, 0) 11.57895%, rgba(0, 0, 0, 0) 12.63158%, rgba(100, 100, 225, 0.25) 12.63158%, rgba(100, 100, 225, 0.25) 15.78947%, rgba(0, 0, 0, 0) 15.78947%, rgba(0, 0, 0, 0) 16.84211%, rgba(100, 100, 225, 0.25) 16.84211%, rgba(100, 100, 225, 0.25) 20%, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0) 21.05263%, rgba(100, 100, 225, 0.25) 21.05263%, rgba(100, 100, 225, 0.25) 24.21053%, rgba(0, 0, 0, 0) 24.21053%, rgba(0, 0, 0, 0) 25.26316%, rgba(100, 100, 225, 0.25) 25.26316%, rgba(100, 100, 225, 0.25) 28.42105%, rgba(0, 0, 0, 0) 28.42105%, rgba(0, 0, 0, 0) 29.47368%, rgba(100, 100, 225, 0.25) 29.47368%, rgba(100, 100, 225, 0.25) 32.63158%, rgba(0, 0, 0, 0) 32.63158%, rgba(0, 0, 0, 0) 33.68421%, rgba(100, 100, 225, 0.25) 33.68421%, rgba(100, 100, 225, 0.25) 36.84211%, rgba(0, 0, 0, 0) 36.84211%, rgba(0, 0, 0, 0) 37.89474%, rgba(100, 100, 225, 0.25) 37.89474%, rgba(100, 100, 225, 0.25) 41.05263%, rgba(0, 0, 0, 0) 41.05263%, rgba(0, 0, 0, 0) 42.10526%, rgba(100, 100, 225, 0.25) 42.10526%, rgba(100, 100, 225, 0.25) 45.26316%, rgba(0, 0, 0, 0) 45.26316%, rgba(0, 0, 0, 0) 46.31579%, rgba(100, 100, 225, 0.25) 46.31579%, rgba(100, 100, 225, 0.25) 49.47368%, rgba(0, 0, 0, 0) 49.47368%, rgba(0, 0, 0, 0) 50.52632%, rgba(100, 100, 225, 0.25) 50.52632%, rgba(100, 100, 225, 0.25) 53.68421%, rgba(0, 0, 0, 0) 53.68421%, rgba(0, 0, 0, 0) 54.73684%, rgba(100, 100, 225, 0.25) 54.73684%, rgba(100, 100, 225, 0.25) 57.89474%, rgba(0, 0, 0, 0) 57.89474%, rgba(0, 0, 0, 0) 58.94737%, rgba(100, 100, 225, 0.25) 58.94737%, rgba(100, 100, 225, 0.25) 62.10526%, rgba(0, 0, 0, 0) 62.10526%, rgba(0, 0, 0, 0) 63.15789%, rgba(100, 100, 225, 0.25) 63.15789%, rgba(100, 100, 225, 0.25) 66.31579%, rgba(0, 0, 0, 0) 66.31579%, rgba(0, 0, 0, 0) 67.36842%, rgba(100, 100, 225, 0.25) 67.36842%, rgba(100, 100, 225, 0.25) 70.52632%, rgba(0, 0, 0, 0) 70.52632%, rgba(0, 0, 0, 0) 71.57895%, rgba(100, 100, 225, 0.25) 71.57895%, rgba(100, 100, 225, 0.25) 74.73684%, rgba(0, 0, 0, 0) 74.73684%, rgba(0, 0, 0, 0) 75.78947%, rgba(100, 100, 225, 0.25) 75.78947%, rgba(100, 100, 225, 0.25) 78.94737%, rgba(0, 0, 0, 0) 78.94737%, rgba(0, 0, 0, 0) 80%, rgba(100, 100, 225, 0.25) 80%, rgba(100, 100, 225, 0.25) 83.15789%, rgba(0, 0, 0, 0) 83.15789%, rgba(0, 0, 0, 0) 84.21053%, rgba(100, 100, 225, 0.25) 84.21053%, rgba(100, 100, 225, 0.25) 87.36842%, rgba(0, 0, 0, 0) 87.36842%, rgba(0, 0, 0, 0) 88.42105%, rgba(100, 100, 225, 0.25) 88.42105%, rgba(100, 100, 225, 0.25) 91.57895%, rgba(0, 0, 0, 0) 91.57895%, rgba(0, 0, 0, 0) 92.63158%, rgba(100, 100, 225, 0.25) 92.63158%, rgba(100, 100, 225, 0.25) 95.78947%, rgba(0, 0, 0, 0) 95.78947%, rgba(0, 0, 0, 0) 96.84211%, rgba(100, 100, 225, 0.25) 96.84211%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
-    background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 3.15789%, rgba(0, 0, 0, 0) 3.15789%, rgba(0, 0, 0, 0) 4.21053%, rgba(100, 100, 225, 0.25) 4.21053%, rgba(100, 100, 225, 0.25) 7.36842%, rgba(0, 0, 0, 0) 7.36842%, rgba(0, 0, 0, 0) 8.42105%, rgba(100, 100, 225, 0.25) 8.42105%, rgba(100, 100, 225, 0.25) 11.57895%, rgba(0, 0, 0, 0) 11.57895%, rgba(0, 0, 0, 0) 12.63158%, rgba(100, 100, 225, 0.25) 12.63158%, rgba(100, 100, 225, 0.25) 15.78947%, rgba(0, 0, 0, 0) 15.78947%, rgba(0, 0, 0, 0) 16.84211%, rgba(100, 100, 225, 0.25) 16.84211%, rgba(100, 100, 225, 0.25) 20%, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0) 21.05263%, rgba(100, 100, 225, 0.25) 21.05263%, rgba(100, 100, 225, 0.25) 24.21053%, rgba(0, 0, 0, 0) 24.21053%, rgba(0, 0, 0, 0) 25.26316%, rgba(100, 100, 225, 0.25) 25.26316%, rgba(100, 100, 225, 0.25) 28.42105%, rgba(0, 0, 0, 0) 28.42105%, rgba(0, 0, 0, 0) 29.47368%, rgba(100, 100, 225, 0.25) 29.47368%, rgba(100, 100, 225, 0.25) 32.63158%, rgba(0, 0, 0, 0) 32.63158%, rgba(0, 0, 0, 0) 33.68421%, rgba(100, 100, 225, 0.25) 33.68421%, rgba(100, 100, 225, 0.25) 36.84211%, rgba(0, 0, 0, 0) 36.84211%, rgba(0, 0, 0, 0) 37.89474%, rgba(100, 100, 225, 0.25) 37.89474%, rgba(100, 100, 225, 0.25) 41.05263%, rgba(0, 0, 0, 0) 41.05263%, rgba(0, 0, 0, 0) 42.10526%, rgba(100, 100, 225, 0.25) 42.10526%, rgba(100, 100, 225, 0.25) 45.26316%, rgba(0, 0, 0, 0) 45.26316%, rgba(0, 0, 0, 0) 46.31579%, rgba(100, 100, 225, 0.25) 46.31579%, rgba(100, 100, 225, 0.25) 49.47368%, rgba(0, 0, 0, 0) 49.47368%, rgba(0, 0, 0, 0) 50.52632%, rgba(100, 100, 225, 0.25) 50.52632%, rgba(100, 100, 225, 0.25) 53.68421%, rgba(0, 0, 0, 0) 53.68421%, rgba(0, 0, 0, 0) 54.73684%, rgba(100, 100, 225, 0.25) 54.73684%, rgba(100, 100, 225, 0.25) 57.89474%, rgba(0, 0, 0, 0) 57.89474%, rgba(0, 0, 0, 0) 58.94737%, rgba(100, 100, 225, 0.25) 58.94737%, rgba(100, 100, 225, 0.25) 62.10526%, rgba(0, 0, 0, 0) 62.10526%, rgba(0, 0, 0, 0) 63.15789%, rgba(100, 100, 225, 0.25) 63.15789%, rgba(100, 100, 225, 0.25) 66.31579%, rgba(0, 0, 0, 0) 66.31579%, rgba(0, 0, 0, 0) 67.36842%, rgba(100, 100, 225, 0.25) 67.36842%, rgba(100, 100, 225, 0.25) 70.52632%, rgba(0, 0, 0, 0) 70.52632%, rgba(0, 0, 0, 0) 71.57895%, rgba(100, 100, 225, 0.25) 71.57895%, rgba(100, 100, 225, 0.25) 74.73684%, rgba(0, 0, 0, 0) 74.73684%, rgba(0, 0, 0, 0) 75.78947%, rgba(100, 100, 225, 0.25) 75.78947%, rgba(100, 100, 225, 0.25) 78.94737%, rgba(0, 0, 0, 0) 78.94737%, rgba(0, 0, 0, 0) 80%, rgba(100, 100, 225, 0.25) 80%, rgba(100, 100, 225, 0.25) 83.15789%, rgba(0, 0, 0, 0) 83.15789%, rgba(0, 0, 0, 0) 84.21053%, rgba(100, 100, 225, 0.25) 84.21053%, rgba(100, 100, 225, 0.25) 87.36842%, rgba(0, 0, 0, 0) 87.36842%, rgba(0, 0, 0, 0) 88.42105%, rgba(100, 100, 225, 0.25) 88.42105%, rgba(100, 100, 225, 0.25) 91.57895%, rgba(0, 0, 0, 0) 91.57895%, rgba(0, 0, 0, 0) 92.63158%, rgba(100, 100, 225, 0.25) 92.63158%, rgba(100, 100, 225, 0.25) 95.78947%, rgba(0, 0, 0, 0) 95.78947%, rgba(0, 0, 0, 0) 96.84211%, rgba(100, 100, 225, 0.25) 96.84211%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
-    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 3.15789%, rgba(0, 0, 0, 0) 3.15789%, rgba(0, 0, 0, 0) 4.21053%, rgba(100, 100, 225, 0.25) 4.21053%, rgba(100, 100, 225, 0.25) 7.36842%, rgba(0, 0, 0, 0) 7.36842%, rgba(0, 0, 0, 0) 8.42105%, rgba(100, 100, 225, 0.25) 8.42105%, rgba(100, 100, 225, 0.25) 11.57895%, rgba(0, 0, 0, 0) 11.57895%, rgba(0, 0, 0, 0) 12.63158%, rgba(100, 100, 225, 0.25) 12.63158%, rgba(100, 100, 225, 0.25) 15.78947%, rgba(0, 0, 0, 0) 15.78947%, rgba(0, 0, 0, 0) 16.84211%, rgba(100, 100, 225, 0.25) 16.84211%, rgba(100, 100, 225, 0.25) 20%, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0) 21.05263%, rgba(100, 100, 225, 0.25) 21.05263%, rgba(100, 100, 225, 0.25) 24.21053%, rgba(0, 0, 0, 0) 24.21053%, rgba(0, 0, 0, 0) 25.26316%, rgba(100, 100, 225, 0.25) 25.26316%, rgba(100, 100, 225, 0.25) 28.42105%, rgba(0, 0, 0, 0) 28.42105%, rgba(0, 0, 0, 0) 29.47368%, rgba(100, 100, 225, 0.25) 29.47368%, rgba(100, 100, 225, 0.25) 32.63158%, rgba(0, 0, 0, 0) 32.63158%, rgba(0, 0, 0, 0) 33.68421%, rgba(100, 100, 225, 0.25) 33.68421%, rgba(100, 100, 225, 0.25) 36.84211%, rgba(0, 0, 0, 0) 36.84211%, rgba(0, 0, 0, 0) 37.89474%, rgba(100, 100, 225, 0.25) 37.89474%, rgba(100, 100, 225, 0.25) 41.05263%, rgba(0, 0, 0, 0) 41.05263%, rgba(0, 0, 0, 0) 42.10526%, rgba(100, 100, 225, 0.25) 42.10526%, rgba(100, 100, 225, 0.25) 45.26316%, rgba(0, 0, 0, 0) 45.26316%, rgba(0, 0, 0, 0) 46.31579%, rgba(100, 100, 225, 0.25) 46.31579%, rgba(100, 100, 225, 0.25) 49.47368%, rgba(0, 0, 0, 0) 49.47368%, rgba(0, 0, 0, 0) 50.52632%, rgba(100, 100, 225, 0.25) 50.52632%, rgba(100, 100, 225, 0.25) 53.68421%, rgba(0, 0, 0, 0) 53.68421%, rgba(0, 0, 0, 0) 54.73684%, rgba(100, 100, 225, 0.25) 54.73684%, rgba(100, 100, 225, 0.25) 57.89474%, rgba(0, 0, 0, 0) 57.89474%, rgba(0, 0, 0, 0) 58.94737%, rgba(100, 100, 225, 0.25) 58.94737%, rgba(100, 100, 225, 0.25) 62.10526%, rgba(0, 0, 0, 0) 62.10526%, rgba(0, 0, 0, 0) 63.15789%, rgba(100, 100, 225, 0.25) 63.15789%, rgba(100, 100, 225, 0.25) 66.31579%, rgba(0, 0, 0, 0) 66.31579%, rgba(0, 0, 0, 0) 67.36842%, rgba(100, 100, 225, 0.25) 67.36842%, rgba(100, 100, 225, 0.25) 70.52632%, rgba(0, 0, 0, 0) 70.52632%, rgba(0, 0, 0, 0) 71.57895%, rgba(100, 100, 225, 0.25) 71.57895%, rgba(100, 100, 225, 0.25) 74.73684%, rgba(0, 0, 0, 0) 74.73684%, rgba(0, 0, 0, 0) 75.78947%, rgba(100, 100, 225, 0.25) 75.78947%, rgba(100, 100, 225, 0.25) 78.94737%, rgba(0, 0, 0, 0) 78.94737%, rgba(0, 0, 0, 0) 80%, rgba(100, 100, 225, 0.25) 80%, rgba(100, 100, 225, 0.25) 83.15789%, rgba(0, 0, 0, 0) 83.15789%, rgba(0, 0, 0, 0) 84.21053%, rgba(100, 100, 225, 0.25) 84.21053%, rgba(100, 100, 225, 0.25) 87.36842%, rgba(0, 0, 0, 0) 87.36842%, rgba(0, 0, 0, 0) 88.42105%, rgba(100, 100, 225, 0.25) 88.42105%, rgba(100, 100, 225, 0.25) 91.57895%, rgba(0, 0, 0, 0) 91.57895%, rgba(0, 0, 0, 0) 92.63158%, rgba(100, 100, 225, 0.25) 92.63158%, rgba(100, 100, 225, 0.25) 95.78947%, rgba(0, 0, 0, 0) 95.78947%, rgba(0, 0, 0, 0) 96.84211%, rgba(100, 100, 225, 0.25) 96.84211%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
-    background-image: linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 3.15789%, rgba(0, 0, 0, 0) 3.15789%, rgba(0, 0, 0, 0) 4.21053%, rgba(100, 100, 225, 0.25) 4.21053%, rgba(100, 100, 225, 0.25) 7.36842%, rgba(0, 0, 0, 0) 7.36842%, rgba(0, 0, 0, 0) 8.42105%, rgba(100, 100, 225, 0.25) 8.42105%, rgba(100, 100, 225, 0.25) 11.57895%, rgba(0, 0, 0, 0) 11.57895%, rgba(0, 0, 0, 0) 12.63158%, rgba(100, 100, 225, 0.25) 12.63158%, rgba(100, 100, 225, 0.25) 15.78947%, rgba(0, 0, 0, 0) 15.78947%, rgba(0, 0, 0, 0) 16.84211%, rgba(100, 100, 225, 0.25) 16.84211%, rgba(100, 100, 225, 0.25) 20%, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0) 21.05263%, rgba(100, 100, 225, 0.25) 21.05263%, rgba(100, 100, 225, 0.25) 24.21053%, rgba(0, 0, 0, 0) 24.21053%, rgba(0, 0, 0, 0) 25.26316%, rgba(100, 100, 225, 0.25) 25.26316%, rgba(100, 100, 225, 0.25) 28.42105%, rgba(0, 0, 0, 0) 28.42105%, rgba(0, 0, 0, 0) 29.47368%, rgba(100, 100, 225, 0.25) 29.47368%, rgba(100, 100, 225, 0.25) 32.63158%, rgba(0, 0, 0, 0) 32.63158%, rgba(0, 0, 0, 0) 33.68421%, rgba(100, 100, 225, 0.25) 33.68421%, rgba(100, 100, 225, 0.25) 36.84211%, rgba(0, 0, 0, 0) 36.84211%, rgba(0, 0, 0, 0) 37.89474%, rgba(100, 100, 225, 0.25) 37.89474%, rgba(100, 100, 225, 0.25) 41.05263%, rgba(0, 0, 0, 0) 41.05263%, rgba(0, 0, 0, 0) 42.10526%, rgba(100, 100, 225, 0.25) 42.10526%, rgba(100, 100, 225, 0.25) 45.26316%, rgba(0, 0, 0, 0) 45.26316%, rgba(0, 0, 0, 0) 46.31579%, rgba(100, 100, 225, 0.25) 46.31579%, rgba(100, 100, 225, 0.25) 49.47368%, rgba(0, 0, 0, 0) 49.47368%, rgba(0, 0, 0, 0) 50.52632%, rgba(100, 100, 225, 0.25) 50.52632%, rgba(100, 100, 225, 0.25) 53.68421%, rgba(0, 0, 0, 0) 53.68421%, rgba(0, 0, 0, 0) 54.73684%, rgba(100, 100, 225, 0.25) 54.73684%, rgba(100, 100, 225, 0.25) 57.89474%, rgba(0, 0, 0, 0) 57.89474%, rgba(0, 0, 0, 0) 58.94737%, rgba(100, 100, 225, 0.25) 58.94737%, rgba(100, 100, 225, 0.25) 62.10526%, rgba(0, 0, 0, 0) 62.10526%, rgba(0, 0, 0, 0) 63.15789%, rgba(100, 100, 225, 0.25) 63.15789%, rgba(100, 100, 225, 0.25) 66.31579%, rgba(0, 0, 0, 0) 66.31579%, rgba(0, 0, 0, 0) 67.36842%, rgba(100, 100, 225, 0.25) 67.36842%, rgba(100, 100, 225, 0.25) 70.52632%, rgba(0, 0, 0, 0) 70.52632%, rgba(0, 0, 0, 0) 71.57895%, rgba(100, 100, 225, 0.25) 71.57895%, rgba(100, 100, 225, 0.25) 74.73684%, rgba(0, 0, 0, 0) 74.73684%, rgba(0, 0, 0, 0) 75.78947%, rgba(100, 100, 225, 0.25) 75.78947%, rgba(100, 100, 225, 0.25) 78.94737%, rgba(0, 0, 0, 0) 78.94737%, rgba(0, 0, 0, 0) 80%, rgba(100, 100, 225, 0.25) 80%, rgba(100, 100, 225, 0.25) 83.15789%, rgba(0, 0, 0, 0) 83.15789%, rgba(0, 0, 0, 0) 84.21053%, rgba(100, 100, 225, 0.25) 84.21053%, rgba(100, 100, 225, 0.25) 87.36842%, rgba(0, 0, 0, 0) 87.36842%, rgba(0, 0, 0, 0) 88.42105%, rgba(100, 100, 225, 0.25) 88.42105%, rgba(100, 100, 225, 0.25) 91.57895%, rgba(0, 0, 0, 0) 91.57895%, rgba(0, 0, 0, 0) 92.63158%, rgba(100, 100, 225, 0.25) 92.63158%, rgba(100, 100, 225, 0.25) 95.78947%, rgba(0, 0, 0, 0) 95.78947%, rgba(0, 0, 0, 0) 96.84211%, rgba(100, 100, 225, 0.25) 96.84211%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
-    background-position: left top;
-    -webkit-background-origin: content;
-    -moz-background-origin: content;
-    -ms-background-origin: content-box;
-    -o-background-origin: content-box;
-    background-origin: content-box;
-    -webkit-background-clip: content-box;
-    -moz-background-clip: content-box;
-    background-clip: content-box;
-  }
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/daniel\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/susy-1\.0\.8\/sass\/susy\/_media\.scss}line{font-family:\0000391}}
-.lt-ie9 .wrap, .lt-ie9 .chromeframe {
-  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(0%, rgba(100, 100, 225, 0.25)), color-stop(3.15789%, rgba(100, 100, 225, 0.25)), color-stop(3.15789%, rgba(0, 0, 0, 0)), color-stop(4.21053%, rgba(0, 0, 0, 0)), color-stop(4.21053%, rgba(100, 100, 225, 0.25)), color-stop(7.36842%, rgba(100, 100, 225, 0.25)), color-stop(7.36842%, rgba(0, 0, 0, 0)), color-stop(8.42105%, rgba(0, 0, 0, 0)), color-stop(8.42105%, rgba(100, 100, 225, 0.25)), color-stop(11.57895%, rgba(100, 100, 225, 0.25)), color-stop(11.57895%, rgba(0, 0, 0, 0)), color-stop(12.63158%, rgba(0, 0, 0, 0)), color-stop(12.63158%, rgba(100, 100, 225, 0.25)), color-stop(15.78947%, rgba(100, 100, 225, 0.25)), color-stop(15.78947%, rgba(0, 0, 0, 0)), color-stop(16.84211%, rgba(0, 0, 0, 0)), color-stop(16.84211%, rgba(100, 100, 225, 0.25)), color-stop(20%, rgba(100, 100, 225, 0.25)), color-stop(20%, rgba(0, 0, 0, 0)), color-stop(21.05263%, rgba(0, 0, 0, 0)), color-stop(21.05263%, rgba(100, 100, 225, 0.25)), color-stop(24.21053%, rgba(100, 100, 225, 0.25)), color-stop(24.21053%, rgba(0, 0, 0, 0)), color-stop(25.26316%, rgba(0, 0, 0, 0)), color-stop(25.26316%, rgba(100, 100, 225, 0.25)), color-stop(28.42105%, rgba(100, 100, 225, 0.25)), color-stop(28.42105%, rgba(0, 0, 0, 0)), color-stop(29.47368%, rgba(0, 0, 0, 0)), color-stop(29.47368%, rgba(100, 100, 225, 0.25)), color-stop(32.63158%, rgba(100, 100, 225, 0.25)), color-stop(32.63158%, rgba(0, 0, 0, 0)), color-stop(33.68421%, rgba(0, 0, 0, 0)), color-stop(33.68421%, rgba(100, 100, 225, 0.25)), color-stop(36.84211%, rgba(100, 100, 225, 0.25)), color-stop(36.84211%, rgba(0, 0, 0, 0)), color-stop(37.89474%, rgba(0, 0, 0, 0)), color-stop(37.89474%, rgba(100, 100, 225, 0.25)), color-stop(41.05263%, rgba(100, 100, 225, 0.25)), color-stop(41.05263%, rgba(0, 0, 0, 0)), color-stop(42.10526%, rgba(0, 0, 0, 0)), color-stop(42.10526%, rgba(100, 100, 225, 0.25)), color-stop(45.26316%, rgba(100, 100, 225, 0.25)), color-stop(45.26316%, rgba(0, 0, 0, 0)), color-stop(46.31579%, rgba(0, 0, 0, 0)), color-stop(46.31579%, rgba(100, 100, 225, 0.25)), color-stop(49.47368%, rgba(100, 100, 225, 0.25)), color-stop(49.47368%, rgba(0, 0, 0, 0)), color-stop(50.52632%, rgba(0, 0, 0, 0)), color-stop(50.52632%, rgba(100, 100, 225, 0.25)), color-stop(53.68421%, rgba(100, 100, 225, 0.25)), color-stop(53.68421%, rgba(0, 0, 0, 0)), color-stop(54.73684%, rgba(0, 0, 0, 0)), color-stop(54.73684%, rgba(100, 100, 225, 0.25)), color-stop(57.89474%, rgba(100, 100, 225, 0.25)), color-stop(57.89474%, rgba(0, 0, 0, 0)), color-stop(58.94737%, rgba(0, 0, 0, 0)), color-stop(58.94737%, rgba(100, 100, 225, 0.25)), color-stop(62.10526%, rgba(100, 100, 225, 0.25)), color-stop(62.10526%, rgba(0, 0, 0, 0)), color-stop(63.15789%, rgba(0, 0, 0, 0)), color-stop(63.15789%, rgba(100, 100, 225, 0.25)), color-stop(66.31579%, rgba(100, 100, 225, 0.25)), color-stop(66.31579%, rgba(0, 0, 0, 0)), color-stop(67.36842%, rgba(0, 0, 0, 0)), color-stop(67.36842%, rgba(100, 100, 225, 0.25)), color-stop(70.52632%, rgba(100, 100, 225, 0.25)), color-stop(70.52632%, rgba(0, 0, 0, 0)), color-stop(71.57895%, rgba(0, 0, 0, 0)), color-stop(71.57895%, rgba(100, 100, 225, 0.25)), color-stop(74.73684%, rgba(100, 100, 225, 0.25)), color-stop(74.73684%, rgba(0, 0, 0, 0)), color-stop(75.78947%, rgba(0, 0, 0, 0)), color-stop(75.78947%, rgba(100, 100, 225, 0.25)), color-stop(78.94737%, rgba(100, 100, 225, 0.25)), color-stop(78.94737%, rgba(0, 0, 0, 0)), color-stop(80%, rgba(0, 0, 0, 0)), color-stop(80%, rgba(100, 100, 225, 0.25)), color-stop(83.15789%, rgba(100, 100, 225, 0.25)), color-stop(83.15789%, rgba(0, 0, 0, 0)), color-stop(84.21053%, rgba(0, 0, 0, 0)), color-stop(84.21053%, rgba(100, 100, 225, 0.25)), color-stop(87.36842%, rgba(100, 100, 225, 0.25)), color-stop(87.36842%, rgba(0, 0, 0, 0)), color-stop(88.42105%, rgba(0, 0, 0, 0)), color-stop(88.42105%, rgba(100, 100, 225, 0.25)), color-stop(91.57895%, rgba(100, 100, 225, 0.25)), color-stop(91.57895%, rgba(0, 0, 0, 0)), color-stop(92.63158%, rgba(0, 0, 0, 0)), color-stop(92.63158%, rgba(100, 100, 225, 0.25)), color-stop(95.78947%, rgba(100, 100, 225, 0.25)), color-stop(95.78947%, rgba(0, 0, 0, 0)), color-stop(96.84211%, rgba(0, 0, 0, 0)), color-stop(96.84211%, rgba(100, 100, 225, 0.25)), color-stop(100%, rgba(100, 100, 225, 0.25)), color-stop(100%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0)));
-  background-image: linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 3.15789%, rgba(0, 0, 0, 0) 3.15789%, rgba(0, 0, 0, 0) 4.21053%, rgba(100, 100, 225, 0.25) 4.21053%, rgba(100, 100, 225, 0.25) 7.36842%, rgba(0, 0, 0, 0) 7.36842%, rgba(0, 0, 0, 0) 8.42105%, rgba(100, 100, 225, 0.25) 8.42105%, rgba(100, 100, 225, 0.25) 11.57895%, rgba(0, 0, 0, 0) 11.57895%, rgba(0, 0, 0, 0) 12.63158%, rgba(100, 100, 225, 0.25) 12.63158%, rgba(100, 100, 225, 0.25) 15.78947%, rgba(0, 0, 0, 0) 15.78947%, rgba(0, 0, 0, 0) 16.84211%, rgba(100, 100, 225, 0.25) 16.84211%, rgba(100, 100, 225, 0.25) 20%, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0) 21.05263%, rgba(100, 100, 225, 0.25) 21.05263%, rgba(100, 100, 225, 0.25) 24.21053%, rgba(0, 0, 0, 0) 24.21053%, rgba(0, 0, 0, 0) 25.26316%, rgba(100, 100, 225, 0.25) 25.26316%, rgba(100, 100, 225, 0.25) 28.42105%, rgba(0, 0, 0, 0) 28.42105%, rgba(0, 0, 0, 0) 29.47368%, rgba(100, 100, 225, 0.25) 29.47368%, rgba(100, 100, 225, 0.25) 32.63158%, rgba(0, 0, 0, 0) 32.63158%, rgba(0, 0, 0, 0) 33.68421%, rgba(100, 100, 225, 0.25) 33.68421%, rgba(100, 100, 225, 0.25) 36.84211%, rgba(0, 0, 0, 0) 36.84211%, rgba(0, 0, 0, 0) 37.89474%, rgba(100, 100, 225, 0.25) 37.89474%, rgba(100, 100, 225, 0.25) 41.05263%, rgba(0, 0, 0, 0) 41.05263%, rgba(0, 0, 0, 0) 42.10526%, rgba(100, 100, 225, 0.25) 42.10526%, rgba(100, 100, 225, 0.25) 45.26316%, rgba(0, 0, 0, 0) 45.26316%, rgba(0, 0, 0, 0) 46.31579%, rgba(100, 100, 225, 0.25) 46.31579%, rgba(100, 100, 225, 0.25) 49.47368%, rgba(0, 0, 0, 0) 49.47368%, rgba(0, 0, 0, 0) 50.52632%, rgba(100, 100, 225, 0.25) 50.52632%, rgba(100, 100, 225, 0.25) 53.68421%, rgba(0, 0, 0, 0) 53.68421%, rgba(0, 0, 0, 0) 54.73684%, rgba(100, 100, 225, 0.25) 54.73684%, rgba(100, 100, 225, 0.25) 57.89474%, rgba(0, 0, 0, 0) 57.89474%, rgba(0, 0, 0, 0) 58.94737%, rgba(100, 100, 225, 0.25) 58.94737%, rgba(100, 100, 225, 0.25) 62.10526%, rgba(0, 0, 0, 0) 62.10526%, rgba(0, 0, 0, 0) 63.15789%, rgba(100, 100, 225, 0.25) 63.15789%, rgba(100, 100, 225, 0.25) 66.31579%, rgba(0, 0, 0, 0) 66.31579%, rgba(0, 0, 0, 0) 67.36842%, rgba(100, 100, 225, 0.25) 67.36842%, rgba(100, 100, 225, 0.25) 70.52632%, rgba(0, 0, 0, 0) 70.52632%, rgba(0, 0, 0, 0) 71.57895%, rgba(100, 100, 225, 0.25) 71.57895%, rgba(100, 100, 225, 0.25) 74.73684%, rgba(0, 0, 0, 0) 74.73684%, rgba(0, 0, 0, 0) 75.78947%, rgba(100, 100, 225, 0.25) 75.78947%, rgba(100, 100, 225, 0.25) 78.94737%, rgba(0, 0, 0, 0) 78.94737%, rgba(0, 0, 0, 0) 80%, rgba(100, 100, 225, 0.25) 80%, rgba(100, 100, 225, 0.25) 83.15789%, rgba(0, 0, 0, 0) 83.15789%, rgba(0, 0, 0, 0) 84.21053%, rgba(100, 100, 225, 0.25) 84.21053%, rgba(100, 100, 225, 0.25) 87.36842%, rgba(0, 0, 0, 0) 87.36842%, rgba(0, 0, 0, 0) 88.42105%, rgba(100, 100, 225, 0.25) 88.42105%, rgba(100, 100, 225, 0.25) 91.57895%, rgba(0, 0, 0, 0) 91.57895%, rgba(0, 0, 0, 0) 92.63158%, rgba(100, 100, 225, 0.25) 92.63158%, rgba(100, 100, 225, 0.25) 95.78947%, rgba(0, 0, 0, 0) 95.78947%, rgba(0, 0, 0, 0) 96.84211%, rgba(100, 100, 225, 0.25) 96.84211%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
-  background-position: left top;
-  -ms-background-origin: content-box;
-  background-origin: content-box;
-  background-clip: content-box;
 }
 
 /* Chrome Frame Prompt
@@ -833,9 +771,19 @@ body:active:after {
 .header {
   background: #585858;
 }
+@media (min-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003177}}
+  .header {
+    line-height: 100px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/daniel\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/susy-1\.0\.8\/sass\/susy\/_media\.scss}line{font-family:\0000391}}
+.lt-ie9 .header {
+  line-height: 100px;
+}
 
 @media (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003182}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003186}}
   .header-title {
     width: 32.63158%;
     float: left;
@@ -850,7 +798,7 @@ body:active:after {
 }
 
 @media (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003188}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003192}}
   .header-navigation {
     width: 66.31579%;
     float: right;
@@ -865,7 +813,7 @@ body:active:after {
 }
 
 @media (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003194}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003198}}
   .header-links {
     list-style: none;
     padding: 0;
@@ -877,26 +825,25 @@ body:active:after {
     list-style-type: none;
     margin-left: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003200}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003204}}
   .header-links li {
     width: 23.80952%;
     float: left;
     margin-right: 1.5873%;
     text-align: center;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003204}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003208}}
   .header-links li:last-child {
     float: right;
     margin-right: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003209}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003213}}
   .header-links a {
     display: block;
-    line-height: 50px;
     text-decoration: none;
     font-family: Michroma, "PT Sans", sans-serif;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003217}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003221}}
   .header-links .current a {
     color: white;
   }
@@ -913,61 +860,61 @@ body:active:after {
   list-style-type: none;
   margin-left: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003200}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003204}}
 .lt-ie9 .header-links li {
   width: 23.80952%;
   float: left;
   margin-right: 1.5873%;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003204}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003208}}
 .lt-ie9 .header-links li:last-child {
   float: right;
   margin-right: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003209}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003213}}
 .lt-ie9 .header-links a {
   display: block;
-  line-height: 50px;
   text-decoration: none;
   font-family: Michroma, "PT Sans", sans-serif;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003217}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003221}}
 .lt-ie9 .header-links .current a {
   color: white;
 }
 
 /* Main
    ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003230}}
 .main {
   background: #ababab;
   color: white;
 }
 @media (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003230}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003234}}
   .main .wrap, .main .chromeframe {
-    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iNTAlIiB4Mj0iMTAwJSIgeTI9IjUwJSI+PHN0b3Agb2Zmc2V0PSI2Ni4zMTU3OSUiIHN0b3AtY29sb3I9IiNhYmFiYWIiLz48c3RvcCBvZmZzZXQ9IjY2LjMxNTc5JSIgc3RvcC1jb2xvcj0iIzdhN2E3YSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-    background-size: 100%;
-    background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(66.31579%, #ababab), color-stop(66.31579%, #7a7a7a));
-    background-image: -webkit-linear-gradient(left center, #ababab 66.31579%, #7a7a7a 66.31579%);
-    background-image: -moz-linear-gradient(left center, #ababab 66.31579%, #7a7a7a 66.31579%);
-    background-image: -o-linear-gradient(left center, #ababab 66.31579%, #7a7a7a 66.31579%);
-    background-image: linear-gradient(left center, #ababab 66.31579%, #7a7a7a 66.31579%);
+    background: url('/img/main-wrap-bg.png?1369143851') repeat-y 66% top;
   }
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/daniel\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/susy-1\.0\.8\/sass\/susy\/_media\.scss}line{font-family:\0000391}}
 .lt-ie9 .main .wrap, .lt-ie9 .main .chromeframe {
-  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iNTAlIiB4Mj0iMTAwJSIgeTI9IjUwJSI+PHN0b3Agb2Zmc2V0PSI2Ni4zMTU3OSUiIHN0b3AtY29sb3I9IiNhYmFiYWIiLz48c3RvcCBvZmZzZXQ9IjY2LjMxNTc5JSIgc3RvcC1jb2xvcj0iIzdhN2E3YSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-  background-size: 100%;
-  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(66.31579%, #ababab), color-stop(66.31579%, #7a7a7a));
-  background-image: linear-gradient(left center, #ababab 66.31579%, #7a7a7a 66.31579%);
+  background: url('/img/main-wrap-bg.png?1369143851') repeat-y 66% top;
+}
+@media (min-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003240}}
+  .main .wrap.no-sidebar, .main .no-sidebar.chromeframe {
+    background: #ababab;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/daniel\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/susy-1\.0\.8\/sass\/susy\/_media\.scss}line{font-family:\0000391}}
+.lt-ie9 .main .wrap.no-sidebar, .lt-ie9 .main .no-sidebar.chromeframe {
+  background: #ababab;
 }
 
 /* Content
    ========================================================================== */
 @media (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003241}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003250}}
   .content {
     width: 66.31579%;
     float: left;
@@ -980,11 +927,29 @@ body:active:after {
   float: left;
   margin-right: 1.05263%;
 }
+@media (min-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003257}}
+  .content.full {
+    width: 100%;
+    float: left;
+    margin-right: 1.05263%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/daniel\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/susy-1\.0\.8\/sass\/susy\/_media\.scss}line{font-family:\0000391}}
+.lt-ie9 .content.full {
+  width: 100%;
+  float: left;
+  margin-right: 1.05263%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003263}}
+.content .copy {
+  margin-right: 1.05263%;
+}
 
 /* Sidebar
    ========================================================================== */
 @media (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003250}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003270}}
   .sidebar {
     width: 32.63158%;
     float: right;
@@ -1000,18 +965,18 @@ body:active:after {
 
 /* Footer
    ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003260}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003280}}
 .footer {
   clear: both;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003265}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003285}}
 .footer-upper {
   background: #ff8800;
   color: white;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003270}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003290}}
 .footer-lower {
   background: white;
   color: #222222;

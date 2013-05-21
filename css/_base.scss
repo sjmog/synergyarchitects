@@ -5,7 +5,7 @@
 $total-columns:		12;
 $column-width:		30px;
 $gutter-width:		10px;
-$grid-padding:		$gutter-width / 2;
+$grid-padding:		$gutter-width;
 
 // desktop breakpoint
 $desktop-size:		40em;
@@ -77,4 +77,4 @@ $legacy-support-for-ie8:		true;
 /* ==========================================================================
    Debug - set this to false to remove the grid overlay.
    ========================================================================== */
-$qs-debug:	true;
+$qs-debug:	false;

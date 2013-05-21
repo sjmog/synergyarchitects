@@ -177,6 +177,10 @@ body {
 .header {
 	@extend .clearfix;
 	background: $header-bg-color;
+
+	@include at-breakpoint($media-layout) {
+		line-height: 100px;
+	}
 }
 
 	.header-title {
@@ -208,7 +212,7 @@ body {
 
 			a {
 				display: block;
-				line-height: 50px;
+
 				text-decoration: none;
 				font-family: $title-font-family;
 			}
@@ -229,9 +233,14 @@ body {
 
 	.wrap {
 		@include at-breakpoint($media-layout) {
-			$experimental-support-for-svg: true;
-			// Doug Neiner Method: http://css-tricks.com/fluid-width-equal-height-columns/
-			@include background-image(linear-gradient(left center, $main-bg-color columns(16), $sidebar-bg-color columns(16)));
+			// http://codethatworks.blogspot.co.uk/2012/05/responsive-full-height-columns-using.html
+			background: image-url("main-wrap-bg.png") repeat-y 66% top;
+		}
+
+		&.no-sidebar {
+			@include at-breakpoint($media-layout) {
+				background: $main-bg-color;
+			}
 		}
 	}
 }
@@ -244,7 +253,18 @@ body {
 	@include at-breakpoint($media-layout) {
 		@include span-columns(16, $desktop-columns);
 	}
+
+	&.full {
+		@include at-breakpoint($media-layout) {
+			@include span-columns($desktop-columns, $desktop-columns);
+		}
+	}
+
+	.copy {
+		margin-right: gutter($desktop-columns);
+	}
 }
+
 /* Sidebar
    ========================================================================== */
 .sidebar {
