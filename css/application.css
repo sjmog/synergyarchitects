@@ -1,0 +1,1337 @@
+/* __     _    ___    __      ____    __     _    _
+	/    | |  |   |  | (_    _)  /  __) \   | )  /
+   (     | |  |   |  |   |  |   |  /     |  |/  /            Created by:
+	\__  | |  |   |  |   |  |   | |      |     (             Daniel Hollands
+	   | | |   \_/   |  _|  |_  |  \__   |  |\  \            http://danielhollands.co.uk/
+   ____| |__\       /__(      )__\    )_/   |_)  \_
+   _       ___        ______  _____     ____        __
+	)  ____) (__    __)    /  \    |    \  (__    __)
+   (  (___      |  |      /    \   |     )    |  |           For:
+	\___  \     |  |     /  ()  \  |    /     |  |           Lime Blast
+	____)  )    |  |    |   __   | | |\ \     |  |           http://limeblast.co.uk/
+   (      (_____|  |____|  (__)  |_| |_\ \____|  |____ */
+/* ==========================================================================
+   Initial imports
+   ========================================================================== */
+/* ==========================================================================
+   Susy grid: http://susy.oddbird.net/
+   ========================================================================== */
+/* ==========================================================================
+   Colours
+   ========================================================================== */
+/* ==========================================================================
+   Vertical rhythm: http://compass-style.org/reference/compass/typography/vertical_rhythm/
+
+   * image heights should be multiples of the base-line-height
+   * see http://atendesigngroup.com/blog/vertical-rhythm-compass for useful tips
+   ========================================================================== */
+/* ==========================================================================
+   Cross-Browser Support: http://compass-style.org/reference/compass/support/
+   ========================================================================== */
+/* ==========================================================================
+   Debug - set this to false to remove the grid overlay.
+   ========================================================================== */
+/* Compass
+   ========================================================================== */
+/* Third party
+   ========================================================================== */
+/* My stuff
+   ========================================================================== */
+/* normalize.css v2.1.0 | MIT License | git.io/normalize */
+/* normalize.scss v2.1.0 | MIT/GPLv2 License | bit.ly/normalize-with-compass */
+/* quickstart.tld v??? | MIT/GPLv2 License | bit.ly/WjO39I */
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined in IE 8/9.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_normalize\.scss}line{font-family:\0000336}}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * Correct `inline-block` display not defined in IE 8/9.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_normalize\.scss}line{font-family:\0000346}}
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_normalize\.scss}line{font-family:\0000359}}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address styling not present in IE 7/8/9.
+ * Known issue: no IE 6 support.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_normalize\.scss}line{font-family:\0000369}}
+[hidden] {
+  display: none;
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ * 3. Correct text resizing oddly in IE 6/7 when body `font-size` is set using
+ *    `em` units.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_normalize\.scss}line{font-family:\0000385}}
+html {
+  font-family: "PT Sans", sans-serif;
+  /* 1 */
+  font-size: 100%;
+  /* 3 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  /* Establish a vertical rhythm unit using $base-line-height. */
+  line-height: 1.5em;
+}
+
+/**
+ * Remove default margin.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_normalize\.scss}line{font-family:\00003112}}
+body {
+  margin: 0;
+}
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+/**
+ * Address `outline` inconsistency between Chrome and other browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_normalize\.scss}line{font-family:\00003124}}
+a:focus {
+  outline: thin dotted;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_normalize\.scss}line{font-family:\00003133}}
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+/**
+ * Set 1 unit of vertical rhythm on the top and bottom margin.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_normalize\.scss}line{font-family:\00003146}}
+p,
+pre {
+  margin: 1.5em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_normalize\.scss}line{font-family:\00003150}}
+blockquote {
+  /* Set 1 unit of vertical rhythm on the top and bottom margin. */
+  margin: 1.5em 48px;
+}
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari 5, and Chrome.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_normalize\.scss}line{font-family:\00003161}}
+h1, .header-title,
+.h1 {
+  /* Set the font-size and line-height while keeping a proper vertical rhythm. */
+  font-size: 2em;
+  line-height: 1.5em;
+  /* Set 1 unit of vertical rhythm on the top and bottom margins. */
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_normalize\.scss}line{font-family:\00003171}}
+h2,
+.h2 {
+  font-size: 1.5em;
+  line-height: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_normalize\.scss}line{font-family:\00003178}}
+h3,
+.h3 {
+  font-size: 1.17em;
+  line-height: 1.28205em;
+  margin-top: 1.28205em;
+  margin-bottom: 0em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_normalize\.scss}line{font-family:\00003182}}
+h3 + *,
+.h3 + * {
+  margin-top: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_normalize\.scss}line{font-family:\00003188}}
+h4,
+.h4 {
+  font-size: 1em;
+  line-height: 1.5em;
+  margin-top: 1.5em;
+  margin-bottom: 0em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_normalize\.scss}line{font-family:\00003192}}
+h4 + *,
+.h4 + * {
+  margin-top: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_normalize\.scss}line{font-family:\00003198}}
+h5,
+.h5 {
+  font-size: 0.83em;
+  line-height: 1.80723em;
+  margin-top: 1.80723em;
+  margin-bottom: 0em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_normalize\.scss}line{font-family:\00003202}}
+h5 + *,
+.h5 + * {
+  margin-top: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_normalize\.scss}line{font-family:\00003208}}
+h6,
+.h6 {
+  font-size: 0.67em;
+  line-height: 2.23881em;
+  margin-top: 2.23881em;
+  margin-bottom: 0em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_normalize\.scss}line{font-family:\00003212}}
+h6 + *,
+.h6 + * {
+  margin-top: 0;
+}
+
+/**
+ * Address styling not present in IE 8/9, Safari 5, and Chrome.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_normalize\.scss}line{font-family:\00003221}}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_normalize\.scss}line{font-family:\00003230}}
+b,
+strong {
+  font-weight: 700;
+}
+
+/**
+ * Address styling not present in Safari 5 and Chrome.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_normalize\.scss}line{font-family:\00003238}}
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ * Known issue: no IE 6/7 normalization.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_normalize\.scss}line{font-family:\00003247}}
+hr {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_normalize\.scss}line{font-family:\00003256}}
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Correct font family set oddly in Safari 5 and Chrome.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_normalize\.scss}line{font-family:\00003268}}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+/**
+ * Improve readability of pre-formatted text in all browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_normalize\.scss}line{font-family:\00003280}}
+pre {
+  white-space: pre-wrap;
+}
+
+/**
+ * Set consistent quote types.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_normalize\.scss}line{font-family:\00003288}}
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_normalize\.scss}line{font-family:\00003296}}
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_normalize\.scss}line{font-family:\00003305}}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_normalize\.scss}line{font-family:\00003312}}
+sup {
+  top: -0.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_normalize\.scss}line{font-family:\00003316}}
+sub {
+  bottom: -0.25em;
+}
+
+/* ==========================================================================
+   Lists
+   ========================================================================== */
+/**
+ * Set 1 unit of vertical rhythm and a consistent indentation.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_normalize\.scss}line{font-family:\00003331}}
+dl,
+menu,
+ol,
+ul {
+  margin: 1.5em 0;
+  padding: 0 0 0 48px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_normalize\.scss}line{font-family:\00003336}}
+dl {
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_normalize\.scss}line{font-family:\00003340}}
+dd {
+  margin: 0 0 0 48px;
+}
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_normalize\.scss}line{font-family:\00003364}}
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow displayed oddly in IE 9.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_normalize\.scss}line{font-family:\00003376}}
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari 5.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_normalize\.scss}line{font-family:\00003388}}
+figure {
+  margin: 0;
+}
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+/**
+ * Define consistent border, margin, and padding.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_normalize\.scss}line{font-family:\00003410}}
+fieldset {
+  border-color: #c0c0c0;
+  margin: 0 2px;
+  /* Apply borders and padding that keep the vertical rhythm. */
+  border-top-style: solid;
+  border-top-width: 0.0625em;
+  padding-top: 0.4625em;
+  border-bottom-style: solid;
+  border-bottom-width: 0.0625em;
+  padding-bottom: 0.9125em;
+  border-left-style: solid;
+  border-left-width: 0.0625em;
+  padding-left: 0.875em;
+  border-right-style: solid;
+  border-right-width: 0.0625em;
+  padding-right: 0.875em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ * 3. Correct alignment displayed oddly in IE 6/7.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_normalize\.scss}line{font-family:\00003426}}
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * 1. Correct font family not being inherited in all browsers.
+ * 2. Correct font size not being inherited in all browsers.
+ * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
+ * 4. Improve appearance and consistency with IE 6/7.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_normalize\.scss}line{font-family:\00003444}}
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_normalize\.scss}line{font-family:\00003460}}
+button,
+input {
+  line-height: normal;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
+ * Correct `select` style inheritance in Firefox 4+ and Opera.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_normalize\.scss}line{font-family:\00003472}}
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ * 4. Remove inner spacing in IE 7 without affecting normal text inputs.
+ *    Known issue: inner spacing remains in IE 6.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_normalize\.scss}line{font-family:\00003489}}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_normalize\.scss}line{font-family:\00003502}}
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * 1. Address box sizing set to `content-box` in IE 8/9.
+ * 2. Remove excess padding in IE 8/9.
+ * 3. Remove excess padding in IE 7.
+ *    Known issue: excess padding remains in IE 6.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_normalize\.scss}line{font-family:\00003514}}
+input[type="checkbox"],
+input[type="radio"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_normalize\.scss}line{font-family:\00003529}}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  /* 2 */
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_normalize\.scss}line{font-family:\00003540}}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_normalize\.scss}line{font-family:\00003549}}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * 1. Remove default vertical scrollbar in IE 8/9.
+ * 2. Improve readability and alignment in all browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_normalize\.scss}line{font-family:\00003559}}
+textarea {
+  overflow: auto;
+  /* 1 */
+  vertical-align: top;
+  /* 2 */
+}
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_normalize\.scss}line{font-family:\00003572}}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* ==========================================================================
+   Mixins
+   ========================================================================== */
+/* Responsive tile-list (This requires susy to work)
+   ========================================================================== */
+/* Bleed (This requires susy to work) - lets the background colour break out the container
+   https://gist.github.com/ericam/4973348
+   ========================================================================== */
+/* Convert PX to EM (based on the $base-font-size)
+   https://gist.github.com/ijy/1441967
+   ========================================================================== */
+/* Convert PX to REM (based on the $base-font-size)
+   http://pastie.org/2977423#
+   ========================================================================== */
+/* ==========================================================================
+   Shame: http://csswizardry.com/2013/04/shame-css/
+   For all the hacky code that really shouldn't be used
+   ========================================================================== */
+/* ==========================================================================
+   Globals (Based on recommendations by H5BP)
+   ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\0000343}}
+html,
+button,
+input,
+select,
+textarea {
+  color: #222222;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\0000348}}
+a {
+  color: #99cc00;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/daniel\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/typography\/links\/_link-colors\.scss}line{font-family:\0000324}}
+a:hover {
+  color: #bfff00;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\0000358}}
+h1, .header-title, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection declarations have to be separate.
+ * Customize the background color to match your design.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\0000370}}
+::-moz-selection {
+  background: #bfff00;
+  text-shadow: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\0000375}}
+::selection {
+  background: #bfff00;
+  text-shadow: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\0000380}}
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\0000387}}
+textarea {
+  resize: vertical;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\0000392}}
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003103}}
+ol ul,
+ol ol,
+ul ul,
+ul ol {
+  margin-top: 0em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 0em;
+}
+
+/* Body
+   ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003111}}
+body {
+  position: relative;
+  background: white;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003116}}
+body:after {
+  position: absolute;
+  width: auto;
+  height: auto;
+  z-index: 9999;
+  content: '';
+  display: block;
+  pointer-events: none;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: url("http://basehold.it/i/24") repeat top left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003131}}
+body:active:after {
+  display: none;
+}
+
+/* Page wrapper
+   ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003144}}
+.wrap, .chromeframe {
+  max-width: 460px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(0%, rgba(100, 100, 225, 0.25)), color-stop(13.04348%, rgba(100, 100, 225, 0.25)), color-stop(13.04348%, rgba(0, 0, 0, 0)), color-stop(17.3913%, rgba(0, 0, 0, 0)), color-stop(17.3913%, rgba(100, 100, 225, 0.25)), color-stop(30.43478%, rgba(100, 100, 225, 0.25)), color-stop(30.43478%, rgba(0, 0, 0, 0)), color-stop(34.78261%, rgba(0, 0, 0, 0)), color-stop(34.78261%, rgba(100, 100, 225, 0.25)), color-stop(47.82609%, rgba(100, 100, 225, 0.25)), color-stop(47.82609%, rgba(0, 0, 0, 0)), color-stop(52.17391%, rgba(0, 0, 0, 0)), color-stop(52.17391%, rgba(100, 100, 225, 0.25)), color-stop(65.21739%, rgba(100, 100, 225, 0.25)), color-stop(65.21739%, rgba(0, 0, 0, 0)), color-stop(69.56522%, rgba(0, 0, 0, 0)), color-stop(69.56522%, rgba(100, 100, 225, 0.25)), color-stop(82.6087%, rgba(100, 100, 225, 0.25)), color-stop(82.6087%, rgba(0, 0, 0, 0)), color-stop(86.95652%, rgba(0, 0, 0, 0)), color-stop(86.95652%, rgba(100, 100, 225, 0.25)), color-stop(100%, rgba(100, 100, 225, 0.25)), color-stop(100%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0)));
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 13.04348%, rgba(0, 0, 0, 0) 13.04348%, rgba(0, 0, 0, 0) 17.3913%, rgba(100, 100, 225, 0.25) 17.3913%, rgba(100, 100, 225, 0.25) 30.43478%, rgba(0, 0, 0, 0) 30.43478%, rgba(0, 0, 0, 0) 34.78261%, rgba(100, 100, 225, 0.25) 34.78261%, rgba(100, 100, 225, 0.25) 47.82609%, rgba(0, 0, 0, 0) 47.82609%, rgba(0, 0, 0, 0) 52.17391%, rgba(100, 100, 225, 0.25) 52.17391%, rgba(100, 100, 225, 0.25) 65.21739%, rgba(0, 0, 0, 0) 65.21739%, rgba(0, 0, 0, 0) 69.56522%, rgba(100, 100, 225, 0.25) 69.56522%, rgba(100, 100, 225, 0.25) 82.6087%, rgba(0, 0, 0, 0) 82.6087%, rgba(0, 0, 0, 0) 86.95652%, rgba(100, 100, 225, 0.25) 86.95652%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 13.04348%, rgba(0, 0, 0, 0) 13.04348%, rgba(0, 0, 0, 0) 17.3913%, rgba(100, 100, 225, 0.25) 17.3913%, rgba(100, 100, 225, 0.25) 30.43478%, rgba(0, 0, 0, 0) 30.43478%, rgba(0, 0, 0, 0) 34.78261%, rgba(100, 100, 225, 0.25) 34.78261%, rgba(100, 100, 225, 0.25) 47.82609%, rgba(0, 0, 0, 0) 47.82609%, rgba(0, 0, 0, 0) 52.17391%, rgba(100, 100, 225, 0.25) 52.17391%, rgba(100, 100, 225, 0.25) 65.21739%, rgba(0, 0, 0, 0) 65.21739%, rgba(0, 0, 0, 0) 69.56522%, rgba(100, 100, 225, 0.25) 69.56522%, rgba(100, 100, 225, 0.25) 82.6087%, rgba(0, 0, 0, 0) 82.6087%, rgba(0, 0, 0, 0) 86.95652%, rgba(100, 100, 225, 0.25) 86.95652%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 13.04348%, rgba(0, 0, 0, 0) 13.04348%, rgba(0, 0, 0, 0) 17.3913%, rgba(100, 100, 225, 0.25) 17.3913%, rgba(100, 100, 225, 0.25) 30.43478%, rgba(0, 0, 0, 0) 30.43478%, rgba(0, 0, 0, 0) 34.78261%, rgba(100, 100, 225, 0.25) 34.78261%, rgba(100, 100, 225, 0.25) 47.82609%, rgba(0, 0, 0, 0) 47.82609%, rgba(0, 0, 0, 0) 52.17391%, rgba(100, 100, 225, 0.25) 52.17391%, rgba(100, 100, 225, 0.25) 65.21739%, rgba(0, 0, 0, 0) 65.21739%, rgba(0, 0, 0, 0) 69.56522%, rgba(100, 100, 225, 0.25) 69.56522%, rgba(100, 100, 225, 0.25) 82.6087%, rgba(0, 0, 0, 0) 82.6087%, rgba(0, 0, 0, 0) 86.95652%, rgba(100, 100, 225, 0.25) 86.95652%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+  background-image: linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 13.04348%, rgba(0, 0, 0, 0) 13.04348%, rgba(0, 0, 0, 0) 17.3913%, rgba(100, 100, 225, 0.25) 17.3913%, rgba(100, 100, 225, 0.25) 30.43478%, rgba(0, 0, 0, 0) 30.43478%, rgba(0, 0, 0, 0) 34.78261%, rgba(100, 100, 225, 0.25) 34.78261%, rgba(100, 100, 225, 0.25) 47.82609%, rgba(0, 0, 0, 0) 47.82609%, rgba(0, 0, 0, 0) 52.17391%, rgba(100, 100, 225, 0.25) 52.17391%, rgba(100, 100, 225, 0.25) 65.21739%, rgba(0, 0, 0, 0) 65.21739%, rgba(0, 0, 0, 0) 69.56522%, rgba(100, 100, 225, 0.25) 69.56522%, rgba(100, 100, 225, 0.25) 82.6087%, rgba(0, 0, 0, 0) 82.6087%, rgba(0, 0, 0, 0) 86.95652%, rgba(100, 100, 225, 0.25) 86.95652%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+  background-position: left top;
+  -webkit-background-origin: content;
+  -moz-background-origin: content;
+  -ms-background-origin: content-box;
+  -o-background-origin: content-box;
+  background-origin: content-box;
+  -webkit-background-clip: content-box;
+  -moz-background-clip: content-box;
+  background-clip: content-box;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/daniel\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
+.wrap:after, .chromeframe:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media (min-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003144}}
+  .wrap, .chromeframe {
+    max-width: 940px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/daniel\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/susy-1\.0\.8\/sass\/susy\/_media\.scss}line{font-family:\0000391}}
+.lt-ie9 .wrap, .lt-ie9 .chromeframe {
+  max-width: 940px;
+}
+@media (min-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003144}}
+  .wrap, .chromeframe {
+    background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(0%, rgba(100, 100, 225, 0.25)), color-stop(6.38298%, rgba(100, 100, 225, 0.25)), color-stop(6.38298%, rgba(0, 0, 0, 0)), color-stop(8.51064%, rgba(0, 0, 0, 0)), color-stop(8.51064%, rgba(100, 100, 225, 0.25)), color-stop(14.89362%, rgba(100, 100, 225, 0.25)), color-stop(14.89362%, rgba(0, 0, 0, 0)), color-stop(17.02128%, rgba(0, 0, 0, 0)), color-stop(17.02128%, rgba(100, 100, 225, 0.25)), color-stop(23.40426%, rgba(100, 100, 225, 0.25)), color-stop(23.40426%, rgba(0, 0, 0, 0)), color-stop(25.53191%, rgba(0, 0, 0, 0)), color-stop(25.53191%, rgba(100, 100, 225, 0.25)), color-stop(31.91489%, rgba(100, 100, 225, 0.25)), color-stop(31.91489%, rgba(0, 0, 0, 0)), color-stop(34.04255%, rgba(0, 0, 0, 0)), color-stop(34.04255%, rgba(100, 100, 225, 0.25)), color-stop(40.42553%, rgba(100, 100, 225, 0.25)), color-stop(40.42553%, rgba(0, 0, 0, 0)), color-stop(42.55319%, rgba(0, 0, 0, 0)), color-stop(42.55319%, rgba(100, 100, 225, 0.25)), color-stop(48.93617%, rgba(100, 100, 225, 0.25)), color-stop(48.93617%, rgba(0, 0, 0, 0)), color-stop(51.06383%, rgba(0, 0, 0, 0)), color-stop(51.06383%, rgba(100, 100, 225, 0.25)), color-stop(57.44681%, rgba(100, 100, 225, 0.25)), color-stop(57.44681%, rgba(0, 0, 0, 0)), color-stop(59.57447%, rgba(0, 0, 0, 0)), color-stop(59.57447%, rgba(100, 100, 225, 0.25)), color-stop(65.95745%, rgba(100, 100, 225, 0.25)), color-stop(65.95745%, rgba(0, 0, 0, 0)), color-stop(68.08511%, rgba(0, 0, 0, 0)), color-stop(68.08511%, rgba(100, 100, 225, 0.25)), color-stop(74.46809%, rgba(100, 100, 225, 0.25)), color-stop(74.46809%, rgba(0, 0, 0, 0)), color-stop(76.59574%, rgba(0, 0, 0, 0)), color-stop(76.59574%, rgba(100, 100, 225, 0.25)), color-stop(82.97872%, rgba(100, 100, 225, 0.25)), color-stop(82.97872%, rgba(0, 0, 0, 0)), color-stop(85.10638%, rgba(0, 0, 0, 0)), color-stop(85.10638%, rgba(100, 100, 225, 0.25)), color-stop(91.48936%, rgba(100, 100, 225, 0.25)), color-stop(91.48936%, rgba(0, 0, 0, 0)), color-stop(93.61702%, rgba(0, 0, 0, 0)), color-stop(93.61702%, rgba(100, 100, 225, 0.25)), color-stop(100%, rgba(100, 100, 225, 0.25)), color-stop(100%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0)));
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 6.38298%, rgba(0, 0, 0, 0) 6.38298%, rgba(0, 0, 0, 0) 8.51064%, rgba(100, 100, 225, 0.25) 8.51064%, rgba(100, 100, 225, 0.25) 14.89362%, rgba(0, 0, 0, 0) 14.89362%, rgba(0, 0, 0, 0) 17.02128%, rgba(100, 100, 225, 0.25) 17.02128%, rgba(100, 100, 225, 0.25) 23.40426%, rgba(0, 0, 0, 0) 23.40426%, rgba(0, 0, 0, 0) 25.53191%, rgba(100, 100, 225, 0.25) 25.53191%, rgba(100, 100, 225, 0.25) 31.91489%, rgba(0, 0, 0, 0) 31.91489%, rgba(0, 0, 0, 0) 34.04255%, rgba(100, 100, 225, 0.25) 34.04255%, rgba(100, 100, 225, 0.25) 40.42553%, rgba(0, 0, 0, 0) 40.42553%, rgba(0, 0, 0, 0) 42.55319%, rgba(100, 100, 225, 0.25) 42.55319%, rgba(100, 100, 225, 0.25) 48.93617%, rgba(0, 0, 0, 0) 48.93617%, rgba(0, 0, 0, 0) 51.06383%, rgba(100, 100, 225, 0.25) 51.06383%, rgba(100, 100, 225, 0.25) 57.44681%, rgba(0, 0, 0, 0) 57.44681%, rgba(0, 0, 0, 0) 59.57447%, rgba(100, 100, 225, 0.25) 59.57447%, rgba(100, 100, 225, 0.25) 65.95745%, rgba(0, 0, 0, 0) 65.95745%, rgba(0, 0, 0, 0) 68.08511%, rgba(100, 100, 225, 0.25) 68.08511%, rgba(100, 100, 225, 0.25) 74.46809%, rgba(0, 0, 0, 0) 74.46809%, rgba(0, 0, 0, 0) 76.59574%, rgba(100, 100, 225, 0.25) 76.59574%, rgba(100, 100, 225, 0.25) 82.97872%, rgba(0, 0, 0, 0) 82.97872%, rgba(0, 0, 0, 0) 85.10638%, rgba(100, 100, 225, 0.25) 85.10638%, rgba(100, 100, 225, 0.25) 91.48936%, rgba(0, 0, 0, 0) 91.48936%, rgba(0, 0, 0, 0) 93.61702%, rgba(100, 100, 225, 0.25) 93.61702%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+    background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 6.38298%, rgba(0, 0, 0, 0) 6.38298%, rgba(0, 0, 0, 0) 8.51064%, rgba(100, 100, 225, 0.25) 8.51064%, rgba(100, 100, 225, 0.25) 14.89362%, rgba(0, 0, 0, 0) 14.89362%, rgba(0, 0, 0, 0) 17.02128%, rgba(100, 100, 225, 0.25) 17.02128%, rgba(100, 100, 225, 0.25) 23.40426%, rgba(0, 0, 0, 0) 23.40426%, rgba(0, 0, 0, 0) 25.53191%, rgba(100, 100, 225, 0.25) 25.53191%, rgba(100, 100, 225, 0.25) 31.91489%, rgba(0, 0, 0, 0) 31.91489%, rgba(0, 0, 0, 0) 34.04255%, rgba(100, 100, 225, 0.25) 34.04255%, rgba(100, 100, 225, 0.25) 40.42553%, rgba(0, 0, 0, 0) 40.42553%, rgba(0, 0, 0, 0) 42.55319%, rgba(100, 100, 225, 0.25) 42.55319%, rgba(100, 100, 225, 0.25) 48.93617%, rgba(0, 0, 0, 0) 48.93617%, rgba(0, 0, 0, 0) 51.06383%, rgba(100, 100, 225, 0.25) 51.06383%, rgba(100, 100, 225, 0.25) 57.44681%, rgba(0, 0, 0, 0) 57.44681%, rgba(0, 0, 0, 0) 59.57447%, rgba(100, 100, 225, 0.25) 59.57447%, rgba(100, 100, 225, 0.25) 65.95745%, rgba(0, 0, 0, 0) 65.95745%, rgba(0, 0, 0, 0) 68.08511%, rgba(100, 100, 225, 0.25) 68.08511%, rgba(100, 100, 225, 0.25) 74.46809%, rgba(0, 0, 0, 0) 74.46809%, rgba(0, 0, 0, 0) 76.59574%, rgba(100, 100, 225, 0.25) 76.59574%, rgba(100, 100, 225, 0.25) 82.97872%, rgba(0, 0, 0, 0) 82.97872%, rgba(0, 0, 0, 0) 85.10638%, rgba(100, 100, 225, 0.25) 85.10638%, rgba(100, 100, 225, 0.25) 91.48936%, rgba(0, 0, 0, 0) 91.48936%, rgba(0, 0, 0, 0) 93.61702%, rgba(100, 100, 225, 0.25) 93.61702%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 6.38298%, rgba(0, 0, 0, 0) 6.38298%, rgba(0, 0, 0, 0) 8.51064%, rgba(100, 100, 225, 0.25) 8.51064%, rgba(100, 100, 225, 0.25) 14.89362%, rgba(0, 0, 0, 0) 14.89362%, rgba(0, 0, 0, 0) 17.02128%, rgba(100, 100, 225, 0.25) 17.02128%, rgba(100, 100, 225, 0.25) 23.40426%, rgba(0, 0, 0, 0) 23.40426%, rgba(0, 0, 0, 0) 25.53191%, rgba(100, 100, 225, 0.25) 25.53191%, rgba(100, 100, 225, 0.25) 31.91489%, rgba(0, 0, 0, 0) 31.91489%, rgba(0, 0, 0, 0) 34.04255%, rgba(100, 100, 225, 0.25) 34.04255%, rgba(100, 100, 225, 0.25) 40.42553%, rgba(0, 0, 0, 0) 40.42553%, rgba(0, 0, 0, 0) 42.55319%, rgba(100, 100, 225, 0.25) 42.55319%, rgba(100, 100, 225, 0.25) 48.93617%, rgba(0, 0, 0, 0) 48.93617%, rgba(0, 0, 0, 0) 51.06383%, rgba(100, 100, 225, 0.25) 51.06383%, rgba(100, 100, 225, 0.25) 57.44681%, rgba(0, 0, 0, 0) 57.44681%, rgba(0, 0, 0, 0) 59.57447%, rgba(100, 100, 225, 0.25) 59.57447%, rgba(100, 100, 225, 0.25) 65.95745%, rgba(0, 0, 0, 0) 65.95745%, rgba(0, 0, 0, 0) 68.08511%, rgba(100, 100, 225, 0.25) 68.08511%, rgba(100, 100, 225, 0.25) 74.46809%, rgba(0, 0, 0, 0) 74.46809%, rgba(0, 0, 0, 0) 76.59574%, rgba(100, 100, 225, 0.25) 76.59574%, rgba(100, 100, 225, 0.25) 82.97872%, rgba(0, 0, 0, 0) 82.97872%, rgba(0, 0, 0, 0) 85.10638%, rgba(100, 100, 225, 0.25) 85.10638%, rgba(100, 100, 225, 0.25) 91.48936%, rgba(0, 0, 0, 0) 91.48936%, rgba(0, 0, 0, 0) 93.61702%, rgba(100, 100, 225, 0.25) 93.61702%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+    background-image: linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 6.38298%, rgba(0, 0, 0, 0) 6.38298%, rgba(0, 0, 0, 0) 8.51064%, rgba(100, 100, 225, 0.25) 8.51064%, rgba(100, 100, 225, 0.25) 14.89362%, rgba(0, 0, 0, 0) 14.89362%, rgba(0, 0, 0, 0) 17.02128%, rgba(100, 100, 225, 0.25) 17.02128%, rgba(100, 100, 225, 0.25) 23.40426%, rgba(0, 0, 0, 0) 23.40426%, rgba(0, 0, 0, 0) 25.53191%, rgba(100, 100, 225, 0.25) 25.53191%, rgba(100, 100, 225, 0.25) 31.91489%, rgba(0, 0, 0, 0) 31.91489%, rgba(0, 0, 0, 0) 34.04255%, rgba(100, 100, 225, 0.25) 34.04255%, rgba(100, 100, 225, 0.25) 40.42553%, rgba(0, 0, 0, 0) 40.42553%, rgba(0, 0, 0, 0) 42.55319%, rgba(100, 100, 225, 0.25) 42.55319%, rgba(100, 100, 225, 0.25) 48.93617%, rgba(0, 0, 0, 0) 48.93617%, rgba(0, 0, 0, 0) 51.06383%, rgba(100, 100, 225, 0.25) 51.06383%, rgba(100, 100, 225, 0.25) 57.44681%, rgba(0, 0, 0, 0) 57.44681%, rgba(0, 0, 0, 0) 59.57447%, rgba(100, 100, 225, 0.25) 59.57447%, rgba(100, 100, 225, 0.25) 65.95745%, rgba(0, 0, 0, 0) 65.95745%, rgba(0, 0, 0, 0) 68.08511%, rgba(100, 100, 225, 0.25) 68.08511%, rgba(100, 100, 225, 0.25) 74.46809%, rgba(0, 0, 0, 0) 74.46809%, rgba(0, 0, 0, 0) 76.59574%, rgba(100, 100, 225, 0.25) 76.59574%, rgba(100, 100, 225, 0.25) 82.97872%, rgba(0, 0, 0, 0) 82.97872%, rgba(0, 0, 0, 0) 85.10638%, rgba(100, 100, 225, 0.25) 85.10638%, rgba(100, 100, 225, 0.25) 91.48936%, rgba(0, 0, 0, 0) 91.48936%, rgba(0, 0, 0, 0) 93.61702%, rgba(100, 100, 225, 0.25) 93.61702%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+    background-position: left top;
+    -webkit-background-origin: content;
+    -moz-background-origin: content;
+    -ms-background-origin: content-box;
+    -o-background-origin: content-box;
+    background-origin: content-box;
+    -webkit-background-clip: content-box;
+    -moz-background-clip: content-box;
+    background-clip: content-box;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/daniel\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/susy-1\.0\.8\/sass\/susy\/_media\.scss}line{font-family:\0000391}}
+.lt-ie9 .wrap, .lt-ie9 .chromeframe {
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(0%, rgba(100, 100, 225, 0.25)), color-stop(6.38298%, rgba(100, 100, 225, 0.25)), color-stop(6.38298%, rgba(0, 0, 0, 0)), color-stop(8.51064%, rgba(0, 0, 0, 0)), color-stop(8.51064%, rgba(100, 100, 225, 0.25)), color-stop(14.89362%, rgba(100, 100, 225, 0.25)), color-stop(14.89362%, rgba(0, 0, 0, 0)), color-stop(17.02128%, rgba(0, 0, 0, 0)), color-stop(17.02128%, rgba(100, 100, 225, 0.25)), color-stop(23.40426%, rgba(100, 100, 225, 0.25)), color-stop(23.40426%, rgba(0, 0, 0, 0)), color-stop(25.53191%, rgba(0, 0, 0, 0)), color-stop(25.53191%, rgba(100, 100, 225, 0.25)), color-stop(31.91489%, rgba(100, 100, 225, 0.25)), color-stop(31.91489%, rgba(0, 0, 0, 0)), color-stop(34.04255%, rgba(0, 0, 0, 0)), color-stop(34.04255%, rgba(100, 100, 225, 0.25)), color-stop(40.42553%, rgba(100, 100, 225, 0.25)), color-stop(40.42553%, rgba(0, 0, 0, 0)), color-stop(42.55319%, rgba(0, 0, 0, 0)), color-stop(42.55319%, rgba(100, 100, 225, 0.25)), color-stop(48.93617%, rgba(100, 100, 225, 0.25)), color-stop(48.93617%, rgba(0, 0, 0, 0)), color-stop(51.06383%, rgba(0, 0, 0, 0)), color-stop(51.06383%, rgba(100, 100, 225, 0.25)), color-stop(57.44681%, rgba(100, 100, 225, 0.25)), color-stop(57.44681%, rgba(0, 0, 0, 0)), color-stop(59.57447%, rgba(0, 0, 0, 0)), color-stop(59.57447%, rgba(100, 100, 225, 0.25)), color-stop(65.95745%, rgba(100, 100, 225, 0.25)), color-stop(65.95745%, rgba(0, 0, 0, 0)), color-stop(68.08511%, rgba(0, 0, 0, 0)), color-stop(68.08511%, rgba(100, 100, 225, 0.25)), color-stop(74.46809%, rgba(100, 100, 225, 0.25)), color-stop(74.46809%, rgba(0, 0, 0, 0)), color-stop(76.59574%, rgba(0, 0, 0, 0)), color-stop(76.59574%, rgba(100, 100, 225, 0.25)), color-stop(82.97872%, rgba(100, 100, 225, 0.25)), color-stop(82.97872%, rgba(0, 0, 0, 0)), color-stop(85.10638%, rgba(0, 0, 0, 0)), color-stop(85.10638%, rgba(100, 100, 225, 0.25)), color-stop(91.48936%, rgba(100, 100, 225, 0.25)), color-stop(91.48936%, rgba(0, 0, 0, 0)), color-stop(93.61702%, rgba(0, 0, 0, 0)), color-stop(93.61702%, rgba(100, 100, 225, 0.25)), color-stop(100%, rgba(100, 100, 225, 0.25)), color-stop(100%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0)));
+  background-image: linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 6.38298%, rgba(0, 0, 0, 0) 6.38298%, rgba(0, 0, 0, 0) 8.51064%, rgba(100, 100, 225, 0.25) 8.51064%, rgba(100, 100, 225, 0.25) 14.89362%, rgba(0, 0, 0, 0) 14.89362%, rgba(0, 0, 0, 0) 17.02128%, rgba(100, 100, 225, 0.25) 17.02128%, rgba(100, 100, 225, 0.25) 23.40426%, rgba(0, 0, 0, 0) 23.40426%, rgba(0, 0, 0, 0) 25.53191%, rgba(100, 100, 225, 0.25) 25.53191%, rgba(100, 100, 225, 0.25) 31.91489%, rgba(0, 0, 0, 0) 31.91489%, rgba(0, 0, 0, 0) 34.04255%, rgba(100, 100, 225, 0.25) 34.04255%, rgba(100, 100, 225, 0.25) 40.42553%, rgba(0, 0, 0, 0) 40.42553%, rgba(0, 0, 0, 0) 42.55319%, rgba(100, 100, 225, 0.25) 42.55319%, rgba(100, 100, 225, 0.25) 48.93617%, rgba(0, 0, 0, 0) 48.93617%, rgba(0, 0, 0, 0) 51.06383%, rgba(100, 100, 225, 0.25) 51.06383%, rgba(100, 100, 225, 0.25) 57.44681%, rgba(0, 0, 0, 0) 57.44681%, rgba(0, 0, 0, 0) 59.57447%, rgba(100, 100, 225, 0.25) 59.57447%, rgba(100, 100, 225, 0.25) 65.95745%, rgba(0, 0, 0, 0) 65.95745%, rgba(0, 0, 0, 0) 68.08511%, rgba(100, 100, 225, 0.25) 68.08511%, rgba(100, 100, 225, 0.25) 74.46809%, rgba(0, 0, 0, 0) 74.46809%, rgba(0, 0, 0, 0) 76.59574%, rgba(100, 100, 225, 0.25) 76.59574%, rgba(100, 100, 225, 0.25) 82.97872%, rgba(0, 0, 0, 0) 82.97872%, rgba(0, 0, 0, 0) 85.10638%, rgba(100, 100, 225, 0.25) 85.10638%, rgba(100, 100, 225, 0.25) 91.48936%, rgba(0, 0, 0, 0) 91.48936%, rgba(0, 0, 0, 0) 93.61702%, rgba(100, 100, 225, 0.25) 93.61702%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+  background-position: left top;
+  -ms-background-origin: content-box;
+  background-origin: content-box;
+  background-clip: content-box;
+}
+
+/* Chrome Frame Prompt
+   ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003162}}
+.chromeframe {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles (Here be dragons)
+   ========================================================================== */
+/* Header
+   ========================================================================== */
+@media (min-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003180}}
+  .header-title {
+    width: 65.95745%;
+    float: left;
+    margin-right: 2.12766%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/daniel\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/susy-1\.0\.8\/sass\/susy\/_media\.scss}line{font-family:\0000391}}
+.lt-ie9 .header-title {
+  width: 65.95745%;
+  float: left;
+  margin-right: 2.12766%;
+}
+
+@media (min-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003188}}
+  .header-navigation {
+    width: 31.91489%;
+    float: right;
+    margin-right: 0;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/daniel\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/susy-1\.0\.8\/sass\/susy\/_media\.scss}line{font-family:\0000391}}
+.lt-ie9 .header-navigation {
+  width: 31.91489%;
+  float: right;
+  margin-right: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003194}}
+.header-links {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/daniel\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/typography\/lists\/_horizontal-list\.scss}line{font-family:\0000360}}
+.header-links li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+  white-space: nowrap;
+  display: inline;
+  float: left;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/daniel\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/typography\/lists\/_horizontal-list\.scss}line{font-family:\0000348}}
+.header-links li:first-child, .header-links li.first {
+  padding-left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/daniel\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/typography\/lists\/_horizontal-list\.scss}line{font-family:\0000349}}
+.header-links li:last-child {
+  padding-right: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/daniel\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/typography\/lists\/_horizontal-list\.scss}line{font-family:\0000350}}
+.header-links li.last {
+  padding-right: 0;
+}
+@media (min-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003194}}
+  .header-links {
+    float: right;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/daniel\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/susy-1\.0\.8\/sass\/susy\/_media\.scss}line{font-family:\0000391}}
+.lt-ie9 .header-links {
+  float: right;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003202}}
+.header-search {
+  float: right;
+}
+
+/* Main
+   ========================================================================== */
+@media (min-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003208}}
+  .main {
+    width: 65.95745%;
+    float: left;
+    margin-right: 2.12766%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/daniel\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/susy-1\.0\.8\/sass\/susy\/_media\.scss}line{font-family:\0000391}}
+.lt-ie9 .main {
+  width: 65.95745%;
+  float: left;
+  margin-right: 2.12766%;
+}
+
+@media (min-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003216}}
+  .left-box {
+    width: 48.3871%;
+    float: left;
+    margin-right: 3.22581%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/daniel\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/susy-1\.0\.8\/sass\/susy\/_media\.scss}line{font-family:\0000391}}
+.lt-ie9 .left-box {
+  width: 48.3871%;
+  float: left;
+  margin-right: 3.22581%;
+}
+
+@media (min-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003222}}
+  .right-box {
+    width: 48.3871%;
+    float: right;
+    margin-right: 0;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/daniel\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/susy-1\.0\.8\/sass\/susy\/_media\.scss}line{font-family:\0000391}}
+.lt-ie9 .right-box {
+  width: 48.3871%;
+  float: right;
+  margin-right: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003228}}
+.feature-list {
+  list-style: none;
+  clear: both;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/daniel\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/typography\/lists\/_bullets\.scss}line{font-family:\0000311}}
+.feature-list li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_mixins\.scss}line{font-family:\0000322}}
+.feature-list li {
+  width: 47.82609%;
+  float: left;
+  margin-right: 4.34783%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/daniel\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/susy-1\.0\.8\/sass\/susy\/_grid\.scss}line{font-family:\00003184}}
+.feature-list li:nth-child(2n) {
+  float: right;
+  margin-right: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_mixins\.scss}line{font-family:\0000326}}
+.feature-list li:nth-child(2n+1) {
+  clear: both;
+}
+@media (min-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_mixins\.scss}line{font-family:\0000322}}
+  .feature-list li {
+    width: 23.40426%;
+    float: left;
+    margin-right: 2.12766%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/daniel\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/susy-1\.0\.8\/sass\/susy\/_grid\.scss}line{font-family:\00003251}}
+  .feature-list li:nth-child(2n) {
+    float: left;
+    margin-right: 2.12766%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_mixins\.scss}line{font-family:\0000334}}
+  .feature-list li:nth-child(2n+1) {
+    clear: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/daniel\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/susy-1\.0\.8\/sass\/susy\/_grid\.scss}line{font-family:\00003184}}
+  .feature-list li:nth-child(4n) {
+    float: right;
+    margin-right: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_mixins\.scss}line{font-family:\0000339}}
+  .feature-list li:nth-child(4n+1) {
+    clear: both;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/daniel\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/susy-1\.0\.8\/sass\/susy\/_media\.scss}line{font-family:\0000391}}
+.lt-ie9 .feature-list li {
+  width: 23.40426%;
+  float: left;
+  margin-right: 2.12766%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/daniel\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/susy-1\.0\.8\/sass\/susy\/_grid\.scss}line{font-family:\00003251}}
+.lt-ie9 .feature-list li:nth-child(2n) {
+  float: left;
+  margin-right: 2.12766%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_mixins\.scss}line{font-family:\0000334}}
+.lt-ie9 .feature-list li:nth-child(2n+1) {
+  clear: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/daniel\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/susy-1\.0\.8\/sass\/susy\/_grid\.scss}line{font-family:\00003184}}
+.lt-ie9 .feature-list li:nth-child(4n) {
+  float: right;
+  margin-right: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_mixins\.scss}line{font-family:\0000339}}
+.lt-ie9 .feature-list li:nth-child(4n+1) {
+  clear: both;
+}
+
+/* Aside
+   ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003234}}
+.aside {
+  background: grey;
+  margin-left: -10px;
+  padding-left: 10px;
+  margin-right: -10px;
+  padding-right: 10px;
+}
+@media (min-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003234}}
+  .aside {
+    padding-left: 1.06383%;
+    padding-right: 1.06383%;
+    width: 29.78723%;
+    float: right;
+    margin-right: 0;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/daniel\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/susy-1\.0\.8\/sass\/susy\/_media\.scss}line{font-family:\0000391}}
+.lt-ie9 .aside {
+  padding-left: 1.06383%;
+  padding-right: 1.06383%;
+  width: 29.78723%;
+  float: right;
+  margin-right: 0;
+}
+
+/* Footer
+   ========================================================================== */
+@media (min-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003250}}
+  .footer-copyright {
+    width: 48.93617%;
+    float: left;
+    margin-right: 2.12766%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/daniel\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/susy-1\.0\.8\/sass\/susy\/_media\.scss}line{font-family:\0000391}}
+.lt-ie9 .footer-copyright {
+  width: 48.93617%;
+  float: left;
+  margin-right: 2.12766%;
+}
+
+@media (min-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003256}}
+  .footer-navigation {
+    width: 48.93617%;
+    float: right;
+    margin-right: 0;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/daniel\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/susy-1\.0\.8\/sass\/susy\/_media\.scss}line{font-family:\0000391}}
+.lt-ie9 .footer-navigation {
+  width: 48.93617%;
+  float: right;
+  margin-right: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003262}}
+.footer-links {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/daniel\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/typography\/lists\/_horizontal-list\.scss}line{font-family:\0000360}}
+.footer-links li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+  white-space: nowrap;
+  display: inline;
+  float: left;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/daniel\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/typography\/lists\/_horizontal-list\.scss}line{font-family:\0000348}}
+.footer-links li:first-child, .footer-links li.first {
+  padding-left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/daniel\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/typography\/lists\/_horizontal-list\.scss}line{font-family:\0000349}}
+.footer-links li:last-child {
+  padding-right: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/daniel\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/typography\/lists\/_horizontal-list\.scss}line{font-family:\0000350}}
+.footer-links li.last {
+  padding-right: 0;
+}
+@media (min-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/application\.scss}line{font-family:\00003262}}
+  .footer-links {
+    float: right;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/daniel\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/susy-1\.0\.8\/sass\/susy\/_media\.scss}line{font-family:\0000391}}
+.lt-ie9 .footer-links {
+  float: right;
+}
+
+/* ==========================================================================
+   Final imports
+   ========================================================================== */
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+/*
+ * Image replacement
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_helpers\.scss}line{font-family:\000039}}
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  /* IE 6/7 fallback */
+  *text-indent: -9999px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_helpers\.scss}line{font-family:\0000317}}
+.ir:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 150%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_helpers\.scss}line{font-family:\0000328}}
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_helpers\.scss}line{font-family:\0000337}}
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_helpers\.scss}line{font-family:\0000354}}
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_helpers\.scss}line{font-family:\0000367}}
+.invisible {
+  visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_helpers\.scss}line{font-family:\0000384}}
+.clearfix:before, .wrap:before, .chromeframe:before, .header:before, .main:before, .feature-list:before, .aside:before, .footer:before,
+.clearfix:after,
+.wrap:after,
+.chromeframe:after,
+.header:after,
+.main:after,
+.feature-list:after,
+.aside:after,
+.footer:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_helpers\.scss}line{font-family:\0000389}}
+.clearfix:after, .wrap:after, .chromeframe:after, .header:after, .main:after, .feature-list:after, .aside:after, .footer:after {
+  clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_helpers\.scss}line{font-family:\0000398}}
+.clearfix, .wrap, .chromeframe, .header, .main, .feature-list, .aside, .footer {
+  *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+@media print {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_print\.scss}line{font-family:\000037}}
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    /* Black prints faster: h5bp.com/s */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_print\.scss}line{font-family:\0000315}}
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_print\.scss}line{font-family:\0000319}}
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_print\.scss}line{font-family:\0000323}}
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  /*
+   * Don't show links for images, or javascript/internal links
+   */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_print\.scss}line{font-family:\0000333}}
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_print\.scss}line{font-family:\0000338}}
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_print\.scss}line{font-family:\0000343}}
+  thead {
+    display: table-header-group;
+    /* h5bp.com/t */
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_print\.scss}line{font-family:\0000348}}
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_print\.scss}line{font-family:\0000352}}
+  img {
+    max-width: 100% !important;
+  }
+
+  @page {
+    margin: 0.5cm;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_print\.scss}line{font-family:\0000362}}
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/css\/_print\.scss}line{font-family:\0000368}}
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
+/*                      /\
+                        ||
+                        ||
+                        ||
+                        ||                                               ~-----~
+                        ||                                            /===--  ---~~~
+                        ||                   ;'                 /==~- --   -    ---~~~
+                        ||                (/ ('              /=----         ~~_  --(  '
+                        ||             ' / ;'             /=----               \__~
+     '                ~==_=~          '('             ~-~~      ~~~~        ~~~--\~'
+     \                (c_\_        .i.             /~--    ~~~--   -~     (     '
+      `\               (}| /       / : \           / ~~------~     ~~\   (
+      \ '               ||/ \      |===|          /~/             ~~~ \ \(
+      ``~\              ~~\  )~.~_ >._.< _~-~     |`_          ~~-~     )\
+       '-~                 {  /  ) \___/ (   \   |` ` _       ~~         '
+       \ -~\                -<__/  -   -  L~ -;   \    \ _ _/
+       `` ~~=\                  {    :    }\ ,\    ||   _ :(
+        \  ~~=\__                \ _/ \_ /  )  } _//   ( `|'
+        ``    , ~\--~=\           \     /  / _/ / '    (   '
+         \`    } ~ ~~ -~=\   _~_  / \ / \ )^ ( // :_  / '
+         |    ,          _~-'   '~~__-_  / - |/     \ (
+          \  ,_--_     _/              \_'---', -~ .   \
+           )/      /\ / /\   ,~,         \__ _}     \_  "~_
+           ,      { ( _ )'} ~ - \_    ~\  (-:-)       "\   ~
+                  /'' ''  )~ \~_ ~\   )->  \ :|    _,       "
+                 (\  _/)''} | \~_ ~  /~(   | :)   /          }
+                <``  >;,,/  )= \~__ {{{ '  \ =(  ,   ,       ;
+               {o_o }_/     |v  '~__  _    )-v|  "  :       ,"
+               {/"\_)       {_/'  \~__ ~\_ \_} '  {        /~\
+               ,/!          '_/    '~__ _-~ \_' :  '      ,"  ~
+              (''`                  /,'~___~    | /     ,"  \ ~'
+             '/, )                 (-)  '~____~";     ,"     , }
+           /,')                    / \         /  ,~-"       '~'
+       (  ''/                     / ( '       /  /          '~'
+    ~ ~  ,, /) ,                 (/( \)      ( -)          /~'
+  (  ~~ )`  ~}                   '  \)'     _/ /           ~'
+ { |) /`,--.(  }'                    '     (  /          /~'
+(` ~ ( c|~~| `}   )                        '/:\         ,'
+ ~ )/``) )) '|),                          (/ | \)                 -sjm
+  (` (-~(( `~`'  )                        ' (/ '
+   `~'    )'`')                              '
+     ` ``*/
