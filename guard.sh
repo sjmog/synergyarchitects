@@ -1,3 +1,3 @@
 #!/bin/sh
-cd /srv/www/synergyarchitects-alt.co.uk/htdocs/themes/synergyarchitects
+cd /srv/www/synergyarchitects.co.uk/htdocs/themes/synergyarchitects
 guard
