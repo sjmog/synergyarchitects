@@ -1,0 +1,21 @@
+{
+    "name": "silverstripe-themes/synergyarchitects",
+    "description": "SilverStripe theme for Synergy Architects",
+    "type": "silverstripe-theme",
+    "keywords": ["silverstripe", "theme"],
+    "license": "Private",
+    "authors": [
+        {
+            "name": "Daniel Hollands",
+            "homepage": "http://limeblast.co.uk/"
+        },
+        {
+            "name": "Terry Burrows",
+            "homepage": "http://ghostds.com/"
+        }
+    ],
+    "require": {
+        "composer/installers": "*",
+        "silverstripe/framework": ">=3.0"
+    }
+}

@@ -1,0 +1,664 @@
+	/* __     _    ___    __      ____    __     _    _
+		/    | |  |   |  | (_    _)  /  __) \   | )  /
+	   (     | |  |   |  |   |  |   |  /     |  |/  /            Created by:
+		\__  | |  |   |  |   |  |   | |      |     (             Daniel Hollands
+		   | | |   \_/   |  _|  |_  |  \__   |  |\  \            http://danielhollands.co.uk/
+	   ____| |__\       /__(      )__\    )_/   |_)  \_
+	   _       ___        ______  _____     ____        __
+		)  ____) (__    __)    /  \    |    \  (__    __)
+	   (  (___      |  |      /    \   |     )    |  |           For:
+		\___  \     |  |     /  ()  \  |    /     |  |           Lime Blast
+		____)  )    |  |    |   __   | | |\ \     |  |           http://limeblast.co.uk/
+	   (      (_____|  |____|  (__)  |_| |_\ \____|  |____ */
+
+/* ==========================================================================
+   Initial imports
+   ========================================================================== */
+@import 'base';
+
+/* Compass
+   ========================================================================== */
+@import 'compass/typography/lists/bullets';
+@import 'compass/utilities/general/clearfix';
+@import 'compass/typography/links/link-colors';
+@import 'compass/css3/text-shadow';
+@import 'compass/css3/border-radius';
+
+/* Third party
+   ========================================================================== */
+@import 'susy';
+@import 'nivo-slider';
+
+/* My stuff
+   ========================================================================== */
+@import 'normalize';
+@import 'mixins';
+@import 'shame';
+@import 'fonts';
+
+/* ==========================================================================
+   Globals (Based on recommendations by H5BP)
+   ========================================================================== */
+@include border-box-sizing;
+
+html,
+button,
+input,
+select,
+textarea {
+	// set body foreground colour
+	color: $body-fg-color;
+}
+
+a {
+	// set main link colour
+	@include link-colors($qs-feature-color, darken($qs-feature-color, 10%));
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+	// set title font
+	font-family: $title-font-family;
+	font-weight: 700;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection declarations have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+	color: $black;
+	background: lighten($qs-feature-color, 10%);
+	text-shadow: none;
+}
+
+::selection {
+	color: $black;
+	background: lighten($qs-feature-color, 10%);
+	text-shadow: none;
+}
+
+fieldset {
+	// Remove default fieldset styles.
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+textarea {
+	// Allow only vertical resizing of textareas.
+	resize: vertical;
+}
+
+img {
+	// Responsive images
+	max-width: 100%;
+	height: auto;
+	// Remove the gap between images and the bottom of their containers: h5bp.com/i/440
+	vertical-align: middle;
+}
+
+ol,
+ul {
+	ul,
+	ol {
+		// remove the margin from inside multi-level lists
+		@include rhythm(0);
+	}
+}
+
+/* Body
+   ========================================================================== */
+body {
+	// full credit to http://basehold.it/ for this code
+	@if ($qs-debug) {
+		position: relative;
+
+		&:after {
+			position: absolute;
+			width: auto;
+			height: auto;
+			z-index: 9999;
+			content: '';
+			display: block;
+			pointer-events: none;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			background: url("http://basehold.it/i/" + $qs-base-line-height) repeat top left;
+		}
+
+		&:active:after {
+			display: none;
+		}
+	}
+
+	background: $body-bg-color;
+
+	// make text slightly easier to read: http://boldperspective.com/2011/improve-web-typography-with-1-line-of-code/
+	@include single-text-shadow(0, 0, 1px, false, rgba(0,0,0,0.1));
+}
+
+/* Page wrapper
+   ========================================================================== */
+.wrap {
+	// http://stackoverflow.com/a/13522469/1049688
+	@include container($total-columns, $media-layout);
+	@if ($qs-debug) {
+		@include susy-grid-background;
+	}
+
+	@include at-breakpoint($media-layout) {
+		@if ($qs-debug) {
+			@include susy-grid-background;
+		}
+	}
+
+	@extend .clearfix;
+}
+
+/* Chrome Frame Prompt
+   ========================================================================== */
+.chromeframe {
+	margin: 0.2em 0;
+	background: #ccc;
+	color: #000;
+	padding: 0.2em 0;
+	@extend .wrap;
+}
+
+/* ==========================================================================
+   Author's custom styles (Here be dragons)
+   ========================================================================== */
+
+/* Header
+   ========================================================================== */
+.header {
+	@extend .clearfix;
+	background: $header-bg-color;
+
+	@include at-breakpoint($media-layout) {
+		line-height: 100px;
+	}
+}
+
+	.header-title {
+		text-align: center;
+		@include at-breakpoint($media-layout) {
+			@include span-columns(8, $desktop-columns);
+		}
+	}
+
+	.header-navigation {
+		@include at-breakpoint($media-layout) {
+			@include span-columns(16 omega, $desktop-columns);
+		}
+	}
+
+	.header-links {
+		@include no-bullets;
+		padding: 0;
+		margin: 0;
+
+		li {
+			text-align: center;
+
+			@include at-breakpoint($media-layout) {
+				@include span-columns(4, 16);
+
+				&:last-child {
+					@include omega;
+				}
+			}
+		}
+
+		a {
+			display: block;
+
+			text-decoration: none;
+			font-family: $title-font-family;
+		}
+
+		.current,
+		.section {
+			a {
+				color: $white;
+			}
+		}
+	}
+
+/* Main
+   ========================================================================== */
+.main {
+	background: $main-bg-color;
+	color:	$main-fg-color;
+
+	.wrap {
+		@include at-breakpoint($media-layout) {
+			// http://codethatworks.blogspot.co.uk/2012/05/responsive-full-height-columns-using.html
+			background: image-url("main-wrap-bg.png") repeat-y 65.95% top;
+		}
+
+		&.no-sidebar {
+			@include at-breakpoint($media-layout) {
+				background: none;
+			}
+		}
+	}
+
+	&.homepage-lower {
+		background: $grey;
+		color: $white;
+	}
+}
+
+/* Content
+   ========================================================================== */
+.content {
+	@extend .clearfix;
+
+	@include at-breakpoint($media-layout) {
+		@include span-columns(16, $desktop-columns);
+	}
+
+	&.full {
+		@include at-breakpoint($media-layout) {
+			@include span-columns($desktop-columns, $desktop-columns);
+		}
+	}
+
+	a {
+		@include link-colors($dark-grey, lighten($dark-grey, 10%));
+	}
+}
+
+	.copy {
+		clear: both;
+		padding-left: $gutter-width;
+		padding-right: $gutter-width;
+	}
+
+	.form {
+		clear: both;
+		padding-left: $gutter-width;
+		padding-right: $gutter-width;
+		@include trailer(1);
+
+		.message {
+			&.required {
+				font-weight: bold;
+				color: $orange;
+				background: $dark-grey;
+				display: block;
+			}
+		}
+
+		.field {
+			@include trailer(.5);
+		}
+
+		input,
+		textarea {
+			width: 100%;
+		}
+
+		.Actions {
+			input {
+				width: auto;
+			}
+		}
+	}
+
+	ul.thumbnails {
+		@include no-bullets;
+		padding: 0;
+		margin: 0;
+
+		li {
+			/* If these values change, update the image size in the template file too */
+			width: 200px; // as below
+			height: 200px; // as below
+			position: relative;
+			margin: $gutter-width $gutter-width 0 0;
+			float: left;
+			z-index: 2;
+//			box-shadow: 2px 2px 2px black;
+
+			background: image-url("thumbnail-bg.png") no-repeat 50% 50% $grey;
+
+			&:hover {
+				.two {
+					display: block;
+				}
+			}
+
+			.one {
+				// I'm not sure why I'm keeping this, I don't think it's going to do anything
+			}
+
+			.two {
+				display: none;
+				position: absolute;
+				top: 0;
+				text-align: center;
+				width: 200px; // as above
+				height: 200px; // as above
+				background: rgba($orange, .7);
+				overflow: hidden;
+
+				h2 {
+					@include adjust-font-size-to($h5-font-size);
+					@include adjust-leading-to(1);
+					padding: 0 $gutter-width /2;
+				}
+
+				p {
+					@include leader(0);
+					@include trailer(0);
+					@include adjust-leading-to(.7);
+					padding: 0 $gutter-width /2;
+					color: $white;
+				}
+
+				a {
+					@include link-colors($white);
+					text-decoration: none;
+
+					span {
+						// http://stackoverflow.com/a/3494108/1049688
+						position: absolute;
+						width: 100%;
+						height: 100%;
+						top: 0;
+						left: 0;
+
+						/* edit: added z-index */
+						z-index: 10;
+
+						/* edit: fixes overlap error in IE7/8,
+							 make sure you have an empty gif */
+						background-image: image-url('spacer.gif');
+					}
+				}
+			}
+
+			&:after {
+				content: '';
+				background-color: rgba($black, .6);
+				z-index: -1;
+				width: 150px;
+				height: 150px;
+				display: block;
+				position: absolute;
+				top: 40px;
+				left: 25px;
+				box-shadow: 1px 1px 20px 20px rgba($black, .6);
+				border-radius: 50%;
+			}
+		}
+	}
+
+	ul.project-photos {
+		@include no-bullets;
+		padding: 0;
+		margin: 0;
+
+		li {
+			/* If these values change, update the image size in the template file too */
+			width: 210px;
+			height: 210px;
+			margin: 0 0 $gutter-width 0;
+			float: left;
+		}
+	}
+
+/* Sidebar
+   ========================================================================== */
+.sidebar {
+	@extend .clearfix;
+	background: $grey;
+
+	padding: 0 $gutter-width;
+
+	@include at-breakpoint($media-layout) {
+		@include span-columns(8 omega, $desktop-columns, $gutter-width $gutter-width * 2);
+	}
+
+	a {
+		@include link-colors($white, $orange);
+		text-decoration: none;
+	}
+}
+
+	.secondary {
+		ul {
+			@include no-bullets;
+			padding: 0;
+			margin: 0;
+		}
+
+		.current,
+		.section {
+			a {
+				&:before {
+					background: image-url("secondary-bullet-alt.png") no-repeat;
+					height: image-height("secondary-bullet-alt.png");
+					width: image-width("secondary-bullet-alt.png");
+				}
+			}
+		}
+
+		a {
+			display: block;
+			clear: both;
+			font-family: $title-font-family;
+			@include adjust-font-size-to($h5-font-size);
+			min-height: image-height("secondary-bullet-alt.png");
+
+			&:before {
+				content: '';
+				background: image-url("secondary-bullet.png") no-repeat;
+				height: image-height("secondary-bullet.png");
+				width: image-width("secondary-bullet.png");
+				padding: 0 $gutter-width $gutter-width * 2 0;
+				display: block;
+				float: left;
+			}
+		}
+	}
+
+	.newslist {
+		ul {
+			@include no-bullets;
+			padding: 0;
+			margin: 0;
+		}
+		
+		li {
+			position: relative;
+			@extend .clearfix;
+			@include trailer(1);
+		}
+
+		a {
+			span {
+				// http://stackoverflow.com/a/3494108/1049688
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				top: 0;
+				left: 0;
+
+				/* edit: added z-index */
+				z-index: 1;
+
+				/* edit: fixes overlap error in IE7/8,
+					 make sure you have an empty gif */
+				background-image: image-url('spacer.gif');
+			}
+		}
+
+		.current {
+			.datebox {
+				background: $orange;
+			}
+		}
+
+		.datebox {
+			width: 70px;
+			height: 70px;
+			float: left;
+			background: $dark-grey;
+			@include border-radius(50%);
+			margin-right: $gutter-width;
+			color: $white;
+		}
+
+		.linkbox {
+			padding-left: 80px;
+		}
+
+		.month,
+		.year {
+			display: block;
+			text-align: center;
+		}
+
+		.month {
+			margin-top: 14px;
+			font-family: $title-font-family;
+			font-weight: bold;
+			@include adjust-font-size-to($h5-font-size);
+		}
+
+		.year {
+			margin-top: -6px;
+		}
+	}
+
+/* Footer
+   ========================================================================== */
+.footer {
+	@extend .clearfix;
+	clear: both;
+}
+
+	.footer-upper {
+		background: $footer-upper-bg-color;
+		color: $footer-upper-fg-color;
+
+		.wrap {
+			background: image-url('footer-upper-bg.png') no-repeat scroll center bottom / 100% auto transparent;
+			min-height: 90px; // magic
+
+			@include at-breakpoint($media-layout) {
+				min-height: 70px; // magic
+			}
+		}
+	}
+
+	.footer-lower {
+		background: $footer-lower-bg-color;
+		color: $footer-lower-fg-color;
+
+		.wrap {
+			background: image-url('footer-lower-bg.png') no-repeat scroll center top / 100% auto transparent;
+			min-height: 30px; // magic
+		}
+	}
+
+	.telephone {
+		display: block;
+		text-align: center;
+		font-family: $title-font-family;
+		@include adjust-font-size-to($h1-font-size);
+
+		a {
+			@include link-colors($white);
+			text-decoration: none;
+		}
+
+		@include at-breakpoint($media-layout) {
+			text-align: right;
+			padding-top: 70px; // magic
+		}
+	}
+
+	.design-by {
+		display: block;
+		font-family: $title-font-family;
+		@include adjust-font-size-to($h6-font-size);
+	}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+
+p.standout {
+	font-family: $title-font-family;
+	text-align: center;
+	@include adjust-font-size-to($h2-font-size);
+
+	.word1 {
+		color: $orange;
+	}
+	.word2 {
+		color: $dark-grey;
+	}
+}
+
+/* ==========================================================================
+   Final imports
+   ========================================================================== */
+@import "helpers";
+@import "print";
+
+/*                      /\
+                        ||
+                        ||
+                        ||
+                        ||                                               ~-----~
+                        ||                                            /===--  ---~~~
+                        ||                   ;'                 /==~- --   -    ---~~~
+                        ||                (/ ('              /=----         ~~_  --(  '
+                        ||             ' / ;'             /=----               \__~
+     '                ~==_=~          '('             ~-~~      ~~~~        ~~~--\~'
+     \\                (c_\_        .i.             /~--    ~~~--   -~     (     '
+      `\               (}| /       / : \           / ~~------~     ~~\   (
+      \ '               ||/ \      |===|          /~/             ~~~ \ \(
+      ``~\              ~~\  )~.~_ >._.< _~-~     |`_          ~~-~     )\
+       '-~                 {  /  ) \___/ (   \   |` ` _       ~~         '
+       \ -~\                -<__/  -   -  L~ -;   \\    \ _ _/
+       `` ~~=\                  {    :    }\ ,\    ||   _ :(
+        \  ~~=\__                \ _/ \_ /  )  } _//   ( `|'
+        ``    , ~\--~=\           \     /  / _/ / '    (   '
+         \`    } ~ ~~ -~=\   _~_  / \ / \ )^ ( // :_  / '
+         |    ,          _~-'   '~~__-_  / - |/     \ (
+          \  ,_--_     _/              \_'---', -~ .   \
+           )/      /\ / /\   ,~,         \__ _}     \_  "~_
+           ,      { ( _ )'} ~ - \_    ~\  (-:-)       "\   ~
+                  /'' ''  )~ \~_ ~\   )->  \ :|    _,       "
+                 (\  _/)''} | \~_ ~  /~(   | :)   /          }
+                <``  >;,,/  )= \~__ {{{ '  \ =(  ,   ,       ;
+               {o_o }_/     |v  '~__  _    )-v|  "  :       ,"
+               {/"\_)       {_/'  \~__ ~\_ \\_} '  {        /~\
+               ,/!          '_/    '~__ _-~ \_' :  '      ,"  ~
+              (''`                  /,'~___~    | /     ,"  \ ~'
+             '/, )                 (-)  '~____~";     ,"     , }
+           /,')                    / \         /  ,~-"       '~'
+       (  ''/                     / ( '       /  /          '~'
+    ~ ~  ,, /) ,                 (/( \)      ( -)          /~'
+  (  ~~ )`  ~}                   '  \)'     _/ /           ~'
+ { |) /`,--.(  }'                    '     (  /          /~'
+(` ~ ( c|~~| `}   )                        '/:\         ,'
+ ~ )/``) )) '|),                          (/ | \)                 -sjm
+  (` (-~(( `~`'  )                        ' (/ '
+   `~'    )'`')                              '
+     ` ``*/
