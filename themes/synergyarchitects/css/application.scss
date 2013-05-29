@@ -256,6 +256,10 @@ body {
 	&.homepage-lower {
 		background: $grey;
 		color: $white;
+
+		a {
+			@include link-colors($orange, $orange);
+		}
 	}
 }
 

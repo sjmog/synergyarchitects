@@ -27,7 +27,7 @@ class ContactPage_Controller extends Page_Controller
 	{
 		$email = new Email();
 
-		$email->setTo('ghost@ghostds.com');
+		$email->setTo('admin@synergyarchitects.co.uk');
 		$email->setFrom($data['Email']);
 		$email->setSubject("Contact Message from {$data["Name"]}");
 

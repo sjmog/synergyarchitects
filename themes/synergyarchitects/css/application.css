@@ -44,7 +44,7 @@
  * http://www.opensource.org/licenses/mit-license.php
  */
 /* The Nivo Slider styles */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\0000311}}
 .nivoSlider {
   position: relative;
   width: 100%;
@@ -52,7 +52,7 @@
   overflow: hidden;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\0000318}}
 .nivoSlider img {
   position: absolute;
   top: 0px;
@@ -60,7 +60,7 @@
   max-width: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\0000325}}
 .nivo-main-image {
   display: block !important;
   position: relative !important;
@@ -68,7 +68,7 @@
 }
 
 /* If an image is wrapped in a link */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\0000332}}
 .nivoSlider a.nivo-imageLink {
   position: absolute;
   top: 0px;
@@ -86,7 +86,7 @@
 }
 
 /* The slices and boxes in the Slider */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\0000349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\0000349}}
 .nivo-slice {
   display: block;
   position: absolute;
@@ -95,7 +95,7 @@
   top: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\0000357}}
 .nivo-box {
   display: block;
   position: absolute;
@@ -103,13 +103,13 @@
   overflow: hidden;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\0000364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\0000364}}
 .nivo-box img {
   display: block;
 }
 
 /* Caption styles */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\0000369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\0000369}}
 .nivo-caption {
   position: absolute;
   left: 0px;
@@ -132,24 +132,24 @@
   /* Opera/IE 8+ */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\0000388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\0000388}}
 .nivo-caption p {
   padding: 5px;
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\0000393}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\0000393}}
 .nivo-caption a {
   display: inline !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\0000397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\0000397}}
 .nivo-html-caption {
   display: none;
 }
 
 /* Direction nav styles (e.g. Next & Prev) */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\00003102}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\00003102}}
 .nivo-directionNav a {
   position: absolute;
   top: 45%;
@@ -157,29 +157,29 @@
   cursor: pointer;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\00003109}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\00003109}}
 .nivo-prevNav {
   left: 0px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\00003113}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\00003113}}
 .nivo-nextNav {
   right: 0px;
 }
 
 /* Control nav styles (e.g. 1,2,3...) */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\00003118}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\00003118}}
 .nivo-controlNav {
   text-align: center;
   padding: 15px 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\00003123}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\00003123}}
 .nivo-controlNav a {
   cursor: pointer;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\00003127}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\00003127}}
 .nivo-controlNav a.active {
   font-weight: bold;
 }
@@ -193,14 +193,14 @@ Author: Gilbert Pellegrom
 Author URI: http://dev7studios.com
 Supports Thumbs: true
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\00003141}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\00003141}}
 .theme-default .nivoSlider {
   position: relative;
   background: white url(../img/loading.gif) no-repeat 50% 50%;
   margin-bottom: 0px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\00003150}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\00003150}}
 .theme-default .nivoSlider img {
   position: absolute;
   top: 0px;
@@ -208,19 +208,19 @@ Supports Thumbs: true
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\00003157}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\00003157}}
 .theme-default .nivoSlider a {
   border: 0;
   display: block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\00003162}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\00003162}}
 .theme-default .nivo-controlNav {
   text-align: center;
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\00003167}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\00003167}}
 .theme-default .nivo-controlNav a {
   display: inline-block;
   width: 22px;
@@ -231,12 +231,12 @@ Supports Thumbs: true
   margin: 0 2px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\00003177}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\00003177}}
 .theme-default .nivo-controlNav a.active {
   background-position: 0 -22px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\00003181}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\00003181}}
 .theme-default .nivo-directionNav a {
   display: block;
   width: 30px;
@@ -251,44 +251,44 @@ Supports Thumbs: true
   transition: all 200ms ease-in-out;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\00003195}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\00003195}}
 .theme-default:hover .nivo-directionNav a {
   opacity: 1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\00003199}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\00003199}}
 .theme-default a.nivo-nextNav {
   background-position: -30px 0;
   right: 15px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\00003204}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\00003204}}
 .theme-default a.nivo-prevNav {
   left: 15px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\00003208}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\00003208}}
 .theme-default .nivo-caption {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\00003212}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\00003212}}
 .theme-default .nivo-caption a {
   color: #fff;
   border-bottom: 1px dotted #fff;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\00003217}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\00003217}}
 .theme-default .nivo-caption a:hover {
   color: #fff;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\00003221}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\00003221}}
 .theme-default .nivo-controlNav.nivo-thumbs-enabled {
   width: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\00003225}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\00003225}}
 .theme-default .nivo-controlNav.nivo-thumbs-enabled a {
   width: auto;
   height: auto;
@@ -296,7 +296,7 @@ Supports Thumbs: true
   margin-bottom: 5px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\00003232}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_nivo-slider\.scss}line{font-family:\00003232}}
 .theme-default .nivo-controlNav.nivo-thumbs-enabled img {
   display: block;
   width: 120px;
@@ -314,7 +314,7 @@ Supports Thumbs: true
 /**
  * Correct `block` display not defined in IE 8/9.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\0000336}}
 article,
 aside,
 details,
@@ -333,7 +333,7 @@ summary {
 /**
  * Correct `inline-block` display not defined in IE 8/9.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\0000346}}
 audio,
 canvas,
 video {
@@ -344,7 +344,7 @@ video {
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\0000359}}
 audio:not([controls]) {
   display: none;
   height: 0;
@@ -354,7 +354,7 @@ audio:not([controls]) {
  * Address styling not present in IE 7/8/9.
  * Known issue: no IE 6 support.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\0000369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\0000369}}
 [hidden] {
   display: none;
 }
@@ -369,7 +369,7 @@ audio:not([controls]) {
  * 3. Correct text resizing oddly in IE 6/7 when body `font-size` is set using
  *    `em` units.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\0000385}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\0000385}}
 html {
   font-family: "PT Sans", sans-serif;
   /* 1 */
@@ -386,7 +386,7 @@ html {
 /**
  * Remove default margin.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003112}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003112}}
 body {
   margin: 0;
 }
@@ -397,7 +397,7 @@ body {
 /**
  * Address `outline` inconsistency between Chrome and other browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003124}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003124}}
 a:focus {
   outline: thin dotted;
 }
@@ -405,7 +405,7 @@ a:focus {
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003133}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003133}}
 a:active,
 a:hover {
   outline: 0;
@@ -417,13 +417,13 @@ a:hover {
 /**
  * Set 1 unit of vertical rhythm on the top and bottom margin.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003146}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003146}}
 p,
 pre {
   margin: 1.5em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003150}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003150}}
 blockquote {
   /* Set 1 unit of vertical rhythm on the top and bottom margin. */
   margin: 1.5em 48px;
@@ -433,7 +433,7 @@ blockquote {
  * Address variable `h1` font-size and margin within `section` and `article`
  * contexts in Firefox 4+, Safari 5, and Chrome.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003161}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003161}}
 h1,
 .h1 {
   /* Set the font-size and line-height while keeping a proper vertical rhythm. */
@@ -444,7 +444,7 @@ h1,
   margin-bottom: 0.75em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003171}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003171}}
 h2,
 .h2 {
   font-size: 1.5em;
@@ -453,7 +453,7 @@ h2,
   margin-bottom: 1em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003178}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003178}}
 h3,
 .h3 {
   font-size: 1.17em;
@@ -461,13 +461,13 @@ h3,
   margin-top: 1.28205em;
   margin-bottom: 0em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003182}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003182}}
 h3 + *,
 .h3 + * {
   margin-top: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003188}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003188}}
 h4,
 .h4 {
   font-size: 1em;
@@ -475,13 +475,13 @@ h4,
   margin-top: 1.5em;
   margin-bottom: 0em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003192}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003192}}
 h4 + *,
 .h4 + * {
   margin-top: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003198}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003198}}
 h5,
 .h5 {
   font-size: 0.83em;
@@ -489,13 +489,13 @@ h5,
   margin-top: 1.80723em;
   margin-bottom: 0em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003202}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003202}}
 h5 + *,
 .h5 + * {
   margin-top: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003208}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003208}}
 h6,
 .h6 {
   font-size: 0.67em;
@@ -503,7 +503,7 @@ h6,
   margin-top: 2.23881em;
   margin-bottom: 0em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003212}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003212}}
 h6 + *,
 .h6 + * {
   margin-top: 0;
@@ -512,7 +512,7 @@ h6 + *,
 /**
  * Address styling not present in IE 8/9, Safari 5, and Chrome.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003221}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003221}}
 abbr[title] {
   border-bottom: 1px dotted;
 }
@@ -520,7 +520,7 @@ abbr[title] {
 /**
  * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003230}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003230}}
 b,
 strong {
   font-weight: 700;
@@ -529,7 +529,7 @@ strong {
 /**
  * Address styling not present in Safari 5 and Chrome.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003238}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003238}}
 dfn {
   font-style: italic;
 }
@@ -538,7 +538,7 @@ dfn {
  * Address differences between Firefox and other browsers.
  * Known issue: no IE 6/7 normalization.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003247}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003247}}
 hr {
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
@@ -549,7 +549,7 @@ hr {
 /**
  * Address styling not present in IE 8/9.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003256}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003256}}
 mark {
   background: #ff0;
   color: #000;
@@ -558,7 +558,7 @@ mark {
 /**
  * Correct font family set oddly in Safari 5 and Chrome.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003268}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003268}}
 code,
 kbd,
 pre,
@@ -571,7 +571,7 @@ samp {
 /**
  * Improve readability of pre-formatted text in all browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003280}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003280}}
 pre {
   white-space: pre-wrap;
 }
@@ -579,7 +579,7 @@ pre {
 /**
  * Set consistent quote types.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003288}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003288}}
 q {
   quotes: "\201C" "\201D" "\2018" "\2019";
 }
@@ -587,7 +587,7 @@ q {
 /**
  * Address inconsistent and variable font size in all browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003296}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003296}}
 small {
   font-size: 80%;
 }
@@ -595,7 +595,7 @@ small {
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003305}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003305}}
 sub,
 sup {
   font-size: 75%;
@@ -604,12 +604,12 @@ sup {
   vertical-align: baseline;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003312}}
 sup {
   top: -0.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003316}}
 sub {
   bottom: -0.25em;
 }
@@ -620,7 +620,7 @@ sub {
 /**
  * Set 1 unit of vertical rhythm and a consistent indentation.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003331}}
 dl,
 menu,
 ol,
@@ -629,12 +629,12 @@ ul {
   padding: 0 0 0 48px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003336}}
 dl {
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003340}}
 dd {
   margin: 0 0 0 48px;
 }
@@ -645,7 +645,7 @@ dd {
 /**
  * Remove border when inside `a` element in IE 8/9.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003364}}
 img {
   border: 0;
 }
@@ -653,7 +653,7 @@ img {
 /**
  * Correct overflow displayed oddly in IE 9.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003376}}
 svg:not(:root) {
   overflow: hidden;
 }
@@ -664,7 +664,7 @@ svg:not(:root) {
 /**
  * Address margin not present in IE 8/9 and Safari 5.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003388}}
 figure {
   margin: 0;
 }
@@ -675,7 +675,7 @@ figure {
 /**
  * Define consistent border, margin, and padding.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003410}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003410}}
 fieldset {
   border-color: #c0c0c0;
   margin: 0 2px;
@@ -699,7 +699,7 @@ fieldset {
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  * 3. Correct alignment displayed oddly in IE 6/7.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003426}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003426}}
 legend {
   border: 0;
   /* 1 */
@@ -713,7 +713,7 @@ legend {
  * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
  * 4. Improve appearance and consistency with IE 6/7.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003444}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003444}}
 button,
 input,
 select,
@@ -730,7 +730,7 @@ textarea {
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003460}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003460}}
 button,
 input {
   line-height: normal;
@@ -742,7 +742,7 @@ input {
  * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
  * Correct `select` style inheritance in Firefox 4+ and Opera.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003472}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003472}}
 button,
 select {
   text-transform: none;
@@ -757,7 +757,7 @@ select {
  * 4. Remove inner spacing in IE 7 without affecting normal text inputs.
  *    Known issue: inner spacing remains in IE 6.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003489}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003489}}
 button,
 html input[type="button"],
 input[type="reset"],
@@ -771,7 +771,7 @@ input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003502}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003502}}
 button[disabled],
 html input[disabled] {
   cursor: default;
@@ -783,7 +783,7 @@ html input[disabled] {
  * 3. Remove excess padding in IE 7.
  *    Known issue: excess padding remains in IE 6.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003514}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003514}}
 input[type="checkbox"],
 input[type="radio"] {
   -webkit-box-sizing: border-box;
@@ -799,7 +799,7 @@ input[type="radio"] {
  * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
  *    (include `-moz` to future-proof).
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003529}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003529}}
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -813,7 +813,7 @@ input[type="search"] {
  * Remove inner padding and search cancel button in Safari 5 and Chrome
  * on OS X.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003540}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003540}}
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -822,7 +822,7 @@ input[type="search"]::-webkit-search-decoration {
 /**
  * Remove inner padding and border in Firefox 4+.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003549}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003549}}
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -833,7 +833,7 @@ input::-moz-focus-inner {
  * 1. Remove default vertical scrollbar in IE 8/9.
  * 2. Improve readability and alignment in all browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003559}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003559}}
 textarea {
   overflow: auto;
   /* 1 */
@@ -847,7 +847,7 @@ textarea {
 /**
  * Remove most spacing between table cells.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003572}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_normalize\.scss}line{font-family:\00003572}}
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -916,7 +916,7 @@ table {
   box-sizing: border-box;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\0000348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\0000348}}
 html,
 button,
 input,
@@ -925,7 +925,7 @@ textarea {
   color: #222222;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\0000353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\0000353}}
 a {
   color: #ff8800;
 }
@@ -934,7 +934,7 @@ a:hover {
   color: #cc6d00;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\0000363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\0000363}}
 h1, .h1,
 h2, .h2,
 h3, .h3,
@@ -950,40 +950,40 @@ h6, .h6 {
  * These selection declarations have to be separate.
  * Customize the background color to match your design.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\0000375}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\0000375}}
 ::-moz-selection {
   color: #222222;
   background: #ffa033;
   text-shadow: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\0000381}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\0000381}}
 ::selection {
   color: #222222;
   background: #ffa033;
   text-shadow: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\0000387}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\0000387}}
 fieldset {
   border: 0;
   margin: 0;
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\0000394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\0000394}}
 textarea {
   resize: vertical;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\0000399}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\0000399}}
 img {
   max-width: 100%;
   height: auto;
   vertical-align: middle;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003110}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003110}}
 ol ul,
 ol ol,
 ul ul,
@@ -996,7 +996,7 @@ ul ol {
 
 /* Body
    ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003118}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003118}}
 body {
   background: white;
   text-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
@@ -1004,7 +1004,7 @@ body {
 
 /* Page wrapper
    ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003151}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003151}}
 .wrap, .chromeframe {
   max-width: 470px;
   padding-left: 0;
@@ -1019,7 +1019,7 @@ body {
   clear: both;
 }
 @media (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003151}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003151}}
   .wrap, .chromeframe {
     max-width: 950px;
   }
@@ -1031,7 +1031,7 @@ body {
 
 /* Chrome Frame Prompt
    ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003169}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003169}}
 .chromeframe {
   margin: 0.2em 0;
   background: #ccc;
@@ -1044,12 +1044,12 @@ body {
    ========================================================================== */
 /* Header
    ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003183}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003183}}
 .header {
   background: #585858;
 }
 @media (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003183}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003183}}
   .header {
     line-height: 100px;
   }
@@ -1059,12 +1059,12 @@ body {
   line-height: 100px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003192}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003192}}
 .header-title {
   text-align: center;
 }
 @media (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003192}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003192}}
   .header-title {
     width: 32.63158%;
     float: left;
@@ -1079,7 +1079,7 @@ body {
 }
 
 @media (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003199}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003199}}
   .header-navigation {
     width: 66.31579%;
     float: right;
@@ -1093,7 +1093,7 @@ body {
   margin-right: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003205}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003205}}
 .header-links {
   list-style: none;
   padding: 0;
@@ -1105,18 +1105,18 @@ body {
   list-style-type: none;
   margin-left: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003210}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003210}}
 .header-links li {
   text-align: center;
 }
 @media (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003210}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003210}}
   .header-links li {
     width: 23.80952%;
     float: left;
     margin-right: 1.5873%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003216}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003216}}
   .header-links li:last-child {
     float: right;
     margin-right: 0;
@@ -1128,18 +1128,18 @@ body {
   float: left;
   margin-right: 1.5873%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003216}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003216}}
 .lt-ie9 .header-links li:last-child {
   float: right;
   margin-right: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003222}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003222}}
 .header-links a {
   display: block;
   text-decoration: none;
   font-family: Michroma, "PT Sans", sans-serif;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003231}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003231}}
 .header-links .current a,
 .header-links .section a {
   color: white;
@@ -1147,13 +1147,13 @@ body {
 
 /* Main
    ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003239}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003239}}
 .main {
   background: #ababab;
   color: #585858;
 }
 @media (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003243}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003243}}
   .main .wrap, .main .chromeframe {
     background: url('../img/main-wrap-bg.png?1369143851') repeat-y 65.95% top;
   }
@@ -1163,7 +1163,7 @@ body {
   background: url('../img/main-wrap-bg.png?1369143851') repeat-y 65.95% top;
 }
 @media (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003249}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003249}}
   .main .wrap.no-sidebar, .main .no-sidebar.chromeframe {
     background: none;
   }
@@ -1172,16 +1172,24 @@ body {
 .lt-ie9 .main .wrap.no-sidebar, .lt-ie9 .main .no-sidebar.chromeframe {
   background: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003256}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003256}}
 .main.homepage-lower {
   background: #7a7a7a;
   color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003260}}
+.main.homepage-lower a {
+  color: #ff8800;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/daniel\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/typography\/links\/_link-colors\.scss}line{font-family:\0000324}}
+.main.homepage-lower a:hover {
+  color: #ff8800;
 }
 
 /* Content
    ========================================================================== */
 @media (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003264}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003268}}
   .content {
     width: 66.31579%;
     float: left;
@@ -1195,7 +1203,7 @@ body {
   margin-right: 1.05263%;
 }
 @media (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003271}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003275}}
   .content.full {
     width: 100%;
     float: left;
@@ -1208,7 +1216,7 @@ body {
   float: left;
   margin-right: 1.05263%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003277}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003281}}
 .content a {
   color: #585858;
 }
@@ -1217,42 +1225,42 @@ body {
   color: #727272;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003282}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003286}}
 .copy {
   clear: both;
   padding-left: 10px;
   padding-right: 10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003288}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003292}}
 .form {
   clear: both;
   padding-left: 10px;
   padding-right: 10px;
   margin-bottom: 1.5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003295}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003299}}
 .form .message.required {
   font-weight: bold;
   color: #ff8800;
   background: #585858;
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003303}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003307}}
 .form .field {
   margin-bottom: 0.75em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003308}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003312}}
 .form input,
 .form textarea {
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003317}}
 .form .Actions input {
   width: auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003323}}
 ul.thumbnails {
   list-style: none;
   padding: 0;
@@ -1264,7 +1272,7 @@ ul.thumbnails li {
   list-style-type: none;
   margin-left: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003328}}
 ul.thumbnails li {
   /* If these values change, update the image size in the template file too */
   width: 200px;
@@ -1275,11 +1283,11 @@ ul.thumbnails li {
   z-index: 2;
   background: url('../img/thumbnail-bg.png?1369221211') no-repeat 50% 50% #7a7a7a;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003341}}
 ul.thumbnails li:hover .two {
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003350}}
 ul.thumbnails li .two {
   display: none;
   position: absolute;
@@ -1290,14 +1298,14 @@ ul.thumbnails li .two {
   background: rgba(255, 136, 0, 0.7);
   overflow: hidden;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003360}}
 ul.thumbnails li .two h2 {
   font-size: 0.83em;
   line-height: 1.80723em;
   line-height: 1.5em;
   padding: 0 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003366}}
 ul.thumbnails li .two p {
   margin-top: 0em;
   margin-bottom: 0em;
@@ -1305,12 +1313,12 @@ ul.thumbnails li .two p {
   padding: 0 5px;
   color: white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003374}}
 ul.thumbnails li .two a {
   color: white;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003378}}
 ul.thumbnails li .two a span {
   position: absolute;
   width: 100%;
@@ -1323,7 +1331,7 @@ ul.thumbnails li .two a span {
   	 make sure you have an empty gif */
   background-image: url('../img/spacer.gif?1369300800');
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003392}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003396}}
 ul.thumbnails li:after {
   content: '';
   background-color: rgba(34, 34, 34, 0.6);
@@ -1338,7 +1346,7 @@ ul.thumbnails li:after {
   border-radius: 50%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003408}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003412}}
 ul.project-photos {
   list-style: none;
   padding: 0;
@@ -1350,7 +1358,7 @@ ul.project-photos li {
   list-style-type: none;
   margin-left: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003413}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003417}}
 ul.project-photos li {
   /* If these values change, update the image size in the template file too */
   width: 210px;
@@ -1361,13 +1369,13 @@ ul.project-photos li {
 
 /* Sidebar
    ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003424}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003428}}
 .sidebar {
   background: #7a7a7a;
   padding: 0 10px;
 }
 @media (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003424}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003428}}
   .sidebar {
     padding-left: 1.05263%;
     padding-right: 2.10526%;
@@ -1384,7 +1392,7 @@ ul.project-photos li {
   float: right;
   margin-right: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003434}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003438}}
 .sidebar a {
   color: white;
   text-decoration: none;
@@ -1394,7 +1402,7 @@ ul.project-photos li {
   color: #ff8800;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003441}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003445}}
 .secondary ul {
   list-style: none;
   padding: 0;
@@ -1406,14 +1414,14 @@ ul.project-photos li {
   list-style-type: none;
   margin-left: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003450}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003454}}
 .secondary .current a:before,
 .secondary .section a:before {
   background: url('../img/secondary-bullet-alt.png?1369217629') no-repeat;
   height: 45px;
   width: 45px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003458}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003462}}
 .secondary a {
   display: block;
   clear: both;
@@ -1422,7 +1430,7 @@ ul.project-photos li {
   line-height: 1.80723em;
   min-height: 45px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003465}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003469}}
 .secondary a:before {
   content: '';
   background: url('../img/secondary-bullet.png?1369218041') no-repeat;
@@ -1433,7 +1441,7 @@ ul.project-photos li {
   float: left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003478}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003482}}
 .newslist ul {
   list-style: none;
   padding: 0;
@@ -1445,12 +1453,12 @@ ul.project-photos li {
   list-style-type: none;
   margin-left: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003484}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003488}}
 .newslist li {
   position: relative;
   margin-bottom: 1.5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003491}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003495}}
 .newslist a span {
   position: absolute;
   width: 100%;
@@ -1463,11 +1471,11 @@ ul.project-photos li {
   	 make sure you have an empty gif */
   background-image: url('../img/spacer.gif?1369300800');
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003509}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003513}}
 .newslist .current .datebox {
   background: #ff8800;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003514}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003518}}
 .newslist .datebox {
   width: 70px;
   height: 70px;
@@ -1481,17 +1489,17 @@ ul.project-photos li {
   margin-right: 10px;
   color: white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003524}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003528}}
 .newslist .linkbox {
   padding-left: 80px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003529}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003533}}
 .newslist .month,
 .newslist .year {
   display: block;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003534}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003538}}
 .newslist .month {
   margin-top: 14px;
   font-family: Michroma, "PT Sans", sans-serif;
@@ -1499,30 +1507,30 @@ ul.project-photos li {
   font-size: 0.83em;
   line-height: 1.80723em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003541}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003545}}
 .newslist .year {
   margin-top: -6px;
 }
 
 /* Footer
    ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003548}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003552}}
 .footer {
   clear: both;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003553}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003557}}
 .footer-upper {
   background: #ff8800;
   color: white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003557}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003561}}
 .footer-upper .wrap, .footer-upper .chromeframe {
   background: url('../img/footer-upper-bg.png?1369145027') no-repeat scroll center bottom/100% auto transparent;
   min-height: 90px;
 }
 @media (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003557}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003561}}
   .footer-upper .wrap, .footer-upper .chromeframe {
     min-height: 70px;
   }
@@ -1532,18 +1540,18 @@ ul.project-photos li {
   min-height: 70px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003567}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003571}}
 .footer-lower {
   background: white;
   color: #222222;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003571}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003575}}
 .footer-lower .wrap, .footer-lower .chromeframe {
   background: url('../img/footer-lower-bg.png?1369145054') no-repeat scroll center top/100% auto transparent;
   min-height: 30px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003577}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003581}}
 .telephone {
   display: block;
   text-align: center;
@@ -1551,13 +1559,13 @@ ul.project-photos li {
   font-size: 2em;
   line-height: 1.125em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003583}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003587}}
 .telephone a {
   color: white;
   text-decoration: none;
 }
 @media (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003577}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003581}}
   .telephone {
     text-align: right;
     padding-top: 70px;
@@ -1569,7 +1577,7 @@ ul.project-photos li {
   padding-top: 70px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003594}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003598}}
 .design-by {
   display: block;
   font-family: Michroma, "PT Sans", sans-serif;
@@ -1580,18 +1588,18 @@ ul.project-photos li {
 /* ==========================================================================
    Typography
    ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003604}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003608}}
 p.standout {
   font-family: Michroma, "PT Sans", sans-serif;
   text-align: center;
   font-size: 1.5em;
   line-height: 1.5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003609}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003613}}
 p.standout .word1 {
   color: #ff8800;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003612}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/application\.scss}line{font-family:\00003616}}
 p.standout .word2 {
   color: #585858;
 }
@@ -1605,7 +1613,7 @@ p.standout .word2 {
 /*
  * Image replacement
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_helpers\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_helpers\.scss}line{font-family:\000039}}
 .ir {
   background-color: transparent;
   border: 0;
@@ -1614,7 +1622,7 @@ p.standout .word2 {
   *text-indent: -9999px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_helpers\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_helpers\.scss}line{font-family:\0000317}}
 .ir:before {
   content: "";
   display: block;
@@ -1625,7 +1633,7 @@ p.standout .word2 {
 /*
  * Hide from both screenreaders and browsers: h5bp.com/u
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_helpers\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_helpers\.scss}line{font-family:\0000328}}
 .hidden {
   display: none !important;
   visibility: hidden;
@@ -1634,7 +1642,7 @@ p.standout .word2 {
 /*
  * Hide only visually, but have it available for screenreaders: h5bp.com/v
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_helpers\.scss}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_helpers\.scss}line{font-family:\0000337}}
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -1650,7 +1658,7 @@ p.standout .word2 {
  * Extends the .visuallyhidden class to allow the element to be focusable
  * when navigated to via the keyboard: h5bp.com/p
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_helpers\.scss}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_helpers\.scss}line{font-family:\0000354}}
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -1664,7 +1672,7 @@ p.standout .word2 {
 /*
  * Hide visually and from screenreaders, but maintain layout
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_helpers\.scss}line{font-family:\0000367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_helpers\.scss}line{font-family:\0000367}}
 .invisible {
   visibility: hidden;
 }
@@ -1680,7 +1688,7 @@ p.standout .word2 {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_helpers\.scss}line{font-family:\0000384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_helpers\.scss}line{font-family:\0000384}}
 .clearfix:before, .wrap:before, .chromeframe:before, .header:before, .content:before, .sidebar:before, .newslist li:before, .footer:before,
 .clearfix:after,
 .wrap:after,
@@ -1696,7 +1704,7 @@ p.standout .word2 {
   /* 2 */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_helpers\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_helpers\.scss}line{font-family:\0000389}}
 .clearfix:after, .wrap:after, .chromeframe:after, .header:after, .content:after, .sidebar:after, .newslist li:after, .footer:after {
   clear: both;
 }
@@ -1705,7 +1713,7 @@ p.standout .word2 {
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_helpers\.scss}line{font-family:\0000398}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_helpers\.scss}line{font-family:\0000398}}
 .clearfix, .wrap, .chromeframe, .header, .content, .sidebar, .newslist li, .footer {
   *zoom: 1;
 }
@@ -1715,7 +1723,7 @@ p.standout .word2 {
    Inlined to avoid required HTTP connection: h5bp.com/r
    ========================================================================== */
 @media print {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_print\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_print\.scss}line{font-family:\000037}}
   * {
     background: transparent !important;
     color: #000 !important;
@@ -1724,18 +1732,18 @@ p.standout .word2 {
     text-shadow: none !important;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_print\.scss}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_print\.scss}line{font-family:\0000315}}
   a,
   a:visited {
     text-decoration: underline;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_print\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_print\.scss}line{font-family:\0000319}}
   a[href]:after {
     content: " (" attr(href) ")";
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_print\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_print\.scss}line{font-family:\0000323}}
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
@@ -1743,33 +1751,33 @@ p.standout .word2 {
   /*
    * Don't show links for images, or javascript/internal links
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_print\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_print\.scss}line{font-family:\0000333}}
   .ir a:after,
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
     content: "";
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_print\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_print\.scss}line{font-family:\0000338}}
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_print\.scss}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_print\.scss}line{font-family:\0000343}}
   thead {
     display: table-header-group;
     /* h5bp.com/t */
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_print\.scss}line{font-family:\0000348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_print\.scss}line{font-family:\0000348}}
   tr,
   img {
     page-break-inside: avoid;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_print\.scss}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_print\.scss}line{font-family:\0000352}}
   img {
     max-width: 100% !important;
   }
@@ -1778,7 +1786,7 @@ p.standout .word2 {
     margin: 0.5cm;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_print\.scss}line{font-family:\0000362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_print\.scss}line{font-family:\0000362}}
   p,
   h2,
   h3 {
@@ -1786,7 +1794,7 @@ p.standout .word2 {
     widows: 3;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects-alt\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_print\.scss}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/srv\/www\/synergyarchitects\.co\.uk\/htdocs\/themes\/synergyarchitects\/css\/_print\.scss}line{font-family:\0000368}}
   h2,
   h3 {
     page-break-after: avoid;
