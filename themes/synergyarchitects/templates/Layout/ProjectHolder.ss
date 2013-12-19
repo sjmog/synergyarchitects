@@ -4,12 +4,6 @@
 
 			<% include Photos %>
 
-			<% if $Content %>
-				<div class="copy">
-					$Content
-				</div>
-			<% end_if %>
-
 			<% if $Children %>
 				<ul class="thumbnails">
 					<% loop $Children %>
@@ -17,6 +11,14 @@
 					<% end_loop %>
 				</ul>
 			<% end_if %>
+
+			<% if $Content %>
+				<div class="copy">
+					$Content
+				</div>
+			<% end_if %>
+
+			
 
 		</article><!-- .content -->
 
